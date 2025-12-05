@@ -1,0 +1,553 @@
+subreddit,title,content,upvotes,comments,url,concepts,urgency,timeline
+MachineLearning,"[R] Plain English outperforms JSON for LLM tool calling: +18pp accuracy, -70% variance","**TL;DR:** Tool-call accuracy in LLMs can be significantly improved by using natural language instead of JSON-defined schemas (\~+18 percentage points across 6,400 trials and 10 models), while simultaneously reducing variance by 70% and token overhead by 31%. We introduce Natural Language Tools (NLT), a simple framework that decouples tool selection from response generation and eliminates programmatic format constraints and extends tool calling to models even without tool-call support.
+
+**Resour",128,30,https://reddit.com/r/MachineLearning/comments/1o8szk0/r_plain_english_outperforms_json_for_llm_tool/,[],high,current
+MachineLearning,"[D] ML interviewers, what do you wnat to hear during an interview?","I have a masters (research) in AI. I have been looking for research inclined roles but haven't found success yet. I land some interview now and then but haven't gone past the 3rd round yet. Any tips on how to optimise my search and improve my interview performance? What do the interviewers want to hear?
+
+Additional info for context:
+
+\- Around 1.5 yoe in ML research (including internships)
+
+\- Prior work in object re-identification, adversarial training, speech recognition, and LLM and agent eva",73,35,https://reddit.com/r/MachineLearning/comments/1o7d963/d_ml_interviewers_what_do_you_wnat_to_hear_during/,[],medium,current
+MachineLearning,[P] Built a searchable gallery of ML paper plots with copy-paste replication code,"Hey everyone,
+
+I got tired of seeing interesting plots in papers and then spending 30+ minutes hunting through GitHub repos or trying to reverse-engineer the visualization code, so I built a tool to fix that.
+
+**What it does:**
+
+* Browse a searchable gallery of plots from ML papers (loss curves, attention maps, ablation studies, etc.)
+* Click any plot to get the exact Python code that generated it
+* Copy-paste the code and run it immediately - all dependencies listed
+* Filter by model architectu",48,14,https://reddit.com/r/MachineLearning/comments/1obbp7m/p_built_a_searchable_gallery_of_ml_paper_plots/,[],medium,current
+MachineLearning,[D] Best practices for structuring an applied ML research project?,"Hello, I’m a PhD student about to start my first research project in applied ML, and I’d like to get the structure right from the beginning instead of refactoring everything later.
+
+Are there any solid “best-practice” resources or example repositories that one could recommend? I’m especially keen on making sure I get the following right:
+
+* Containerization
+* Project structure for reproducibility and replication
+* Managing experiments, environments, and dependencies
+
+Thanks in advance for any po",41,10,https://reddit.com/r/MachineLearning/comments/1nzw0v3/d_best_practices_for_structuring_an_applied_ml/,[],medium,current
+MachineLearning,"[P] Open-Source Implementation of ""Agentic Context Engineering"" Paper - Agents that improve by learning from their own execution feedback","We implemented Stanford's recent ""Agentic Context Engineering"" paper (https://arxiv.org/abs/2510.04618) and open-sourced it. 
+
+Instead of fine-tuning, agents curate their own context by learning from execution feedback. Three-agent system (Generator, Reflector, Curator) builds a ""playbook"" of strategies autonomously. 
+
+GitHub: https://github.com/kayba-ai/agentic-context-engine 
+
+Interested in feedback from the community on the approach and implementation!",31,5,https://reddit.com/r/MachineLearning/comments/1o9yuxv/p_opensource_implementation_of_agentic_context/,[],medium,current
+MachineLearning,[P] Control your house heating system with RL,"Hi guys,
+
+I just released the source code of my most recent project: a DQN network controlling the radiator power of a house to maintain a perfect temperature when occupants are home while saving energy.
+
+I created a custom gymnasium environment for this project that relies on thermal transfer equation, so that it recreates exactly the behavior of a real house.
+
+The action space is discrete number between 0 and max\_power.
+
+The state space given is :
+
+\- Temperature in the inside,
+
+\- Temperatur",27,28,https://reddit.com/r/MachineLearning/comments/1o8zbg5/p_control_your_house_heating_system_with_rl/,[],medium,current
+MachineLearning,[D] TEE GPU inference overhead way lower than expected - production numbers,"Been running models in trusted execution environments for about 4 months now and finally have enough data to share real performance numbers.
+
+Backstory: we needed to process financial documents with LLMs but obviously couldn't send that data to external APIs. Tried homomorphic encryption first but the performance hit was brutal (like 100x slower). Federated learning didn't work for our use case either.
+
+Ended up testing TEE-secured inference and honestly the results surprised me. We're seeing ar",18,7,https://reddit.com/r/MachineLearning/comments/1o5wpu3/d_tee_gpu_inference_overhead_way_lower_than/,['deterministic'],medium,current
+MachineLearning,[R] 2026 Winter/Summer Schools on Diffusion or Flow Models,"Hey folks! I’m currently doing a PhD and need to attend a subject specific summer or winter school next year. I’m particularly interested in anything focused on diffusion models, flow models, or related areas in generative AI. If you’ve attended any good ones in the UK or Europe or know of any coming up in 2026 I’d really appreciate your suggestions. Thanks in advance ",18,10,https://reddit.com/r/MachineLearning/comments/1o17yew/r_2026_wintersummer_schools_on_diffusion_or_flow/,[],medium,future
+MachineLearning,[P] CleanMARL : a clean implementations of Multi-Agent Reinforcement Learning Algorithms in PyTorch,"Hi everyone,
+
+I’ve developed **CleanMARL**, a project that provides clean, single-file implementations of Deep Multi-Agent Reinforcement Learning (MARL) algorithms in PyTorch. It follows the philosophy of CleanRL.
+
+We also provide educational content, similar to Spinning Up in Deep RL, but for multi-agent RL.
+
+**What CleanMARL provides:**
+
+* Implementations of key MARL algorithms: VDN, QMIX, COMA, MADDPG, FACMAC, IPPO, MAPPO.
+* Support for parallel environments and recurrent policy training.
+* T",14,0,https://reddit.com/r/MachineLearning/comments/1o5fry6/p_cleanmarl_a_clean_implementations_of_multiagent/,[],medium,current
+artificial,"Anthropic cofounder admits he is now ""deeply afraid"" ... ""We are dealing with a real and mysterious creature, not a simple and predictable machine ... We need the courage to see things as they are.""","He wrote:   
+  
+""**CHILDREN IN THE DARK**  
+I remember being a child and after the lights turned out I would look around my bedroom and I would see shapes in the darkness and I would become afraid – afraid these shapes were creatures I did not understand that wanted to do me harm. And so I’d turn my light on. And when I turned the light on I would be relieved because the creatures turned out to be a pile of clothes on a chair, or a bookshelf, or a lampshade.
+
+Now, in the year of 2025, we are the",206,223,https://reddit.com/r/artificial/comments/1o6ck4l/anthropic_cofounder_admits_he_is_now_deeply/,"['deterministic', 'stochastic']",strategic,future
+artificial,AI workers are logging 100-hour weeks as Silicon Valley’s talent race heats up,"Inside Silicon Valley’s biggest AI labs, top researchers and executives are regularly working 80 to 100 hours a week. Several top researchers compared the circumstances to war.
+
+“We’re basically trying to speedrun 20 years of scientific progress in two years,” said Batson, a research scientist at Anthropic. Extraordinary advances in AI systems are happening “every few months,” he said. “It’s the most interesting scientific question in the world right now.”",190,119,https://reddit.com/r/artificial/comments/1odx2b3/ai_workers_are_logging_100hour_weeks_as_silicon/,[],medium,current
+artificial,Anthropic has launched financial services.,"Featuring capabilities such as Excel plugins, real-time market data connectors, and portfolio analysis tools, it also comes with built-in professional skills like pre-set discounted cash flow modeling and first-over report generation. It ranked first in the Vals AI Financial Agent Benchmark Test with an accuracy of 55.3%. The goal is to integrate artificial intelligence into key financial workflows.",99,31,https://reddit.com/r/artificial/comments/1ohttca/anthropic_has_launched_financial_services/,"['scheduling', 'deterministic']",medium,current
+artificial,Almost All New Code Written at OpenAI Today is From Codex Users: Sam Altman,"Steven Heidel, who works on APIs at OpenAI, revealed that the new drag-and-drop Agent Builder, which was recently released, was built end-to-end in just under six weeks. “Thanks to Codex writing 80% of the PRs.” 
+
+“It’s difficult to overstate how important Codex has been to our team’s ability to ship new products,” said Heidel. ",84,81,https://reddit.com/r/artificial/comments/1o07w54/almost_all_new_code_written_at_openai_today_is/,[],medium,current
+artificial,Patent data reveals what companies are actually building with GenAI,"An analysis of 2,398 generative AI patents filed between 2017 and 2023 shows that conversational agents like chatbots make up only 13.9 percent of all GenAI patent activity.
+
+I thought it would be taking the top sport which is actually taken by Financial fraud detection and cybersecurity applications at 22.8 percent. Companies are quietly pouring way more R&D dollars into using GenAI to catch financial crimes and stop data breaches than into making better chatbots (except OpenAI, Anthropic and o",80,30,https://reddit.com/r/artificial/comments/1o053p4/patent_data_reveals_what_companies_are_actually/,"['security', 'deterministic']",strategic,current
+artificial,Who’s actually feeling the chaos of AI at work?,"I am doing some personal research at MIT on how companies handle the growing chaos of multiple AI agents and copilots working together.  
+I have been seeing the same problem myself- tools that don’t talk to each other, unpredictable outputs, and zero visibility into what’s really happening.
+
+Who feels this pain most — engineers, compliance teams, or execs?  
+If your org uses several AI tools or agents, what’s the hardest part: coordination, compliance, or trust?
+
+(Not selling anything- just expl",75,97,https://reddit.com/r/artificial/comments/1nzmbyc/whos_actually_feeling_the_chaos_of_ai_at_work/,[],medium,current
+singularity,Journalist debunks environmental attacks on AI,,890,436,https://reddit.com/r/singularity/comments/1o8pr6s/journalist_debunks_environmental_attacks_on_ai/,[],medium,current
+singularity,Claude 4.5 does 30 hours of autonomous coding,,727,139,https://reddit.com/r/singularity/comments/1nto74a/claude_45_does_30_hours_of_autonomous_coding/,[],medium,current
+singularity,"Google DeepMind introduces new AI agent for code security - Codemender, automatically finds and fixes code vulnerabilities, and has already submitted 72 high quality fixes in major open source projects (no public access yet, but it is coming)",,507,29,https://reddit.com/r/singularity/comments/1nzjgxf/google_deepmind_introduces_new_ai_agent_for_code/,['security'],medium,current
+LocalLLaMA,Hot take: ALL Coding tools are bullsh*t,"Let me tell you about the dumbest fucking trend in software development: taking the most powerful reasoning engines humanity has ever created and lobotomizing them with middleware.
+
+We have these incredible language models—DeepSeek 3.2, GLM-4.5, Qwen 3 Coder—that can understand complex problems, reason through edge cases, and generate genuinely good code. And what did we do? We wrapped them in so many layers of bullshit that they can barely function.
+
+**The Scam:**
+
+Every coding tool follows the",719,325,https://reddit.com/r/LocalLLaMA/comments/1nu6kjc/hot_take_all_coding_tools_are_bullsht/,"['agent_environment', 'deterministic']",strategic,future
+LocalLLaMA,DeepSeek-OCR - Lives up to the hype,"I decided to try this out.  Dockerized the model with fastapi in a wsl environment.  Gave it 10000 pdfs to convert to markdown.
+
+Hardware - 1 x A6000 ADA on a Ryzen 1700 /w 32gb ram
+
+Processed prompts: 100%|██████████| 1/1 \[00:00<00:00,  3.29it/s, est. speed input: 3000.81 toks/s, output: 220.20 toks/s\]
+
+I'm averaging less than 1 second per page.
+
+This is the real deal.
+
+EDIT:  Decided to share the docker build if anyone is interested.  It wraps the model up nicely so you can try it out direct",653,148,https://reddit.com/r/LocalLLaMA/comments/1ocrocy/deepseekocr_lives_up_to_the_hype/,[],medium,current
+LocalLLaMA,Got the DGX Spark - ask me anything,"If there’s anything you want me to benchmark (or want to see in general), let me know, and I’ll try to reply to your comment. I will be playing with this all night trying a ton of different models I’ve always wanted to run.
+
+(& shoutout to microcenter my goats!)
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Hit it hard with Wan2.2 via ComfyUI, base template but upped the resol",639,610,https://reddit.com/r/LocalLLaMA/comments/1o7gpr8/got_the_dgx_spark_ask_me_anything/,"['agent_os', 'scheduling']",medium,future
+LocalLLaMA,I spent months struggling to understand AI agents. Built a from scratch tutorial so you don't have to.,"For the longest time, I felt lost trying to understand how AI agents actually work.
+
+Every tutorial I found jumped straight into LangChain or CrewAI. The papers were full of architecture diagrams but vague about implementation. I'd follow along, copy-paste code, and it would work... but I had no idea why.
+
+The breaking point: I couldn't debug anything. When something broke, I had no mental model of what was happening under the hood. Was it the framework? The prompt? The model? No clue.
+
+So I did",512,72,https://reddit.com/r/LocalLLaMA/comments/1oee1ie/i_spent_months_struggling_to_understand_ai_agents/,['tool_use'],medium,current
+LocalLLaMA,"Introducing Onyx - a fully open source chat UI with RAG, web search, deep research, and MCP",,500,157,https://reddit.com/r/LocalLLaMA/comments/1nw52ad/introducing_onyx_a_fully_open_source_chat_ui_with/,['mcp'],medium,current
+LocalLLaMA,Best Local LLMs - October 2025,"***Welcome to the first monthly ""Best Local LLMs"" post!***
+
+Share what your favorite models are right now **and why.** Given the nature of the beast in evaluating LLMs (untrustworthiness of benchmarks, immature tooling, intrinsic stochasticity), please be as detailed as possible in describing your setup, nature of your usage (how much, personal/professional use), tools/frameworks/prompts etc.
+
+**Rules**
+
+1. Should be open weights models
+
+**Applications**
+
+1. General
+2. Agentic/Tool Use
+3. Coding",459,254,https://reddit.com/r/LocalLLaMA/comments/1obqkpe/best_local_llms_october_2025/,"['mcp', 'tool_use', 'stochastic']",medium,current
+LocalLLaMA,AMD tested 20+ local models for coding & only 2 actually work (testing linked),"**tldr**; qwen3-coder (4-bit, 8-bit) is really the only viable local model for coding, if you have 128gb+ of RAM, check out GLM-4.5-air (8-bit)
+
+\---
+
+hello hello!
+
+So AMD just dropped their comprehensive testing of local models for AI coding and it pretty much validates what I've been preaching about local models
+
+They tested 20+ models and found exactly what many of us suspected: most of them completely fail at actual coding tasks. Out of everything they tested, only three models consistently ",450,119,https://reddit.com/r/LocalLLaMA/comments/1nufu17/amd_tested_20_local_models_for_coding_only_2/,"['mcp', 'tool_use']",medium,current
+LocalLLaMA,We built 3B and 8B models that rival GPT-5 at HTML extraction while costing 40-80x less - fully open source,"*Disclaimer: I work for* [*Inference.net*](http://Inference.net)*, creator of the Schematron model family*
+
+Hey everyone, wanted to share something we've been working on at Inference.net: Schematron, a family of small models for web extraction.
+
+Our goal was to make a small, fast model for taking HTML from website and extracting JSON that perfectly adheres to a schema.
+
+We distilled a frontier model down to 8B params and managed to keep basically all the output quality for this task. Schematron-",438,59,https://reddit.com/r/LocalLLaMA/comments/1o8m0ti/we_built_3b_and_8b_models_that_rival_gpt5_at_html/,['scheduling'],medium,current
+LocalLLaMA,Stanford Researchers Released AgentFlow: Flow-GRPO algorithm. Outperforming 200B GPT-4o with a 7B model! Explore the code & try the demo,,424,80,https://reddit.com/r/LocalLLaMA/comments/1o4wg6q/stanford_researchers_released_agentflow_flowgrpo/,[],medium,current
+LocalLLaMA,zai-org/GLM-4.6 · Hugging Face,"# Model Introduction
+
+Compared with GLM-4.5, **GLM-4.6** brings several key improvements:
+
+* **Longer context window:** The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex agentic tasks.
+* **Superior coding performance:** The model achieves higher scores on code benchmarks and demonstrates better real-world performance in applications such as Claude Code、Cline、Roo Code and Kilo Code, including improvements in generating visually polished front",417,81,https://reddit.com/r/LocalLLaMA/comments/1nuerql/zaiorgglm46_hugging_face/,"['mcp', 'tool_use']",medium,current
+LocalLLaMA,Made a website to track 348 benchmarks across 188 models.,"Hey all, I've been building a website from a while ago in which we track the benchmark results from the official papers / model cards that the labs publish. 
+
+I thought it would be interesting to compile everything in one place to fill in the gaps on each model release.   
+All the data is open in Github and all scores have references to the original posts.
+
+[https://llm-stats.com/benchmarks](https://llm-stats.com/benchmarks)
+
+Feel free to provide candid feedback.  
+
+
+\---
+
+\*\*We don't think thi",371,62,https://reddit.com/r/LocalLLaMA/comments/1oa98jf/made_a_website_to_track_348_benchmarks_across_188/,['stochastic'],medium,current
+LocalLLaMA,No GLM-4.6 Air version is coming out,"Zhipu-AI just shared on X that there are currently no plans to release an Air version of their newly announced GLM-4.6.
+
+That said, I’m still incredibly excited about what this lab is doing. In my opinion, Zhipu-AI is one of the most promising open-weight AI labs out there right now. I’ve run my own private benchmarks across all major open-weight model releases, and GLM-4.5 stood out significantly, especially for coding and agentic workloads. It’s the closest I’ve seen an open-weight model come ",338,74,https://reddit.com/r/LocalLLaMA/comments/1nuq54g/no_glm46_air_version_is_coming_out/,[],medium,current
+LLMDevs,Which Format is Best for Passing Tables of Data to LLMs?,"For anyone feeding tables of data into LLMs, I thought you might be interested in the results from this test I ran.
+
+I wanted to understand whether *how you format a table of data* affects how well an LLM understands it.
+
+I tested how well an LLM (GPT-4.1-nano in this case) could answer simple questions about a set of data in JSON format. I then transformed that data into 10 other formats and ran the same tests.
+
+Here's how the formats compared.
+
+|Format|Accuracy|95% Confidence Interval|Tokens|
+",165,48,https://reddit.com/r/LLMDevs/comments/1nw3jha/which_format_is_best_for_passing_tables_of_data/,[],medium,current
+LLMDevs,"After months on Cursor, I just switched back to VS Code","I’ve been a **Cursor** user for months. Loved how smooth the AI experience was, inline edits, smart completions, instant feedback. But recently, I switched back to **VS Code**, and the reason is simple: **open-source models are finally good enough.**
+
+The new **Hugging Face Copilot Chat** extension lets you use **open models** like **Kimi K2, GLM 4.6** and **Qwen3** right inside VS Code.
+
+Here’s what changed things for me:
+
+* These open models are **getting better fast in** coding, explaining, a",89,28,https://reddit.com/r/LLMDevs/comments/1nzaavi/after_months_on_cursor_i_just_switched_back_to_vs/,"['mcp', 'tool_use']",medium,current
+LLMDevs,NVIDIA says most AI agents don’t need huge models.. Small Language Models are the real future,,83,30,https://reddit.com/r/LLMDevs/comments/1ohholq/nvidia_says_most_ai_agents_dont_need_huge_models/,[],strategic,future
+LLMDevs,Self-improving AI agents aren't happening anytime soon,"I've built agentic AI products with solid use cases, Not a single one “improved” on its own. I maybe wrong but hear me out, 
+
+we did try to make them ""self-improving"", but the more autonomy we gave agents, the worse they got.
+
+The idea of agents that fix bugs, learn new APIs, and redeploy themselves while you sleep was alluring. But in practice? the systems that worked best were the boring ones we kept under tight control.
+
+Here are 7 reasons that flipped my perspective:
+
+1/ feedback loops weren",69,32,https://reddit.com/r/LLMDevs/comments/1nw3y3c/selfimproving_ai_agents_arent_happening_anytime/,['scheduling'],medium,current
+LLMDevs,Why RAG alone isn’t enough,"I keep seeing people equate RAG with memory, and it doesn’t sit right with me. After going down the rabbit hole, here’s how I think about it now.
+
+In RAG, a query gets embedded, compared against a vector store, top-k neighbors are pulled back, and the LLM uses them to ground its answer. This is great for semantic recall and reducing hallucinations, but that’s all it is i.e. retrieval on demand.
+
+Where it breaks is persistence. Imagine I tell an AI:
+
+* “I live in Cupertino”
+* Later: “I moved to S",61,15,https://reddit.com/r/LLMDevs/comments/1ntkjw4/why_rag_alone_isnt_enough/,[],medium,current
+LLMDevs,[Open Source] We built a production-ready GenAI framework after deploying 50+ agents. Here's what we learned 🍕,"Looking for feedbacks :)
+
+After building and deploying 50+ GenAI solutions in production, we got tired of fighting with bloated frameworks, debugging black boxes, and dealing with vendor lock-in. So we built Datapizza AI - a Python framework that actually respects your time.
+
+**The Problem We Solved**
+
+Most LLM frameworks give you two bad options:
+
+* Too much magic → You have no idea why your agent did what it did
+* Too little structure → You're rebuilding the same patterns over and over
+
+We wan",55,16,https://reddit.com/r/LLMDevs/comments/1oar5n6/open_source_we_built_a_productionready_genai/,[],medium,current
+LLMDevs,You’re in an AI Engineering interview and they ask you: how does a vectorDB actually work?,"You’re in an AI Engineering interview and they ask you: how does a vectorDB actually work?
+
+Most people I interviewed answer:
+
+“They loop through embeddings and compute cosine similarity.”
+
+That’s not even close.
+
+So I wrote this guide on how vectorDBs actually work. I break down what’s really happening when you query a vector DB.
+
+If you’re building production-ready RAG, reading this article will be helpful. It's publicly available and free to read, no ads :) 
+
+[https://open.substack.com/pub/sa",49,4,https://reddit.com/r/LLMDevs/comments/1ntdg9x/youre_in_an_ai_engineering_interview_and_they_ask/,[],medium,future
+LLMDevs,What’s the best agent framework in 2025?,"Hey all,
+
+I'm diving into autonomous/AI agent systems and trying to figure out which framework is currently the best for building **robust, scalable, multi-agent applications**.
+
+I’m mainly looking for something that:
+
+* Supports multi-agent collaboration and communication
+* Is production-ready or at least stable
+* Plays nicely with LLMs (OpenAI, Claude, open-source)
+* Has good community/support or documentation
+
+Would love to hear your thoughts—what’s worked well for you? What are the trade-off",49,51,https://reddit.com/r/LLMDevs/comments/1nxlsrq/whats_the_best_agent_framework_in_2025/,[],medium,current
+LLMDevs,LLM Benchmarks: Gemini 2.5 Flash latest version takes the top spot,"We’ve updated our Task Completion Benchmarks, and this time Gemini 2.5 Flash (latest version) came out on top for overall task completion, scoring highest across context reasoning, SQL, agents, and normalization.
+
+Our TaskBench evaluates how well language models can actually finish a variety of real-world tasks, reporting the percentage of tasks completed successfully using a consistent methodology for all models.
+
+See the full rankings and details: [https://opper.ai/models](https://opper.ai/mod",44,5,https://reddit.com/r/LLMDevs/comments/1o19p2q/llm_benchmarks_gemini_25_flash_latest_version/,[],medium,current
+LLMDevs,"I open-sourced Stanford's ""Agentic Context Engineering"" framework - agents that learn from their own execution feedback","I built an implementation of Stanford's ""Agentic Context Engineering"" paper: agents that improve by learning from their own execution.
+
+How does it work? A three-agent system (Generator, Reflector, Curator) builds a ""playbook"" of strategies autonomously:
+
+* Execute task → Reflect on what worked/failed → Curate learned strategies into the playbook
+* \+10.6% performance improvement on complex agent tasks (according to the papers benchmarks)
+* No training data needed
+
+My open-source implementation ",43,3,https://reddit.com/r/LLMDevs/comments/1obp91s/i_opensourced_stanfords_agentic_context/,[],medium,current
+LLMDevs,It's almost 2026. Are engineers losing their jobs?,"I am genuinely interested about how these engineer roles will develop.
+
+Just last week our team was able to build 3 internal apps for managing expenses and marketing budget with Lovable. then 4 agents that automate content creation, document parsing between 3 departments, and sales follow ups with vellum.
+
+it's just becoming so much easier to build… fix… debug and then publish (safely!) using all these tools (Cursor, Lovable, Vellum).
+
+we automate so much of our work now and it's 90% done by peo",40,57,https://reddit.com/r/LLMDevs/comments/1oc4ja6/its_almost_2026_are_engineers_losing_their_jobs/,[],medium,future
+LLMDevs,I built a backend that agents can understand and control through MCP,"I’ve been a long time Supabase user and a huge fan of what they’ve built. Their MCP support is solid, and it was actually my starting point when experimenting with AI coding agents like Cursor and Claude.
+
+But as I built more applications with AI coding tools, I ran into a recurring issue. The coding agent didn’t really understand my backend. It didn’t know my database schema, which functions existed, or how different parts were wired together. To avoid hallucinations, I had to keep repeating th",35,7,https://reddit.com/r/LLMDevs/comments/1nz1q5s/i_built_a_backend_that_agents_can_understand_and/,"['mcp', 'scheduling', 'stochastic']",medium,current
+LLMDevs,Google Dropped a New 76 Page Agents Companion Whitepaper,,30,2,https://reddit.com/r/LLMDevs/comments/1nyn8vs/google_dropped_a_new_76_page_agents_companion/,[],medium,current
+LLMDevs,The Agent Framework x Memory Matrix,"Hey everyone,
+
+As the memory discussion getting hotter everyday, I'd love to hear your best combo to understand the ecosystem better.
+
+Which SDK , framework, tool are you using to build your agents and what's the best working memory solution for that.
+
+Many thanks ",25,0,https://reddit.com/r/LLMDevs/comments/1o6k23c/the_agent_framework_x_memory_matrix/,[],medium,current
+LLMDevs,Google Dropped a New 76 Page Agents Companion Whitepaper,,24,4,https://reddit.com/r/LLMDevs/comments/1nxmccg/google_dropped_a_new_76_page_agents_companion/,[],medium,current
+LLMDevs,Matthew McConaughey LLM,"We thought it would be fun to build something for Matthew McConaughey, based on his recent Rogan podcast interview.
+
+""Matthew McConaughey says he wants a private LLM, fed only with his books, notes, journals, and aspirations, so he can ask it questions and get answers based solely on that information, without any outside influence.""
+
+Here's how we built it:
+
+1. We found public writings, podcast transcripts, etc, as our base materials to upload as a proxy for the all the information Matthew menti",21,27,https://reddit.com/r/LLMDevs/comments/1o7pk1s/matthew_mcconaughey_llm/,[],medium,current
+LLMDevs,Which Format is Best for Passing Nested Data to LLMs?,"Hi,
+
+I recently shared some research I'd done into [Which Format is Best for Passing Tables of Data to LLMs?](https://www.reddit.com/r/LLMDevs/comments/1nw3jha/which_format_is_best_for_passing_tables_of_data/)
+
+People seemed quite interested and some asked whether I had any findings for *nested* data (e.g. JSON from API responses or infrastructure config files.)
+
+I didn't.
+
+But now I do, so thought I'd share them here...
+
+I ran controlled tests on a few different models (GPT-5 nano, Llama 3.2 3B",21,10,https://reddit.com/r/LLMDevs/comments/1o77eo2/which_format_is_best_for_passing_nested_data_to/,[],medium,current
+LLMDevs,You need so much more than self-attention,"Been thinkin on how to put some of my disdain(s) into words
+
+Autoregressive LLMs don’t *persistently* learn at inference. They learn during training; at run time they do in-context learning (ICL) inside the current context/state. No weights change, nothing lasts beyond the window. [arXiv](https://arxiv.org/pdf/2211.15661?utm_source=chatgpt.com)
+
+Let task A have many solutions; A′ is the shortest valid plan. With dataset B, pretraining may meta-learn ICL so the model reconstructs A′ when the cont",18,12,https://reddit.com/r/LLMDevs/comments/1oc3fsr/you_need_so_much_more_than_selfattention/,[],medium,current
+LLMDevs,💡 I built a full open-source learning path for Generative AI development (Python → LangChain → AI Agents),"**Hi everyone 👋!**
+
+After spending months diving deep into Generative AI and LLM app development, I noticed something:
+
+there aren’t many structured and practical learning paths that *really* teach you what you need — in the right order, with clear explanations and modern tools.
+
+So I decided to build the kind of “course” I wish I had when I started.
+
+It’s completely open-source and based on Jupyter notebooks: practical, concise, and progression-based.
+
+Here’s the current structure:
+
+
+
+1️⃣ **01-",17,7,https://reddit.com/r/LLMDevs/comments/1ohinpp/i_built_a_full_opensource_learning_path_for/,"['scheduling', 'stochastic']",medium,current
+LLMDevs,A curated repo of practical AI agent & RAG implementations,"Like everyone else, I’ve been trying to wrap my head around how these new *AI agent frameworks* actually differ LangGraph, CrewAI, OpenAI SDK, ADK, etc.
+
+Most blogs explain the concepts, but I was looking for **real implementations,** not just marketing examples. Ended up finding this repo called **Awesome AI Apps** through a blog, and it’s been surprisingly useful.
+
+It’s basically a library of **working agent and RAG projects**, from tiny prototypes to full multi-agent research workflows. Each ",15,1,https://reddit.com/r/LLMDevs/comments/1o28mfw/a_curated_repo_of_practical_ai_agent_rag/,['scheduling'],medium,current
+LLMDevs,Is UTCP a viable alternative to MCP?,">The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an alternative to the MCP, that describes *how* to call existing tools rather than *proxying* those calls through a new server. After discovery, the agent speaks directly to the tool’s native endpoint (HTTP, gRPC, WebSocket, CLI, …), eliminating the “wrapper tax,” reducing latency, and letting you keep your existing auth, billing and security in place.
+
+Basically ""...call any native endpoint, over any channel, directly and w",13,9,https://reddit.com/r/LLMDevs/comments/1nuhxlu/is_utcp_a_viable_alternative_to_mcp/,"['mcp', 'security']",medium,current
+LLMDevs,What are the pros and cons of using Typescript instead of Python to build agentic AI systems?,"I program primarily in Python and have been getting Typescript-curious these days. But I would like to learn not just Typescript itself but also why and when you would use Typescript instead of Python. What is it better at? In other words, in what situations is Typescript a better tool for the job than Python?",13,31,https://reddit.com/r/LLMDevs/comments/1o4azd3/what_are_the_pros_and_cons_of_using_typescript/,[],medium,current
+LLMDevs,We built an open-source coding agent CLI that can be run locally,"Basically, it’s like Claude Code but with native support for local LLMs and a universal tool parser that works even on inference platforms without built-in tool call support.
+
+Kolosal CLI is an open-source, cross-platform agentic command-line tool that lets you discover, download, and run models locally using an ultra-lightweight inference server. It supports coding agents, Hugging Face model integration, and a memory calculator to estimate model memory requirements.
+
+It’s a fork of Qwen Code, a",11,6,https://reddit.com/r/LLMDevs/comments/1o8nhld/we_built_an_opensource_coding_agent_cli_that_can/,[],medium,current
+LLMDevs,"How do I See the Infrastructure Battle for AI Agent Payments, after the Emergence of AP2 and ACP","Google launched the Agent Payments Protocol (AP2), an open standard developed with over 60 partners including Mastercard, PayPal, and American Express to enable secure AI agent-initiated payments. The protocol is **designed to solve the fundamental trust problem when autonomous agents spend money on your behalf**.
+
+""Coincidentally"", OpenAI just launched its competing Agentic Commerce Protocol (ACP) with Stripe in late September 2025, powering ""Instant Checkout"" on ChatGPT. **The space is heating",11,0,https://reddit.com/r/LLMDevs/comments/1o5olpl/how_do_i_see_the_infrastructure_battle_for_ai/,['deterministic'],medium,current
+LLMDevs,Which LLM is best for complex reasoning,"Hello Folks, 
+
+I am a reseracher, my current project deals with fact checking in financial domain with 5 class. So far I have tested Llama, mistral, GPT 4 mini, but none of them is serving my purpose. I used Naive RAG, Advanced RAG (Corrective RAG), Agentic RAG, but the performance is terrible. Any insight ?
+
+
+
+",11,28,https://reddit.com/r/LLMDevs/comments/1o4dcup/which_llm_is_best_for_complex_reasoning/,['deterministic'],medium,current
+LLMDevs,MCP finally gets proper authentication: OAuth 2.1 + scoped tokens,"Every agent connection felt a bit risky. Once connected, an agent could invoke *any* tool without limits, identity, or proper audit trails. One misconfigured endpoint, and an agent could easily touch sensitive APIs it shouldn’t.
+
+Most people worked around it with quick fixes, API keys in env vars, homegrown token scripts, or IP whitelists. It worked… until it didn’t. The real issue wasn’t with the agents. It was in the auth model itself.
+
+That’s where **OAuth 2.1** comes in.
+
+By introducing OAut",10,1,https://reddit.com/r/LLMDevs/comments/1oh6ouv/mcp_finally_gets_proper_authentication_oauth_21/,"['mcp', 'security']",medium,current
+LLMDevs,I built the router for HuggingChat Omni 🎈,"Last week, HuggingFace relaunched their chat app called Omni with support for 115+ LLMs. The code is oss ([https://github.com/huggingface/chat-ui](https://github.com/huggingface/chat-ui)) and you can access the interface [here](https://huggingface.co/chat/)   
+  
+The critical unlock in Omni is the use of a policy-based approach to model selection. I built that policy-based router: [https://huggingface.co/katanemo/Arch-Router-1.5B](https://huggingface.co/katanemo/Arch-Router-1.5B)  
+  
+The core i",10,2,https://reddit.com/r/LLMDevs/comments/1odmz7n/i_built_the_router_for_huggingchat_omni/,[],high,current
+LLMDevs,Context Rot: 4 Lessons I’m Applying from Anthropic's Blog (Part 1),"TL;DR — Long contexts make agents dumber and slower. Fix it by compressing to high-signal tokens, ditching brittle rule piles, and using tools as just-in-time memory.
+
+I read Anthropic’s post on context rot and turned the ideas into things I can ship. Below are the 4 changes I’m making to keep agents sharp as context grows
+
+**Compress to high-signal context**  
+There is an increasing need to prompt agents with information that is sufficient to do the task. If the context is too long agents suffe",11,1,https://reddit.com/r/LLMDevs/comments/1o1yvz7/context_rot_4_lessons_im_applying_from_anthropics/,"['deterministic', 'stochastic']",medium,current
+LLMDevs,Who else needs a silent copilot?,"I strongly believe that you should never delegate your thinking to LLM models.   
+After months of working with Claude, Codex, ChatGPT, Cursor, Gemini, and working with them in all three layers (vibe coding, completing tedious work, bearly using, mostly review, similar to Karpathy's categorization), I'm tired of waiting like a dumbass to see how it plans or thinks. It completely throws me out of the coding flow.  
+So, I'd rather have a copilot in coding that answers my questions, watches my actio",9,5,https://reddit.com/r/LLMDevs/comments/1od3m2p/who_else_needs_a_silent_copilot/,[],medium,current
+compsci,"Understanding containers from scratch: building one with Bash (no Docker, no magic)","Over the years, Docker has become a black box for many developers — we use it daily, but very few of us actually understand what happens under the hood.
+
+I wanted to truly understand how containers isolate processes, manage filesystems, and set up networking. So I decided to build my own container from scratch using only Bash scripts — no Docker, no Podman, just Linux primitives like:
+	•	chroot for filesystem isolation
+	•	unshare and clone for process and namespace isolation
+	•	veth pairs for co",80,7,https://reddit.com/r/compsci/comments/1o6pbgc/understanding_containers_from_scratch_building/,['agent_environment'],medium,current
+compsci,New book on Recommender Systems (2025). 50+ algorithms.,"This 2025 book describes more than 50 recommendation algorithms in considerable detail (> 300 A4 pages), starting from the most fundamental ones and ending with experimental approaches recently presented at specialized conferences. It includes code examples and mathematical foundations.
+
+[https://a.co/d/44onQG3](https://a.co/d/44onQG3) — ""Recommender Algorithms"" by Rauf Aliev
+
+[https://testmysearch.com/books/recommender-algorithms.html](https://testmysearch.com/books/recommender-algorithms.html)",13,3,https://reddit.com/r/compsci/comments/1ohfhso/new_book_on_recommender_systems_2025_50_algorithms/,[],strategic,current
+compsci,"Struggling to find advanced shell programming tutorials? I built one with pipes, job control, and custom signals for my OS class. Sharing my experience!","Hey folks!
+
+I'm a third-year CS student at HKU, and I just finished a pretty challenging project for my Operating Systems course: building a Unix shell from scratch in C.
+
+It supports the following features:
+
+* Executing programs using relative paths, absolute paths, or via the system `PATH`.
+* Handling **arbitrary pipe operations** (e.g., `cmd1 | cmd2 | cmd3`).
+* Supporting built-in commands, such as `exit` and `watch`.
+* **Custom signal handlers**.
+* Basic **job control** (Foreground Process G",10,1,https://reddit.com/r/compsci/comments/1ofo3w5/struggling_to_find_advanced_shell_programming/,['agent_os'],medium,current
+compsci,"Dual booting: Concepts of operating systems, filesystems and partitions","Recently, I got interested in the boot process and how partitions and filesystems work. As a test, and also to breathe some new life into my laptop, I dual-booted Manjaro Linux alongside my Ubuntu distro, with help from Claude to understand some of the concepts and commands, after having failed with my previous dual boot a few years back in spectacular fashion.
+
+This was a really fun and engaging experience. I have seen many people regard dual-booting with a sense of awe and dread, as it is so e",0,0,https://reddit.com/r/compsci/comments/1ody2ar/dual_booting_concepts_of_operating_systems/,"['agent_environment', 'agent_os']",medium,current
+compsci,Why File Explorer search is so slow—and how we built a blazing-fast alternative in Go,"Hi everyone,
+
+I recently published a deep-dive on this blog: [Why File Explorer search is so slow and how we have built a blazing-fast alternative in Go](https://adiyanthy.hashnode.dev/why-file-explorer-search-is-so-slow-and-how-we-have-built-a-blazing-fast-alternative-in-go)
+
+In it I explore:
+
+* The bottlenecks responsible for sluggish file search in common file explorers.
+* Performance trade-offs that tend to get overlooked.
+* How we architected and implemented a high-performance alternative i",0,6,https://reddit.com/r/compsci/comments/1ocwz78/why_file_explorer_search_is_so_slowand_how_we/,"['mcp', 'tool_use']",medium,current
+programming,Environment variables are a legacy mess: Let's dive deep into them,,380,46,https://reddit.com/r/programming/comments/1o5j78b/environment_variables_are_a_legacy_mess_lets_dive/,[],medium,current
+programming,Programming in Assembly without an Operating System,,116,8,https://reddit.com/r/programming/comments/1ny30ps/programming_in_assembly_without_an_operating/,['agent_os'],medium,current
+sysadmin,"Don't know everything, quiet quit, be mediocre. It'll save your sanity in the long run.","# The Clock that should not be
+
+""Why is this clock 10 minutes off? It syncs to this NTP server.""
+
+  
+The Firewall indicates that the NTP server is responding properly, and I can confirm it is giving me the correct time.
+
+  
+""Okay but it's still off""
+
+  
+And that's my fucking problem how? I don't manage it. I didn't purchase it. I was blissfully unaware of its existence until you brought this misfortune upon me. Go fucking reboot it or get a new one.
+
+# Our firewalls suck ass, we spent millions o",1212,175,https://reddit.com/r/sysadmin/comments/1nx9z1k/dont_know_everything_quiet_quit_be_mediocre_itll/,"['security', 'deterministic']",strategic,future
+sysadmin,AI Rant,"Ok, it's not like I didn't know it was happening, but this is the first time it's impacted me directly.
+
+This morning, before coffee of course, I over hear one of my coworkers starting OneDrive troubleshooting for a user who does not have OneDrive. While they can work with OnrDrive in a quazi-broken state, it will not fix the actual problem (server cannot be reached), and will get annoying as OneDrive is left in a mostly broken state. Fortunately I stopped her, verified that I was right and then",834,316,https://reddit.com/r/sysadmin/comments/1o6h3ta/ai_rant/,[],medium,current
+sysadmin,How do you handle management that thinks 8GB RAM is enough? /s,"Hi guys - I’ve been working at this company for a while and management is having us use these sluggish systems with 8GB of RAM. Clearly it isn’t enough and I have these devices replaced because I value my users. 
+
+They don’t seem to be happy with me optimising the workplace.  /s
+
+This is a satirical post after seeing another user complaining about a technician who is replacing devices with 8GB RAM.
+
+A technician that cares about the state of devices within your environment is a good fucking tech",764,621,https://reddit.com/r/sysadmin/comments/1o83gvz/how_do_you_handle_management_that_thinks_8gb_ram/,[],medium,current
+sysadmin,"So I did a migration last night, and you won't believe what broke prod this time...","Migrating away from shared key vaults to every team having their own for each environment. Works great for weeks in dev & staging. Roll it out to production, looking good. Oh no, the last app is having issues. What's that, can't mount SMB fileshares? Error says it can't derrive the name of the storage account from the PVC even though it's specified in the YAML & k8s secret? No problem, I guess we can't inline mount volumes this way anymore, we'll just create the PVs & PVCs ourselves and mount th",620,48,https://reddit.com/r/sysadmin/comments/1ochwd9/so_i_did_a_migration_last_night_and_you_wont/,[],medium,current
+sysadmin,Follow Up: The Previous Network Administrator 'Didn't Believe in VLANs',"Hello again. I posted [this ](https://www.reddit.com/r/sysadmin/comments/1dfqa86/the_previous_network_administrator_didnt_believe/)a while back and people seemed to enjoy reading it. Here's a follow up with some progress and more jank I've discovered since. This is not an exhaustive list of jank or progress, just stuff I thought was particularity funny.
+
+**Chat/IM**
+
+A serverless chat client that operated via multicast was in use and installed on all workstations. It kept local logs of all chats",535,99,https://reddit.com/r/sysadmin/comments/1ntqvyo/follow_up_the_previous_network_administrator/,['deterministic'],high,current
+sysadmin,"Leadership wants to nuke staging and test everything in prod. am I being paranoid or is
+this a terrible idea?","Newish Senior DevOps at a 80 eng company. Standard setup: local dev → dev env → staging (mirrors prod) → production. Costs are being scrutinized and staging is eating 25–30% of infra spend. New leadership wants to delete staging entirely. Basically he believes “staging never mirrors prod anyway and feature flags + progressive rollouts + good monitoring > staging"". He plans to kill staging, deploy everything to prod behind feature flags and use progressive rollouts (1% → 5% → 25% → 100%).
+
+  
+Her",490,226,https://reddit.com/r/sysadmin/comments/1o5xleg/leadership_wants_to_nuke_staging_and_test/,['deterministic'],medium,current
+sysadmin,Ladies and gentlemen - make sure you put in your change tickets,"Ive previously stated i didn't like change tickets. I have my reasons, but that doesn't mean i don't understand them. 
+
+One of my best friends was just left go from the position i recommended him too, for making a change in prod without a ticket that brought everything down for 25 min.
+
+So, put in your changes. It's not the kind of job environment to have to update your resume. ",404,105,https://reddit.com/r/sysadmin/comments/1odlrw0/ladies_and_gentlemen_make_sure_you_put_in_your/,[],medium,current
+sysadmin,Solo IT guy - What now?,"Well, I have been at a place for 2 years now and everything is running like a toyota hilux. No breaches, no spam emails, no phishing, not internet outages. Intune has been implemented; iOS devices are no longer activation locked to personal accounts. No laptops lying around with less than 8 GB of RAM and Windows 10 has been removed from the office environment, we have an offsite failover. 
+
+It was what I would call a low complexity environment, where you have your standard ADsync domain server, ",376,190,https://reddit.com/r/sysadmin/comments/1oefwnm/solo_it_guy_what_now/,[],medium,current
+sysadmin,How do you handle a tech who keeps replacing endpoint devices?,"So we have this tech who has the habit of replacing the laptops even though the issue is software-related.  Oftentimes he will try to troubleshoot with a very generic troubleshooting steps which is comparable to a bigbang approach and not really a logical and isolated troubleshooting. In our environment, 8gb ram on laptops is good enough. But once he sees its an older laptop and only has 8gb, he resolves to processing a replacement request and informs the users that the laptop replacement is the",346,498,https://reddit.com/r/sysadmin/comments/1o7v3so/how_do_you_handle_a_tech_who_keeps_replacing/,[],medium,current
+sysadmin,What are the most in demand skills needed for Sysadmins in 2025?,"Hi everyone. I wanted to start of by saying that I know Sysadmin is probably the most overused and generic job title in the industry right now, and that what you actually do as a sysadmin will vary greatly from company to company. However, I'm certain there must be some skills that are applicable to most environments such as networking, understanding of server operating systems, etc.
+
+I was in help desk at my previous company for a while but had no upward growth (small IT department with one sys",329,346,https://reddit.com/r/sysadmin/comments/1nzl80k/what_are_the_most_in_demand_skills_needed_for/,['agent_os'],medium,current
+sysadmin,"""Layed off after 14 years 355 days"" Update","Hey guys, I posted this here back in mid-september after being laid off (Reduction in Force in the US) from the company I was with for just shy of 15 years. 
+
+https://www.reddit.com/r/sysadmin/comments/1ndzitt/rifd_after_14_years_355_days/
+
+As an update, I put my resume in a few places and did some social networking and although I had initially only put my resume in at a few places, I did get a hit back and accepted a job offer.
+
+One of the two places it was a Sr Network Engineer - Unified Commu",313,36,https://reddit.com/r/sysadmin/comments/1o84ai6/layed_off_after_14_years_355_days_update/,[],medium,current
+sysadmin,Are we automating enterprise service desks into a corner? The weird paradox nobody's talking about,"I've been thinking about something that doesn't quite add up in the IT support world right now.
+
+Everyone's racing to implement AI-driven service desks. The numbers look incredible - ticket deflection rates hitting 53%, resolution times dropping from 30 hours to under 15, costs per ticket potentially falling to near-zero for routine stuff. On paper, this is exactly what we need.
+
+But here's what's bugging me: we're also seeing data that employees are losing **10+ workdays per year** to tech issu",285,145,https://reddit.com/r/sysadmin/comments/1ohcpy2/are_we_automating_enterprise_service_desks_into_a/,[],medium,current
+devops,"""Infrastructure as code"" apparently doesn't include laptop configuration","We automate everything. Kubernetes deployments, database migrations, CI/CD pipelines, monitoring, scaling. Everything is code.
+
+Except laptop setup for new hires. That's still ""download these 47 things manually and pray nothing conflicts.""
+
+New devops engineer started Monday. They're still configuring their local environment on Thursday. Docker, kubectl, terraform, AWS CLI, VPN clients, IDE plugins, SSH keys.
+
+We can spin up entire cloud environments in minutes but can't ship a laptop that's rea",735,405,https://reddit.com/r/devops/comments/1nzxwbc/infrastructure_as_code_apparently_doesnt_include/,[],medium,current
+devops,Our security team wants zero CVEs in production. Our containers have 200+. What's realistic here?,"Our security team is on a mission for zero CVEs in production. Sounds great, to be honest. But in reality, its proving almost impossible. Our container images are showing upwards of 200 vulnerabilities each.
+
+We scan constantly, patch aggressively, but new CVEs pop up almost daily. It's basically overwhelming. The developers are frustrated, productivity grinds to a halt with all the remediations, and prioritizing which vulnerabilities really matter feels impossible. Not to mention the false alar",352,288,https://reddit.com/r/devops/comments/1ntlgek/our_security_team_wants_zero_cves_in_production/,['security'],medium,current
+devops,How do you deal with legacy systems that just refuse to die?,"I’m at a company that still runs on a bunch of legacy systems, and honestly, it feels like we’re fighting them every day. Any time we try to roll out something new, we get stuck doing a ton of manual work because the old stuff doesn’t play nice.
+
+Half of my time isn’t even spent building, it’s spent babysitting systems that should’ve been retired five years ago. But management doesn’t want to touch them because “they still work.”
+
+Anyone else stuck in this loop? How do you deal with modernizing ",212,65,https://reddit.com/r/devops/comments/1nvxjl8/how_do_you_deal_with_legacy_systems_that_just/,[],medium,current
+devops,Anyone else feels like AI crowd is mostly JS ppl ?,"Every conference i watch like OpenAI etc, are ppl showcasing stuff in typescript. Any training I participated in were ppl showcasing how fast to bootstrap JS project, either react or angular or vue.
+
+All of them sitting in VSCode pumping out next 4000 stars GH project that does as much as a single command in terminal.
+
+Moving so fast noone of them even asks a question „does it even make sense?”, who cares, ship it, lets make some mani.
+
+In DevOps Im strugling to find a real use-case for non-dete",134,69,https://reddit.com/r/devops/comments/1o3c2fd/anyone_else_feels_like_ai_crowd_is_mostly_js_ppl/,['deterministic'],medium,current
+devops,Argo CD got us 80% of the way there… but what about the last mile?,"Curious if others have run into this… Argo CD nails GitOps-driven deployments, rollbacks, visibility, etc. But once we started scaling across multiple environments and teams, the last mile (promotion between envs, audit/compliance, complex orchestration) became the real pain point… How are you handling the “glue” work around Argo?  
+  
+Custom scripting? GitHub Actions / Jenkins? Octopus Deploy? Something else? Feels like everyone’s got their own duct-tape solution here. What’s worked (or blown u",88,43,https://reddit.com/r/devops/comments/1o1di1u/argo_cd_got_us_80_of_the_way_there_but_what_about/,['scheduling'],medium,current
+devops,How do professionals handle huge monorepos locally without lag?,"So after our last discussion about monorepos, I was digging deeper (this thread for context: [Why monorepos?](https://www.reddit.com/r/devops/comments/1nvy3if/why_monorepos/)) — and I’ve been trying to open some big ones like [PostHog](https://github.com/PostHog/posthog) or [Twenty](https://github.com/twentyhq/twenty).
+
+Even when I follow their local setup guides exactly, my system starts to crawl.  
+Specs aren’t bad: 12 GB RAM, 8-core CPU, RTX 3050 GPU. Still, once the monorepo spins up (Docker",58,52,https://reddit.com/r/devops/comments/1nyfan9/how_do_professionals_handle_huge_monorepos/,['scheduling'],medium,current
+devops,"Burned out fighting tech debt, should I leave for a better gig?","Hey folks,
+
+I could use a bit of advice. I’m a Infrastructure Engineer with about 8 years of experience, really into automation, infra, and platform engineering. A while ago, I joined my current company because they promised a big push toward cloud, CI/CD, and overall modernization, it sounded like a dream gig.
+
+But… it never happened. We’re buried in legacy tech, fighting old habits, and every attempt to modernize gets brushed off. I’ve automated what I can and improved a few things, but the co",45,37,https://reddit.com/r/devops/comments/1obomoc/burned_out_fighting_tech_debt_should_i_leave_for/,['scheduling'],strategic,current
+devops,Trixter: A Chaos Proxy for Simulating Network Faults,">
+
+Hey folks 👋
+
+I’ve just published a post about [**Trixter**](https://biriukov.dev/posts/trixter-chaos-proxy/) — a high-performance **chaos proxy** written in Rust for simulating unreliable networks in CI/CD or staging environments.
+
+Unlike Linux `tc netem`, it runs entirely in **user space** (no root, no kernel modules), and you can tweak network faults **dynamically** via REST JSON API — latency, throttling, loss, terminations, corruption, etc.
+
+Example use:
+
+    $ docker run --network host g",34,3,https://reddit.com/r/devops/comments/1o3rkri/trixter_a_chaos_proxy_for_simulating_network/,[],medium,current
+devops,Which bullets are the most impressive?,"Which 5-7 of these accomplishments would you prioritize for a senior/lead engineer? I have limited space and want to highlight what's most impressive to hiring managers and technical leaders.
+
+* **Serverless architecture processing 1M+ transformations/month at 300ms latency** \- Built high-performance async content pipeline using AWS Lambda, S3, CloudFront, and httpx
+* **Complete product economics infrastructure** \- Designed token-based pricing, gamified leaderboards, affiliate referral system,",33,45,https://reddit.com/r/devops/comments/1oed073/which_bullets_are_the_most_impressive/,[],medium,current
+devops,Building a DevOps homelab and AWS portfolio project. Looking for ideas from people who have done this well,"
+
+Hey everyone,
+
+I am setting up a DevOps homelab and want to host my own portfolio website on AWS as part of it. The goal is to have something that both shows my skills and helps me learn by doing. I want to treat it like a real production-style setup with CI/CD, infrastructure as code, monitoring, and containerization.
+
+I am trying to think through how to make it more than just a static site. I want it to evolve as I grow, and I want to avoid building something that looks cool but teaches me n",32,6,https://reddit.com/r/devops/comments/1oazccy/building_a_devops_homelab_and_aws_portfolio/,['stochastic'],medium,current
+devops,Board wants an AI risk assessment but traditional frameworks feel inadequate,"Our board is pushing for a comprehensive AI risk assessment seeing the rise in attacks targeting ML models. The usual compliance checklists and generic risk matrices aren't really capturing what we're dealing with here.
+
+We've got ML models in production, AI assisted code review, and customer facing chatbots. The traditional cybersecurity frameworks seem to miss the attack vectors specific to AI systems.
+
+Anyone dealt with this gap between what boards expect and what actually protects against AI",31,18,https://reddit.com/r/devops/comments/1o8x3zw/board_wants_an_ai_risk_assessment_but_traditional/,['security'],medium,current
+cloudcomputing,What we can learn from the AWS North Virginia Outage,"From time to time global services cease to work from a incidence in AWS's North Virginia region. This just happened today 20th October , it has become a cyclical event that happens at least once a year.
+
+North Virginia (or us-east-1 in AWS terms) is know to be the first region of Amazon's cloud provider. Not only is the oldest one, it is the first one to receive updates, making it the Guinea Pigs of the features released on this Cloud. Many companies still use it as their primary region for this",24,9,https://reddit.com/r/cloudcomputing/comments/1obh9gy/what_we_can_learn_from_the_aws_north_virginia/,[],medium,current
+cloudcomputing,Failed AWS SAA-C03? Shifts that made me prep and pass with Confidence,"I failed my first attempt in **AWS Solutions Architect – Associate (SAA-C03),** and honestly, it hit hard. 
+
+I’d been studying for weeks and thought I had it figured out, but I didn't, yet that failure turned out to be the best teacher.
+
+**What I Did in My First Attempt**
+
+I mostly spent time reading whitepapers, watching videos, and summarising notes.  
+Ik I was good with the theory, VPCs, EC2, S3, Route 53 and was confident. 
+
+But **scenario-based questions** were, I tremble, I couldn’t connec",4,0,https://reddit.com/r/cloudcomputing/comments/1o7z3qq/failed_aws_saac03_shifts_that_made_me_prep_and/,"['agent_environment', 'security']",medium,current
+cloudcomputing,Are we due for a new model of resilient SaaS architecture?”,"After the recent **AWS US-East-1 outage**, a lot of apps and services went down — a reminder of how much of the internet still hinges on a few centralized points of failure.
+
+Most of today’s SaaS and AI systems still live on top of these “centralized distributed” architectures. It works — until something breaks.
+
+AI has already shown how fast new tech can evolve when it finds the right home. It started as research, but SaaS and cloud made it accessible, scalable, and everywhere.
+
+So I’ve been wo",2,5,https://reddit.com/r/cloudcomputing/comments/1odshnh/are_we_due_for_a_new_model_of_resilient_saas/,[],medium,current
+cloudcomputing,What's your multi cloud strategy?,"After AWS's fiasco, I seriously considering building on GCP. For AI projects, it does makes sense too. Additionally,  my developers kind of like it better.
+
+For those who have done this, how do you manage multi cloud environments?",1,8,https://reddit.com/r/cloudcomputing/comments/1ocfqtb/whats_your_multi_cloud_strategy/,[],medium,current
+cloudcomputing,Mastering Authentication Contexts Part 2 is now live – going from theory to practice🚀,"Building upon the foundation from part 1, in **“Mastering Microsoft Entra Authentication Contexts – Part 2: Real‑World Access & Action Controls”**, I walk through how to *actually* use contexts in production environments.
+
+Here’s a glimpse:
+
+* Enforcing step‑up authentication for PIM roles (Global Admin, Global Reader, etc.)
+* Locking down breakglass accounts and RMAU administration
+* Securing “Protected Actions” (so dangerous admin changes require extra checks)
+* Grouping contexts vs keeping th",2,0,https://reddit.com/r/cloudcomputing/comments/1obirwm/mastering_authentication_contexts_part_2_is_now/,['security'],medium,current

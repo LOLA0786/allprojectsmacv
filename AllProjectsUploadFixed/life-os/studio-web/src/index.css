@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Inter, ui-sans-serif;
+  background: #0b1220;
+  color: white;
+}
+
+/* Premium theme visual tweaks when data-theme="premium" */
+:root[data-theme="premium"] body {
+  background: linear-gradient(180deg, #030417 0%, #071029 100%);
+  color: #e6f7ff;
+}
+
+:root[data-theme="premium"] .panel {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: 0 10px 40px rgba(2,6,23,0.6);
+}

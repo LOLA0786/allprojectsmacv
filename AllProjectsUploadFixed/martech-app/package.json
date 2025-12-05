@@ -1,0 +1,42 @@
+{
+  "name": "martechos-pro-unbeatable",
+  "version": "4.0.0",
+  "description": "World's Most Advanced AI Marketing Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "npm install",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^7.1.5",
+    "multer": "^1.4.5-lts.1",
+    "axios": "^1.6.0",
+    "sharp": "^0.32.6",
+    "qrcode": "^1.5.3",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "ai",
+    "marketing",
+    "blockchain",
+    "ar",
+    "predictive-analytics",
+    "martech"
+  ],
+  "author": "Pentaprime Solution LLP",
+  "license": "MIT"
+}

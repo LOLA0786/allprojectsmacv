@@ -1,0 +1,4 @@
+packages:
+  - 'core'
+  - 'cloud-cost-optimizer'
+  - 'tech-debt-scanner'

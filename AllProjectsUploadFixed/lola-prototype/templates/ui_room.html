@@ -1,0 +1,65 @@
+<!doctype html><html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ room.title }}</title>
+<link rel="stylesheet" href="/static/ui.css">
+<script src="https://cdn.socket.io/4.7.1/socket.io.min.js"></script>
+</head><body>
+<div class="app two-col">
+  <aside class="sidebar small">
+    <div class="brand">LOLA</div>
+  </aside>
+
+  <main class="main room-main">
+    <header><a href="/">← Home</a> <h2>{{ room.title }}</h2> <small>{{ room.category }}</small></header>
+    {% if summary %}<section class="summary"><strong>Summary:</strong><div>{{ summary }}</div></section>{% endif %}
+    <div id="messages" class="messages"></div>
+
+    <form id="composer" onsubmit="sendMsg(event)">
+      <input id="anon" placeholder="your anon name (optional)"/>
+      <select id="type"><option value="text">Text</option><option value="code">Code</option><option value="thought">Thought</option></select>
+      <input id="text" placeholder="Write something..." autocomplete="off"/>
+      <button>Send</button>
+    </form>
+  </main>
+
+  <aside class="right">
+    <h4>Participants</h4>
+    <div id="participants"></div>
+    <h4>Actions</h4>
+    <button onclick="openUpload()">Upload Course</button>
+  </aside>
+</div>
+
+<script>
+const ROOM = "{{ room.id }}";
+const socket = io();
+let user='u'+Math.random().toString(36).slice(2,8);
+let anon='anon-'+Math.random().toString(36).slice(2,6);
+socket.emit('join',{room:ROOM,user:user,anon:anon});
+socket.on('joined_ack', d=>console.log("joined:",d));
+socket.on('new_message', d=>{ if(d.room!==ROOM) return; append(d.msg); });
+
+function append(m){
+  const el=document.createElement('div');
+  el.className='msg '+(m.type||'text');
+  if(m.type==='code'){
+    el.innerHTML='<div class="who">'+m.anon+'</div><pre class="code">'+escapeHtml(m.text)+'</pre>';
+  } else if(m.type==='thought'){
+    el.innerHTML='<div class="who">'+m.anon+'</div><div class="thought">'+escapeHtml(m.text)+'</div>';
+  } else {
+    el.innerHTML='<div class="who">'+m.anon+'</div><div class="txt">'+escapeHtml(m.text)+'</div>';
+  }
+  document.getElementById('messages').appendChild(el);
+}
+function escapeHtml(s){return s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');}
+async function sendMsg(e){
+  e.preventDefault();
+  const text=document.getElementById('text').value;
+  const type=document.getElementById('type').value;
+  const anonName=document.getElementById('anon').value||anon;
+  if(!text) return;
+  socket.emit('send',{room:ROOM,user:user,anon:anonName,text:text,type:type});
+  document.getElementById('text').value='';
+}
+</script>
+</body></html>

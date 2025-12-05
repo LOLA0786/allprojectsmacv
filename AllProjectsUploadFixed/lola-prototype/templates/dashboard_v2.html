@@ -1,0 +1,105 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard V2</title><link rel="stylesheet" href="/static/ui.css"></head><body>
+  <div class="app"><aside class="sidebar card"><a class="btn" href="/">Home</a></aside>
+    <main class="container">
+      <div class="card"><h2>Dashboard V2</h2><div id="momentum" class="dashboard-chart">Momentum (polls / charts)</div></div>
+      <div class="card"><h3>Recent Topics</h3><pre id="topics">Loading...</pre></div>
+    </main>
+    <aside class="sidebar card"></aside>
+  </div>
+
+  <script>
+    // Poll momentum endpoint
+    async function loadMomentum(){
+      try{
+        let r = await fetch('/api/dashboard/momentum');
+        let j = await r.json();
+        document.getElementById('momentum').innerText = j.labels.join(', ');
+      }catch(e){
+        document.getElementById('momentum').innerText = 'error';
+      }
+    }
+    loadMomentum();
+    setInterval(loadMomentum, 5000);
+  </script>
+</body></html>
+
+<script>
+/* SSE subscription to server events */
+const sse = new EventSource('/stream/subscribe');
+sse.onmessage = (e) => {
+  try {
+    const d = JSON.parse(e.data);
+    const el = document.getElementById('topics');
+    if(el){
+      el.innerText = JSON.stringify(d, null, 2) + "\\n\\n" + el.innerText;
+    }
+  } catch(err) {
+    console.log('sse err', err, e.data);
+  }
+};
+
+/* Trigger LLM streaming demo */
+async function runStreamDemo(){
+  // create UI area
+  let out = document.getElementById('topics');
+  if(!out) return;
+  out.innerText = "Starting streaming LLM demo...\\n";
+  const payload = { user: "demo-streamer", text: "Which laptop for machine learning?" };
+  const res = await fetch('/api/stream_intent_stream', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify(payload)
+  });
+  if(!res.ok){
+    out.innerText += "Streaming request failed: " + res.status;
+    return;
+  }
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let done=false;
+  while(!done){
+    const {value, done: d} = await reader.read();
+    done = d;
+    if(value){
+      const txt = decoder.decode(value);
+      // server sends SSE-style "data: {...}\n\n" blocks. We'll split them.
+      txt.split('\\n\\n').forEach(block => {
+        if(!block.trim()) return;
+        const lines = block.split('\\n').filter(Boolean);
+        lines.forEach(line => {
+          if(line.startsWith('data:')){
+            try{
+              const payload = JSON.parse(line.replace(/^data:\\s*/,''));
+              out.innerText += "[stream] " + JSON.stringify(payload) + "\\n";
+            }catch(e){
+              out.innerText += "[stream] " + line + "\\n";
+            }
+          }
+        });
+      });
+    }
+  }
+  out.innerText += "\\nStreaming finished.\\n";
+}
+
+/* Try embedding query demo */
+async function runEmbeddingDemo(){
+  const q = prompt("Enter a query to find similar products (e.g. 'laptop for ml')","laptop for ml");
+  if(!q) return;
+  const r = await fetch('/api/embeddings_query', {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({text:q, top_k:3})
+  });
+  const j = await r.json();
+  const el = document.getElementById('topics');
+  el.innerText = "Embedding results:\\n" + JSON.stringify(j, null, 2) + "\\n\\n" + el.innerText;
+}
+</script>
+
+<div style="padding:12px;">
+  <button onclick="runStreamDemo()" class="btn">Run LLM Streaming Demo</button>
+  <button onclick="fetch('/api/demo_simulate', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({topic:'macbook m2', n:4})}).then(r=>r.json()).then(j=>console.log(j))" class="btn">Simulate Auto-Room (4 users)</button>
+  <button onclick="runEmbeddingDemo()" class="btn">Run Embedding Query</button>
+</div>
+

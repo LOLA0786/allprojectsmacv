@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Marketplace</title><link rel="stylesheet" href="/static/ui.css"></head><body>
+<a href="/">← Home</a><h1>Marketplace</h1>
+<div class="market-grid">
+{% for p in products %}
+  <div class="card">
+    <h3>{{ p.title }}</h3>
+    <div>₹{{ p.price }}</div>
+    {% if p.file %}<div><a href="/uploads/{{ p.file }}">Download</a></div>{% endif %}
+    <div><a href="{{ p.affiliate or '#' }}" target="_blank">Buy</a></div>
+  </div>
+{% endfor %}
+</div>
+</body></html>

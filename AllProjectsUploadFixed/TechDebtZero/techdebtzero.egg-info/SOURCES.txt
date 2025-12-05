@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+techdebtzero/__init__.py
+techdebtzero/cli.py
+techdebtzero.egg-info/PKG-INFO
+techdebtzero.egg-info/SOURCES.txt
+techdebtzero.egg-info/dependency_links.txt
+techdebtzero.egg-info/entry_points.txt
+techdebtzero.egg-info/top_level.txt
+techdebtzero/metrics/__init__.py
+techdebtzero/metrics/debt_score.py
+tests/test_debt_score.py

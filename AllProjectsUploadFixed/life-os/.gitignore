@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+timeline.db
+.chromadb/
+.DS_Store
+npm-debug.log
+yarn-error.log
+.expo/
+android/
+ios/

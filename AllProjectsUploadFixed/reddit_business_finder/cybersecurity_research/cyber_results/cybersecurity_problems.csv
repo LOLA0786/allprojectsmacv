@@ -1,0 +1,192 @@
+subreddit,title,content,upvotes,comments,url,created_utc,problem_type,severity
+cybersecurity,Dataset of 81k Cisco exploit attempts from past 7 days,"I run a large-ish fleet of Cisco honeypots and have been receiving a constant stream of exploits from 241 individual IPs, trying to either bruteforce the honeypot or applying CVE-2022-20759 (see the [Orange CERT advisory](https://github.com/orangecertcc/security-research/security/advisories/GHSA-gq8",160,7,https://reddit.com/r/cybersecurity/comments/1oilo7w/dataset_of_81k_cisco_exploit_attempts_from_past_7/,1761686028.0,vulnerabilities,medium
+cybersecurity,Hack-a-Day: Making A VM Look Like Real Hardware To Malware,,22,1,https://reddit.com/r/cybersecurity/comments/1oihjd5/hackaday_making_a_vm_look_like_real_hardware_to/,1761676583.0,malware,medium
+cybersecurity,What Cybersecurity steps should someone take while traveling to China to ensure that Privacy is protected?,I am scheduled to travke to China for a business trip.I was told to use burner phones but shall I take my own phone as well. The recommendations from my organization doesn't not feel sufficient. Any experienced individuals who can help who have been in similar situations?,99,116,https://reddit.com/r/cybersecurity/comments/1oi2voe/what_cybersecurity_steps_should_someone_take/,1761635788.0,privacy,medium
+cybersecurity,"Arch Linux AUR Hit by Another DDoS Attack, Port 22 Access Disrupted",,80,8,https://reddit.com/r/cybersecurity/comments/1oi317u/arch_linux_aur_hit_by_another_ddos_attack_port_22/,1761636446.0,general,medium
+cybersecurity,Google probes active exploitation of key windows service CVE.,,1,1,https://reddit.com/r/cybersecurity/comments/1oije35/google_probes_active_exploitation_of_key_windows/,1761680841.0,vulnerabilities,medium
+cybersecurity,How would a new founder know which security and privacy compliance is needed?,,0,3,https://reddit.com/r/cybersecurity/comments/1ois144/how_would_a_new_founder_know_which_security_and/,1761702224.0,privacy,medium
+cybersecurity,Compromised Domain Checker,"I've built a malicious domain/URL checker at [https://cybaa.io/tools/maliciousdomaincheck](https://cybaa.io/tools/maliciousdomaincheck) It checks the major recursive DNS providers that block security threats, Google Web Risk and some other OSINT lists. I keep getting phishing emails and texts and so",5,0,https://reddit.com/r/cybersecurity/comments/1oicv3m/compromised_domain_checker/,1761666243.0,general,medium
+cybersecurity,PoC code drops for remotely exploitable BIND 9 DNS flaw (CVE-2025-40778),,2,0,https://reddit.com/r/cybersecurity/comments/1oif9qv/poc_code_drops_for_remotely_exploitable_bind_9/,1761671542.0,vulnerabilities,medium
+cybersecurity,I built a honeypot to capture attackers exploiting the new WSUS CVE-2025-59287,"I spent the weekend setting up a honeypot to see who’s poking at the new WSUS vulnerability (CVE-2025-59287). 
+
+The idea is simple: emulate a vulnerable WSUS endpoint, log any interaction, and see how fast it gets targeted once it’s live.
+
+Within a few hours, I started seeing connections, some clear",245,19,https://reddit.com/r/cybersecurity/comments/1ohekm8/i_built_a_honeypot_to_capture_attackers/,1761572114.0,vulnerabilities,medium
+cybersecurity,Sweden’s power grid operator confirms data breach claimed by ransomware gang,"TL;DR
+
+* **Svenska kraftnät**, Sweden’s national power grid operator, confirmed that it suffered a data breach.
+* The Everest ransomware group claimed responsibility, saying it stole around **280 GB of internal data** and threatened to leak it if demands weren’t met.
+* According to the company, the ",10,0,https://reddit.com/r/cybersecurity/comments/1oi2enk/swedens_power_grid_operator_confirms_data_breach/,1761633850.0,data_breach,medium
+privacy,"Considering how tech-illiterate the majority of people are, will basic privacy measures ever become even remotely mainstream?","I can't imagine trying to get my mom (mid-50s) to use uBlock Origin, much less leaving the Google ecosystem. She doesn't even understand how to use the Windows Settings app or even how to get to it, and refuses to learn how. 
+
+I offered a friend access to my Jellyfin server, and she got stuck on typ",15,9,https://reddit.com/r/privacy/comments/1oiub8i/considering_how_techilliterate_the_majority_of/,1761708930.0,privacy,critical
+privacy,MyShell’s privacy policy is vague and I am uneasy about what they do with my voice data,"I really like AI chat apps but I feel creeped out using MyShell now. The app lets you converse with voice and video agents and build AI companions. But I found this in their App Store listing: ""Data used to track you” and “Identifiers and user content may be linked to you.”  
+
+That means your voice ",2,1,https://reddit.com/r/privacy/comments/1oirklz/myshells_privacy_policy_is_vague_and_i_am_uneasy/,1761700950.0,privacy,medium
+privacy,Best Indoor Pet Camera brands that can't be hacked?,"I am moving to Portugal and plan to travel internationally often. I will be having a sitter come to check on my cats. While this sitter will be aware of my camera, she only does drop ins so I want to make sure my kitties are okay the rest of the time (and are eating properly).
+
+However, I am getting",0,7,https://reddit.com/r/privacy/comments/1oiooih/best_indoor_pet_camera_brands_that_cant_be_hacked/,1761693291.0,general,medium
+privacy,Books to understand privacy on a fundamental/ideological level,"I am looking for books to learn more about privacy with the specific purpose of understanding it on a societal and ideological level, why it matters, and what levers big corporations and governments use to strip people of their choices.
+
+Some of the ones I've read and enjoyed:
+
+\- The Age of Surveil",7,7,https://reddit.com/r/privacy/comments/1ohzsz7/books_to_understand_privacy_on_a/,1761624116.0,privacy,medium
+privacy,"Stop saying ""you can't wake people up."" Privacy is a collective responsibility.","There's a ""fatalism"" in this community. Whenever someone asks how to convince others to care about privacy the answer is almost always some variation of,
+
+* ""You can't.""
+* ""People just do not care enough.""
+* ""It's not worth the effort.""
+
+Excuse me, what?
+
+All of us here were convinced one way or ano",249,45,https://reddit.com/r/privacy/comments/1ogrzkk/stop_saying_you_cant_wake_people_up_privacy_is_a/,1761503214.0,privacy,medium
+privacy,Is there a privacy-focused alternative to Snapchat?,"I deleted all my Snapchat accounts a long time ago for privacy. There aren't many alternatives and those that are are not focused on privacy. I need one to take photos and put filters on, that protects the data and is reliable.",3,10,https://reddit.com/r/privacy/comments/1ohpot6/is_there_a_privacyfocused_alternative_to_snapchat/,1761597171.0,privacy,medium
+privacy,Google Workspace (Suite) privacy level?,"Hi, I've been using Google Workspace for my business email.
+
+I wanted to know about your experience with how secure and private it is. Is it the same as free Gmail?
+
+Or, with Workspace email, do they scan emails or sell information like they do with Gmail?
+
+Sorry if this is a repeated question, but ",7,6,https://reddit.com/r/privacy/comments/1oh289o/google_workspace_suite_privacy_level/,1761529727.0,privacy,medium
+privacy,"Can Email Aliasing Services Read Your Mail, or Otherwise Provide a Privacy Concern?","It's often recommended to use an Email Alias service to generate a email address for each website you sign up with in order to prevent correlation. The email alias service will then forward the email to your main email.
+
+However, can the email alias service read the emails? Are we trusting them to n",13,14,https://reddit.com/r/privacy/comments/1ogv9qk/can_email_aliasing_services_read_your_mail_or/,1761511044.0,privacy,medium
+privacy,How privacy is Ubuntu?,"Hey guys, I use Ubuntu on my privacy-focused laptop. But I hear some stuff about Ubuntu that says that Ubuntu is not really privacy-friendly and such. But how true is that? I read some posts in this subreddit about the same question, but most of them are more than 3 years old.",0,22,https://reddit.com/r/privacy/comments/1ohm7dk/how_privacy_is_ubuntu/,1761589342.0,privacy,medium
+privacy,Why people recommend Proton for privacy if it's a requirement to have a Gmail account to get the 1GB storage?,"So I just created a proton account and decided to try the free version to test it out. However, I received an email telling me that if I wanted the full 1GB, I had to ""set up auto-forwarding from Gmail"" within 15 days or I wouldn't get the 1GB. Why is a gmail account a requirement? I dont want Googl",75,132,https://reddit.com/r/privacy/comments/1ogdrsr/why_people_recommend_proton_for_privacy_if_its_a/,1761461106.0,privacy,medium
+netsec,How SOC Teams Operationalize Real-Time Defense Against Credential Replay Attacks,,21,4,https://reddit.com/r/netsec/comments/1oim8dn/how_soc_teams_operationalize_realtime_defense/,1761687359.0,general,medium
+netsec,"Attacker Target VSCode Extension Marketplace, IDE Plugins Face Higher Supply Chain Attack Risks",HelixGuard found a dozen malicious extensions in the VSCode marketplace targeting developers.,2,0,https://reddit.com/r/netsec/comments/1oiw00r/attacker_target_vscode_extension_marketplace_ide/,1761714538.0,general,medium
+netsec,Hacking India's largest automaker: Tata Motors,,3,0,https://reddit.com/r/netsec/comments/1oirrt5/hacking_indias_largest_automaker_tata_motors/,1761701507.0,general,medium
+netsec,Hack-cessibility: When DLL Hijacks Meet Windows Helpers,Some research surrounding a dll hijack for narrator.exe and ways to abuse it.,12,7,https://reddit.com/r/netsec/comments/1oibw4h/hackcessibility_when_dll_hijacks_meet_windows/,1761664037.0,general,medium
+netsec,Hacking the World Poker Tour: Inside ClubWPT Gold’s Back Office,,76,6,https://reddit.com/r/netsec/comments/1ogilto/hacking_the_world_poker_tour_inside_clubwpt_golds/,1761479216.0,general,medium
+netsec,Account takeover exploit write-up for Magento SessionReaper,,23,0,https://reddit.com/r/netsec/comments/1ofm6og/account_takeover_exploit_writeup_for_magento/,1761380301.0,vulnerabilities,medium
+netsec,"LockBit is attempting a comeback as a new ransomware variant ""ChuongDong"" targeting Windows, Linux, and ESXi",,32,1,https://reddit.com/r/netsec/comments/1oen6a3/lockbit_is_attempting_a_comeback_as_a_new/,1761275859.0,ransomware,medium
+netsec,TARMAGEDDON (CVE-2025-62518): RCE Vulnerability Highlights the challenges of open source abandonware,,7,1,https://reddit.com/r/netsec/comments/1oeqnec/tarmageddon_cve202562518_rce_vulnerability/,1761288055.0,vulnerabilities,medium
+netsec,Leveraging Machine Learning to Enhance Acoustic Eavesdropping Attacks (Blog Series),Check our our in progress blog series on reproducing the usage of MEMS devices to perform acoustic eavesdropping. ,2,0,https://reddit.com/r/netsec/comments/1oe3yv3/leveraging_machine_learning_to_enhance_acoustic/,1761227853.0,general,medium
+netsec,From Path Traversal to Supply Chain Compromise: Breaking MCP Server Hosting,,11,0,https://reddit.com/r/netsec/comments/1od926x/from_path_traversal_to_supply_chain_compromise/,1761141576.0,general,medium
+netsec,[Article] Kerberos Security: Attacks and Detection,This is research on detecting Kerberos attacks based on network traffic analysis and creating signatures for Suricata IDS.,8,0,https://reddit.com/r/netsec/comments/1oc7240/article_kerberos_security_attacks_and_detection/,1761033834.0,general,medium
+netsec,How a fake AI recruiter delivers five staged malware disguised as a dream job,"Sophisticated multi-stage malware campaign delivered through LinkedIn by fake recruiters, disguised as a coding interview round.
+
+Read the research about how it was reverse-engineered to uncovered their C2 infrastructure, the tactics they used, and all the related IOCs.",257,36,https://reddit.com/r/netsec/comments/1obgnxd/how_a_fake_ai_recruiter_delivers_five_staged/,1760960169.0,malware,medium
+netsec,Exploiting browser cache smuggling with COM Hijacking and steganography,,21,1,https://reddit.com/r/netsec/comments/1o8hugc/exploiting_browser_cache_smuggling_with_com/,1760647722.0,vulnerabilities,medium
+netsec,BombShell: UEFI shell vulnerabilities allow attackers to bypass Secure Boot on Framework Devices,,122,22,https://reddit.com/r/netsec/comments/1o6ney8/bombshell_uefi_shell_vulnerabilities_allow/,1760466143.0,general,medium
+netsec,Streamlining Vulnerability Research with the idalib Rust Bindings for IDA 9.2 - HN Security,,12,0,https://reddit.com/r/netsec/comments/1o69v5v/streamlining_vulnerability_research_with_the/,1760430437.0,vulnerabilities,medium
+netsec,"(DEF CON 33) How I hacked over 1,000 car dealerships across the US",,129,13,https://reddit.com/r/netsec/comments/1o5na8l/def_con_33_how_i_hacked_over_1000_car_dealerships/,1760370230.0,general,medium
+hacking,How to start hacking? The ultimate two path guide to information security.,"Before I begin - everything about this should be totally and completely ethical at it's core. I'm not saying this as any sort of legal coverage, or to not get somehow sued if any of you screw up, this is genuinely how it should be. The idea here is **information security.** I'll say it again. **info",13228,1287,https://reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/,1544107497.0,general,medium
+hacking,Making an all in one CLI hacking tool built on top of rust..,"I'm re-working the reporting format for Open directory right now, and will be adding more soon. got alot to work on and polish.
+
+my fellow pentesters told me using ascii banners looks to script kiddy...
+
+Does anyone have a suggestion for the banner?
+
+Edit:  
+thanks for the feedback.  
+Here's the rep",230,31,https://reddit.com/r/hacking/comments/1ohldsx/making_an_all_in_one_cli_hacking_tool_built_on/,1761587555.0,general,medium
+hacking,Not Just Spies and Saboteurs: Satellite Operators Say Cybercrime Is a Constant Threat,"Discussions about cyber threats against satellites and satellite operators tend to focus on threats from a nation state adversary designed to cut communications links and other space-based systems like GPS that the U.S. military—and the broader U.S. economy—rely upon.  
+But for cyber defenders in th",45,2,https://reddit.com/r/hacking/comments/1oh1vzr/not_just_spies_and_saboteurs_satellite_operators/,1761528739.0,general,medium
+hacking,​Is a zero-day exploit the only real remaining risk when using public Wi-Fi with fully patched devices and HTTPS?,"​I had a discussion about the risks of using public Wi-Fi. My point is that standard threats like basic Man-in-the-Middle (MITM) and sniffing unencrypted traffic are mostly neutralized by updated browsers, OS patches, and ubiquitous HTTPS usage.
+​My two main questions are:
+
+1)​If a user uses these s",206,87,https://reddit.com/r/hacking/comments/1oegd5a/is_a_zeroday_exploit_the_only_real_remaining_risk/,1761256418.0,vulnerabilities,medium
+hacking,It is possible to hack the password from this BIOS?,"Hi everybody. I have a laptop Acer Aspire E1-472 that I haven't used in the last 3 years becuase there is a password that lock the access to the BIOS, and I never remembered the password.
+
+There are some online tools to get passwords from BIOS like [https://bios-pw.org/](https://bios-pw.org/) and [h",32,38,https://reddit.com/r/hacking/comments/1oejbx4/it_is_possible_to_hack_the_password_from_this_bios/,1761264368.0,general,medium
+hacking,From Path Traversal to Supply Chain Compromise: Breaking MCP Server Hosting,,10,0,https://reddit.com/r/hacking/comments/1odxa2l/from_path_traversal_to_supply_chain_compromise/,1761205971.0,general,medium
+hacking,Hacking Formula 1: Accessing Max Verstappen's passport and PII through FIA bugs,,5,1,https://reddit.com/r/hacking/comments/1odwgju/hacking_formula_1_accessing_max_verstappens/,1761202738.0,general,medium
+hacking,Weak and Exposed: US Water Utilities a Chinese Hacker Target,"I wrote this follow up on the 60 Minutes interview with former NSA Director and Cyber Command Chief Gen Tim Haugh last week. 60 Minutes looked at chinese efforts to preposition hackers inside the systems of vital service providers like power and water utilities, so they could be sabotaged during or ",45,2,https://reddit.com/r/hacking/comments/1ocpzjp/weak_and_exposed_us_water_utilities_a_chinese/,1761082924.0,general,medium
+hacking,Semaev's Naive Index Calculus Attack on Elliptic Curves,Semaev's 2004 paper showed one can replace expensive elliptic curve addition with a summation polynomial and attack elliptic curves.,10,0,https://reddit.com/r/hacking/comments/1oc92z9/semaevs_naive_index_calculus_attack_on_elliptic/,1761041664.0,general,medium
+hacking,Hacking via CGNAT Wi-Fi,"Hello!
+
+I moderately understand technology, but I’m very curious and couldn’t help to question any types of vulnerabilities with having cellular based Wi-Fi (TMHI, VHI, etc.) Would it technically be considered more secure compared to, say, a standard ISP? 
+
+It’s not like the standard user could forw",13,10,https://reddit.com/r/hacking/comments/1oc47go/hacking_via_cgnat_wifi/,1761023171.0,general,medium
+hacking,‘I lost 25 pounds in 20 days’: what it’s like to be on the frontline of a global cyber-attack,,296,17,https://reddit.com/r/hacking/comments/1oaiff2/i_lost_25_pounds_in_20_days_what_its_like_to_be/,1760854952.0,general,medium
+hacking,F5 systems hacked- they had over a year in the systems,https://www.bloomberg.com/news/articles/2025-10-16/potentially-catastrophic-breach-of-cyber-firm-blamed-on-china?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc2MDYyMTE2MCwiZXhwIjoxNzYxMjI1OTYwLCJhcnRpY2xlSWQiOiJUNDc3QU1HT1QwSlcwMCIsImJjb2,475,56,https://reddit.com/r/hacking/comments/1o86423/f5_systems_hacked_they_had_over_a_year_in_the/,1760621184.0,general,medium
+hacking,"DEF CON 33 - Kill List: Hacking an Assassination Site on the Dark Web - Carl Miller, Chris Monteiro",,40,2,https://reddit.com/r/hacking/comments/1o8ka05/def_con_33_kill_list_hacking_an_assassination/,1760653639.0,general,medium
+hacking,"DEF CON 33 - Unmasking the Snitch Puck: IoT surveillance tech in the school bathroom - Reynaldo, nyx",,21,0,https://reddit.com/r/hacking/comments/1o7pf3k/def_con_33_unmasking_the_snitch_puck_iot/,1760567748.0,privacy,medium
+hacking,Hacking in America 2025,With the way the government can track anyone these days is it possible to really be anonymous? Hacktivism seems all but dead and outside of work or theft why do you hack? ,143,121,https://reddit.com/r/hacking/comments/1o6s8u1/hacking_in_america_2025/,1760476987.0,general,medium
+hacking,Hackrf or evilcrow v4 dongle,"Looking for a dongle for rf activities, I’m looking for people who have experience with these tools. Heads up I’ll be using on hackberry pi. Which one has more capabilities and which one is easier to use. ",4,8,https://reddit.com/r/hacking/comments/1o600z3/hackrf_or_evilcrow_v4_dongle/,1760398858.0,general,medium
+hacking,Hackers release Qantas customers' data on dark web,,50,2,https://reddit.com/r/hacking/comments/1o3uf45/hackers_release_qantas_customers_data_on_dark_web/,1760185839.0,general,medium
+hacking,Government hacked their own website,"Not sure the reasoning behind doing such a hack job on the government sites, but this just doesn’t cut it as a normal edit. Thinking the programmer had to do this against their own will and just threw it on there. So odd.",494,63,https://reddit.com/r/hacking/comments/1o1q5sz/government_hacked_their_own_website/,1759964601.0,general,medium
+hacking,Does anyone find it strange that Hacktivism seems to be almost nonexistent considering the current political climate?,"I do think it makes sense why financial motivation is the primary driving force behind a lot of today’s young hackers and I think the emergence of cryptocurrencies is the main reason.  But even so, I guess I still would expect there to be non-state groups out there hacking for political reasons , es",1461,188,https://reddit.com/r/hacking/comments/1o0vq9m/does_anyone_find_it_strange_that_hacktivism_seems/,1759882204.0,general,medium
+hacking,New Mic-E-Mouse Attack Shows Computer Mice Can Capture Conversations,,144,10,https://reddit.com/r/hacking/comments/1o16xpq/new_micemouse_attack_shows_computer_mice_can/,1759919943.0,general,medium
+hacking,soo my side project turned into its own malware dev language,"hey guys soo i wanted to share my progress, soo from the last post feedback, i have turn this project into its own language calling it casm (c assembly). There are now some change now the asm file that has mix of asm and c, directly turn into complete assembly no inline assembly in c, all the c code",332,7,https://reddit.com/r/hacking/comments/1o0pgps/soo_my_side_project_turned_into_its_own_malware/,1759867157.0,malware,medium
+hacking,Where to learn the fundamentals of computer network exploitation?,"Question in title. I’m not looking on how to be a master hacker or anything, but more so the fundamentals and how the process works.",21,17,https://reddit.com/r/hacking/comments/1nzhxev/where_to_learn_the_fundamentals_of_computer/,1759754407.0,vulnerabilities,medium
+malware,Please view before posting on /r/malware!,"This is a place for malware technical analysis and information. This is NOT a place for help with malware removal or various other end-user questions. Any posts related to this content will be removed without warning.
+
+Questions regarding reverse engineering of particular samples or indicators to as",157,55,https://reddit.com/r/Malware/comments/4ap1a7/please_view_before_posting_on_rmalware/,1458151782.0,malware,medium
+malware,CoPHish: New OAuth phishing technique abuses Microsoft Copilot Studio chatbots to create convincing credential theft campaigns,,7,2,https://reddit.com/r/Malware/comments/1ohy2bj/cophish_new_oauth_phishing_technique_abuses/,1761618760.0,phishing,medium
+malware,Caminho Malware: LSB Steganography Technique to Hide .NET Payloads in Images,"Brazilian malware loader active since March 2025 uses Least Significant Bit (LSB) steganography to extract concealed .NET assemblies from image files. The loader operates as a service model enabling multiple customers to deploy different malware families.
+
+**Technical Highlights:**
+
+- **Steganograph",5,5,https://reddit.com/r/Malware/comments/1ofoz9y/caminho_malware_lsb_steganography_technique_to/,1761390948.0,malware,medium
+malware,Questions malwares,"Two malware with the same detection name but on different PCs and files, do they behave differently or the same? Example: Two detections of Trojan:Win32/Wacatac.C!ml
+
+1) It remains latent in standby mode, awaiting commands.
+
+2) It modifies, deletes, or corrupts files.
+
+  
+**Can a malware like Trojan",0,4,https://reddit.com/r/Malware/comments/1ofz649/questions_malwares/,1761417637.0,malware,medium
+malware,"Trying to build an air-gapped Linux malware sandbox (CAPEv2, eBPF, etc.) — need advice on improving data capture","
+Hey folks,
+
+I’ve been working on setting up a malware analysis sandbox for Linux that runs fully air-gapped.
+
+So far I’ve managed to get CAPEv2 running and implemented some anti-VM techniques. I’ve also explored [eBPF tracing](https://github.com/aquasecurity/tracee), [Drakvuf](https://github.com/CE",5,6,https://reddit.com/r/Malware/comments/1ofitqt/trying_to_build_an_airgapped_linux_malware/,1761367740.0,malware,medium
+malware,Tykit Analysis: New Phishing Kit Stealing Hundreds of Microsoft Accounts in Finance,"Anyrun uncovered Tykit, a new phishing kit targeting hundreds of US & EU companies in finance, construction, and telecom.
+
+**Key Features:**
+
+* Mimics Microsoft 365 login pages to steal corporate credentials.
+* Hides code in SVGs and layers redirects to evade detection.
+* Uses multi-stage client-sid",8,0,https://reddit.com/r/Malware/comments/1oe438q/tykit_analysis_new_phishing_kit_stealing_hundreds/,1761228135.0,phishing,medium
+malware,Axios Abuse and Salty 2FA Kits Fuel Advanced Microsoft 365 Phishing Attacks,,3,1,https://reddit.com/r/Malware/comments/1oe5pxc/axios_abuse_and_salty_2fa_kits_fuel_advanced/,1761231909.0,phishing,medium
+malware,3 advanced security threats across three devices across one day from same website,,3,2,https://reddit.com/r/Malware/comments/1ob4bon/3_advanced_security_threats_across_three_devices/,1760916082.0,general,medium
+malware,Top FOUR Malwares in 2025: Full Analysis,"Just dropped, a practical breakdown of the top malware threats in 2025:  
+  
+Medusa, Phemedrone, Rhadamanthys, and RisePro , plus the exact one-liner commands attackers use (IEX, bcdedit, RegAsm, DllHost, schtasks). 
+
+I go over the top 4 malware samples in 2025 according to their spread, impact, dan",45,5,https://reddit.com/r/Malware/comments/1o787m9/top_four_malwares_in_2025_full_analysis/,1760527084.0,malware,medium
+malware,Go Malware meets IoT: DEF CON 33,,10,0,https://reddit.com/r/Malware/comments/1o7g4v7/go_malware_meets_iot_def_con_33/,1760546510.0,malware,medium
+malware,"Phishing, Cloud Abuse, and Evasion: Advanced OSINT Investigation",,0,0,https://reddit.com/r/Malware/comments/1o791i3/phishing_cloud_abuse_and_evasion_advanced_osint/,1760529672.0,phishing,medium
+malware,FunkLocker Analysis: AI-powered Ransomware from FunkSec APT,,4,0,https://reddit.com/r/Malware/comments/1nw3je7/funklocker_analysis_aipowered_ransomware_from/,1759411074.0,ransomware,medium
+malware,"Malwarebytes automates a payment without consent, knowledge or authorization.",,0,0,https://reddit.com/r/Malware/comments/1nvzi15/malwarebytes_automates_a_payment_without_consent/,1759398807.0,malware,medium
+malware,Running an IPA with Malware,"Hey y’all, I seemed to have stumbled into an ipa that seems to maybe have malware. Just wondering if there’s any way to run it in a controlled environment so that there’s no risk of getting infected. 
+
+The detections seems to originate from the file doge.dylib. Here is the virus total summary if any",8,1,https://reddit.com/r/Malware/comments/1nu8iks/running_an_ipa_with_malware/,1759224116.0,malware,medium
+malware,i keep getting hacked across multiple emails,"its pretty much what the title says. my accounts are getting hacked across multiple email addresses. ive gone ahead and changed their password + added 2FA, im more concerned on Where this might be coming from?
+
+  
+i ran bitdefender along with windows defender and nothing was detected i even manually",12,34,https://reddit.com/r/Malware/comments/1ntodcp/i_keep_getting_hacked_across_multiple_emails/,1759167094.0,general,medium
+malware,Deep dive in malware analysis,"
+Hey folks,
+
+I recently wrapped up the PMAT course from TCM Security and I'm looking to go deeper into malware analysis. Would you recommend taking a more advanced course from them (if one exists, drop it in the comments), or should I start diving into real malware samples from places like MalwareBa",7,3,https://reddit.com/r/Malware/comments/1nqwbqk/deep_dive_in_malware_analysis/,1758877040.0,malware,medium
+malware,Malware and computer viruses explained in 10 minutes,,0,1,https://reddit.com/r/Malware/comments/1nr414j/malware_and_computer_viruses_explained_in_10/,1758899734.0,malware,medium
+malware,STFD-686: The Malware That Took Down a Nation,,17,1,https://reddit.com/r/Malware/comments/1nqc5uh/stfd686_the_malware_that_took_down_a_nation/,1758819445.0,malware,medium
+malware,Figma Abuse Leads to Microsoft-Themed Phishing,"Attackers are exploiting trusted platforms to bypass defenses. Among all phishing threats we tracked last month, phishkits abusing Figma made up a significant share: Storm1747 (49%), Mamba (25%), Gabagool (2%), and Other (24%).
+
+This trend underscores the need to monitor abuse of trusted platforms t",9,2,https://reddit.com/r/Malware/comments/1nqc8ib/figma_abuse_leads_to_microsoftthemed_phishing/,1758819618.0,phishing,medium
+malware,Ongoing Malware Campaign Targeting Linux Clusters,,1,0,https://reddit.com/r/Malware/comments/1nqcpx6/ongoing_malware_campaign_targeting_linux_clusters/,1758820708.0,malware,medium
+malware,BlackLock Ransomware: From Meteoric Rise to Sudden Disruption,,6,0,https://reddit.com/r/Malware/comments/1nob3y3/blacklock_ransomware_from_meteoric_rise_to_sudden/,1758612977.0,ransomware,medium
+malware,Compromised email,"Hello, can any expert computer people help me please!
+i clicked on this telegram link, which is apparently monkrus's channel..
+in attempt to get after effects for free lol.. i thought it'd be fine since lots of ppl said monkrys is safe. But after that- i gave up. I couldnt get into monkrus's website",0,1,https://reddit.com/r/Malware/comments/1no894u/compromised_email/,1758602432.0,general,medium
+malware,Pre requisite of Malware dévelopement,,4,4,https://reddit.com/r/Malware/comments/1nmi00y/pre_requisite_of_malware_dévelopement/,1758426796.0,malware,medium
+malware,How to make educational malware show up under a different processor name in task manager to its file name,I recently made a discord controlled python rat and compiled it to exe but my issue is the persistence and volatile instances of it are all under the name of the exe ?,0,3,https://reddit.com/r/Malware/comments/1nkyzla/how_to_make_educational_malware_show_up_under_a/,1758274392.0,malware,medium
+malware,🚨Top 10 Malware Families Last Week🚨,"Most observed malware families from Sep 8–15, 2025, **based on YARA - CW38:**
+
+XMRig tops the chart again, with DCRat and Rhadamanthys close behind. Familiar names like Mirai, FormBook, and AgentTesla continue to persist in the threat landscape.
+
+Stay ahead of evolving threats — **visibility is key*",21,3,https://reddit.com/r/Malware/comments/1nhw9p2/top_10_malware_families_last_week/,1757966126.0,malware,medium
+malware,Yurei the New Ransomware Group on the Scene - Check Point Research,,6,1,https://reddit.com/r/Malware/comments/1ngvxa2/yurei_the_new_ransomware_group_on_the_scene_check/,1757867720.0,ransomware,medium
+malware,Mosyle uncovers new cross-platform malware undetected by antivirus tools,,10,1,https://reddit.com/r/Malware/comments/1nf8z37/mosyle_uncovers_new_crossplatform_malware/,1757697219.0,malware,medium
+malware,Lazarus Group Attacks in 2025: What You Need to Know,,9,1,https://reddit.com/r/Malware/comments/1ndd4yd/lazarus_group_attacks_in_2025_what_you_need_to/,1757508142.0,general,medium
+malware,Abusing Google Ads and GitHub to deliver advanced malware,"A sophisticated Russian linked malware operation is exploiting Google Ads and GitHub to deliver advanced malware with a novel GPU-based evasion technique.
+
+**How the Attack Works:**
+
+* Malicious Google Ads appear at top of searches for ""GitHub Desktop""
+* Fake ads redirect to manipulated GitHub repos",42,6,https://reddit.com/r/Malware/comments/1ncf03v/abusing_google_ads_and_github_to_deliver_advanced/,1757412945.0,malware,medium
+malware,2.6B weekly-download npm packages hacked via phishing – crypto malware hidden inside. Check your deps NOW,,4,2,https://reddit.com/r/Malware/comments/1nc7b57/26b_weeklydownload_npm_packages_hacked_via/,1757385163.0,phishing,medium

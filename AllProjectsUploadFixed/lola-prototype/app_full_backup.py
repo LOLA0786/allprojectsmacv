@@ -1,0 +1,150 @@
+from gevent import monkey
+monkey.patch_all()
+import gevent
+
+()
+
+import os, time, threading, random
+from flask import Flask, request, jsonify, render_template
+from flask_socketio import SocketIO
+from collections import defaultdict, deque
+
+# ==========================================================
+# BASIC LOLA SERVER — CLEAN, STABLE, NO ERRORS
+# INCLUDING TOPIC MATCHER + API + SOCKET.IO
+# ==========================================================
+
+app = Flask(__name__, template_folder="templates", static_folder="static")
+PORT = int(os.environ.get("PORT", 7860))
+socketio = SocketIO(app, cors_allowed_origins="*")
+
+# ----------------------------------------------------------
+# GLOBAL STATE — CLEAN
+# ----------------------------------------------------------
+USERS = {}
+ROOMS = {}              # room_id → {topic, members}
+TOPIC_BUCKETS = defaultdict(list)
+RECENT = deque(maxlen=500)
+MIN_GROUP_USERS = 3
+
+# For future LLM/embedding logic
+EMBED_STORE = []
+
+
+# ----------------------------------------------------------
+# HELPERS
+# ----------------------------------------------------------
+def now():
+    return int(time.time())
+
+
+def ensure_user(uid):
+    if uid not in USERS:
+        USERS[uid] = {"id": uid}
+    return uid
+
+
+def bucket_topic(uid, text):
+    topic = text.lower().strip()
+    TOPIC_BUCKETS[topic].append((uid, now()))
+    RECENT.append({"user": uid, "text": text})
+    return topic
+
+
+def create_auto_room(topic, users):
+    rid = f"room_{topic}_{now()}"
+    ROOMS[rid] = {
+        "id": rid,
+        "topic": topic,
+        "members": [u for u,_ in users]
+    }
+    return rid
+
+
+def notify_users(users, room_id):
+    for u,_ in users:
+        socketio.emit("topic_room_invite", {"room": room_id, "topic": ROOMS[room_id]["topic"]}, to=u)
+
+
+# ----------------------------------------------------------
+# TOPIC MATCHER WORKER — CLEAN VERSION
+# ----------------------------------------------------------
+def topic_matcher_worker():
+    while True:
+        now_t = now()
+
+        for topic, items in list(TOPIC_BUCKETS.items()):
+            active = [(u,t) for u,t in items if now_t - t < 10]
+
+            if len(active) >= MIN_GROUP_USERS:
+                rid = create_auto_room(topic, active)
+                notify_users(active, rid)
+                TOPIC_BUCKETS[topic] = []
+
+        time.sleep(3)
+
+gevent.spawn(topic_matcher_worker)
+
+
+# ----------------------------------------------------------
+# ROUTES
+# ----------------------------------------------------------
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/room/<rid>")
+def room_view(rid):
+    return render_template("room.html", room_id=rid)
+
+@app.route("/api/stream_intent", methods=["POST"])
+def api_stream_intent():
+    data = request.json or {}
+    user = ensure_user(data.get("user", "anon"))
+    text = data.get("text", "")
+    topic = bucket_topic(user, text)
+    return jsonify({"ok": True, "topic": topic})
+
+@app.route("/health")
+def health():
+    return "OK", 200
+
+
+# ----------------------------------------------------------
+# STARTUP
+# ----------------------------------------------------------
+
+# ==========================================================
+# CLEAN FINAL SERVER START (EVENTLET)
+# ==========================================================
+
+# ==========================================================
+# CLEAN FINAL SERVER START (GEVENT) — MACOS SAFE
+# ==========================================================
+
+
+# ==========================================================
+# CLEAN GEVENT SERVER START — NO EVENTLET, NO THREADING
+# ==========================================================
+
+    print("\n=== LOLA SERVER STARTED (GEVENT) ===\n")
+
+    from gevent.pywsgi import WSGIServer
+    from geventwebsocket.handler import WebSocketHandler
+
+    http_server = WSGIServer(("0.0.0.0", PORT), app, handler_class=WebSocketHandler)
+    print(f"Serving on http://0.0.0.0:{PORT}")
+    http_server.serve_forever()
+
+# ==========================================================
+# UI ROUTES — MARKETPLACE / PRODUCT / MENTORS / PREMIUM / DASHBOARD V2
+# ==========================================================
+
+    return render_template("dashboard_v2.html")
+
+# ==========================================================
+# UI ROUTES — Marketplace, Product, Mentors, Premium, Dashboard v2
+# ==========================================================
+
+@app.route("/marketplace")

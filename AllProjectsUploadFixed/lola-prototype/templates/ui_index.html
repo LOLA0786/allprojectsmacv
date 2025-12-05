@@ -1,0 +1,83 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LOLA — Home</title>
+<link rel="stylesheet" href="/static/ui.css">
+<script src="https://cdn.socket.io/4.7.1/socket.io.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head><body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">LOLA</div>
+
+    <div class="section"><h4>Rooms</h4>
+      {% for r in rooms %}
+        <a class="side-room" href="/room/{{ r.id }}">{{ r.title }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="section"><h4>Marketplace</h4>
+      <a href="/marketplace">Open</a>
+    </div>
+
+    <div class="section"><h4>Dashboard</h4>
+      <a href="/dashboard">Insights</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <div class="search"><input id="search" placeholder="Search topics or rooms..."></div>
+      <div><button onclick="createRoom()">+ Create</button> <button onclick="doSuperConnect()">🔥 SuperConnect</button></div>
+    </header>
+
+    <section class="momentum">
+      <h3>Momentum Wave</h3>
+      <canvas id="chart" width="800" height="120"></canvas>
+      <div class="tags">{% for t in trending %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+    </section>
+
+    <section class="feed">
+      <h3>Featured Products</h3>
+      <div class="cards">
+        {% for p in marketplace %}
+          <div class="card">
+            <h4>{{ p.title }}</h4>
+            <div>₹{{ p.price }}</div>
+            {% if p.file %}<div><a href="/uploads/{{ p.file }}">Download</a></div>{% endif %}
+            {% if p.affiliate %}<div><a href="{{ p.affiliate }}" target="_blank">Buy</a></div>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+async function createRoom(){
+  const t=prompt('Room title?');
+  if(!t) return;
+  const res=await fetch('/api/rooms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:t})});
+  const j=await res.json(); location.href='/room/'+j.room.id;
+}
+async function doSuperConnect(){
+  const intent=prompt('What are you thinking?');
+  if(!intent) return;
+  const user='u'+Math.random().toString(36).slice(2,8);
+  const r=await fetch('/api/superconnect',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({intent,user})});
+  const j=await r.json();
+  if(j.ok) location.href='/room/'+j.room; else alert('No match');
+}
+async function refreshChart(){
+  const r=await fetch('/api/dashboard/trends');
+  const j=await r.json();
+  const ctx=document.getElementById('chart').getContext('2d');
+  const labels=j.labels, values=j.values;
+  if(window.myChart) window.myChart.destroy();
+  window.myChart = new Chart(ctx, {type:'bar', data:{labels, datasets:[{label:'Momentum', data:values}] }});
+}
+refreshChart(); setInterval(refreshChart, 8000);
+</script>
+
+</body></html>

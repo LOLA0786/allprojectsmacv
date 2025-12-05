@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>LOLA — Momentum Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head><body>
+<h2>Momentum — top tokens</h2>
+<canvas id="mchart" width="800" height="300"></canvas>
+<script>
+async function load(){
+  const r = await fetch('/api/dashboard/momentum');
+  const j = await r.json();
+  const ctx = document.getElementById('mchart').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: { labels: j.labels, datasets: [{ label: 'count', data: j.values }] }
+  });
+}
+load();
+</script>
+</body></html>

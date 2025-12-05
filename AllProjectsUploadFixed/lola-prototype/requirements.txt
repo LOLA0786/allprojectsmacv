@@ -1,0 +1,8 @@
+Flask==2.3.3
+Flask-SocketIO==6.4.0
+eventlet==0.33.3
+requests==2.31.0
+python-dotenv==1.0.0
+langdetect==1.0.9
+openai==1.1.0
+itsdangerous==2.2.0

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AuditPilot UI Custom */
+body {
+  font-family: ui-sans-serif, system-ui;
+}

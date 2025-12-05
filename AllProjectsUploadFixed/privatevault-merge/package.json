@@ -1,0 +1,20 @@
+{
+  "name": "privatevault-ai-ultimate",
+  "private": true,
+  "workspaces": [
+    "core",
+    "cloud-cost-optimizer",
+    "tech-debt-scanner",
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm dev:core\" \"pnpm dev:cloud\" \"pnpm dev:debt\"",
+    "dev:core": "pnpm --filter core dev",
+    "dev:cloud": "pnpm --filter cloud-cost-optimizer dev",
+    "dev:debt": "python tech-debt-scanner/tools/tech_debt_analyzer.py core/src"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

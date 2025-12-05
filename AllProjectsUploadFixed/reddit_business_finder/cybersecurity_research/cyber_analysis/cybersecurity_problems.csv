@@ -1,0 +1,1431 @@
+subreddit,title,content,upvotes,comments,url,problem_categories,industries_mentioned,severity_level
+cybersecurity,Trump Administration Cuts Cyberdefense Even as Threats Grow,,883,70,https://reddit.com/r/cybersecurity/comments/1oe70qm/trump_administration_cuts_cyberdefense_even_as/,[],['government'],medium
+cybersecurity,1.3 GPA to 6 Figures in Cyber (2023 - 2025),"Hi r/cybersecurity 
+
+Back in 2023 I dropped out after 2 semesters of attempting to study computer science at a community college, as the title suggests I did horribly due to mental health caused by childhood trauma that later led into additions. Most of my high school and early college was spent working retail/Labor (McDonalds, Panera, Amazon Warehouse), the most technical knowledge I ever received was writing Hello World in Python. I did not attempt to learn at all. 
+
+Eventually, I realized col",768,135,https://reddit.com/r/cybersecurity/comments/1nzcsoq/13_gpa_to_6_figures_in_cyber_2023_2025/,[],"['finance', 'education', 'retail', 'manufacturing']",high
+cybersecurity,Hackers exploit 34 zero-days on first day of Pwn2Own Ireland,,766,10,https://reddit.com/r/cybersecurity/comments/1ocjp8n/hackers_exploit_34_zerodays_on_first_day_of/,['vulnerabilities'],[],medium
+cybersecurity,Discord breach appears to be worse than the company initially claimed,,712,60,https://reddit.com/r/cybersecurity/comments/1o1x4uy/discord_breach_appears_to_be_worse_than_the/,[],[],medium
+cybersecurity,Salesforce says it won’t pay extortion demand in 1 billion records breach,,682,56,https://reddit.com/r/cybersecurity/comments/1o22g8v/salesforce_says_it_wont_pay_extortion_demand_in_1/,[],[],medium
+cybersecurity,"China hacking America’s critical infrastructure, retired four-star general warns | 60 Minutes",,675,64,https://reddit.com/r/cybersecurity/comments/1og5uyc/china_hacking_americas_critical_infrastructure/,[],[],critical
+cybersecurity,Red Hat confirms security incident after hackers claim GitHub breach,,629,45,https://reddit.com/r/cybersecurity/comments/1nw3b51/red_hat_confirms_security_incident_after_hackers/,[],[],medium
+cybersecurity,"Oh no, what a brilliant idea!! Age verification with ID uploads what could possibly go wrong?","Discord has admitted that a subset of users had their government ID images, such as passports and driver's licences accessed by hackers.
+
+Discord, the popular video game chat and community platform, confirmed that a data breach involving one of its third-party customer service providers exposed sensitive user information, including government",484,55,https://reddit.com/r/cybersecurity/comments/1o17rhm/oh_no_what_a_brilliant_idea_age_verification_with/,['data_breaches'],"['government', 'retail']",medium
+cybersecurity,Foreign hackers breached a US nuclear weapons plant via SharePoint flaws,"TL;DR
+
+Foreign hackers exploited unpatched Microsoft SharePoint vulnerabilities to breach the Kansas City National Security Campus (KCNSC), a key facility under the U.S. National Nuclear Security Administration (NNSA) that manufactures components for nuclear weapons.
+
+The attackers leveraged CVE-2025-53770 (spoofing) and CVE-2025-49704 (remote code execution), which Microsoft patched on July 19, 2025.
+
+While Bloomberg’s July 23, 2025 article reported the same breach from a higher, agency-level p",483,40,https://reddit.com/r/cybersecurity/comments/1odr1q0/foreign_hackers_breached_a_us_nuclear_weapons/,"['vulnerabilities', 'supply_chain']",['retail'],high
+cybersecurity,CISA warns of critical Linux Sudo flaw exploited in attacks,,453,18,https://reddit.com/r/cybersecurity/comments/1nveq29/cisa_warns_of_critical_linux_sudo_flaw_exploited/,['vulnerabilities'],[],critical
+cybersecurity,Yesterday I was using AI to persuade another AI to reveal secret API keys it shouldn't share. It worked really well. Today I learned why it was working thanks to a research paper from Wharton.,"For the curious, the research paper is here:  
+[https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=5357179](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5357179)  
+  
+Wharton's team—Lennart Meincke, Dan Shapiro, Angela Duckworth, Ethan Mollick, Lilach Mollick, and Robert Cialdini—asked a simple question: If you persuade an AI the way you persuade a human, does it work? Often, yes.
+
+I had this as a theory only, but none of the AI providers were allowing me to test them on scale, not only",390,19,https://reddit.com/r/cybersecurity/comments/1nukeiw/yesterday_i_was_using_ai_to_persuade_another_ai/,['vulnerabilities'],"['finance', 'retail', 'manufacturing']",medium
+cybersecurity,"F5 has issued a statement reporting a compromise of its systems, and data exfiltration",,380,31,https://reddit.com/r/cybersecurity/comments/1o7bp7o/f5_has_issued_a_statement_reporting_a_compromise/,[],['government'],medium
+cybersecurity,Anyone else seeing a large influx in attacks?,"Large enterprise, 20,000 employees in various job categories (office, field, remote) we have seen very sophisticated and targeted attacks increase 40% mostly phishing emails but also people receiving phone calls where the person is claiming to be service desk. 
+
+In a typical week we may have one or two incidents being handled by our CIRT and it’s increasing to two per day.   
+
+Looking to see if others are seeing this or if we are simply being targeted. ",351,112,https://reddit.com/r/cybersecurity/comments/1o8sk4q/anyone_else_seeing_a_large_influx_in_attacks/,['phishing'],[],medium
+cybersecurity,Signal adds new cryptographic defense against quantum attacks,,352,21,https://reddit.com/r/cybersecurity/comments/1nxqpeo/signal_adds_new_cryptographic_defense_against/,[],['government'],medium
+cybersecurity,HackerOne paid $81 million in bug bounties over the past year,Bug bounty platform HackerOne has paid $81 million in rewards to white-hat hackers worldwide over the past 12 months.,316,17,https://reddit.com/r/cybersecurity/comments/1nw9xyu/hackerone_paid_81_million_in_bug_bounties_over/,[],[],medium
+cybersecurity,82% of breaches start as an email...,"Iv'e read this statistic quoted in alot of linkedin, salespitches etc. But can't fond a source.
+
+But that ""quote"" is just to draw you into the post.
+
+How vulnerable am my company to phishing if...
+
+1. We have MFA on everything so credential harvesting is pointless.
+
+2. We have a very limited amount of local admins and deny any unknown installations.
+
+3. Train our employees in ceo fraud etc.
+
+So how do they get us ? ",293,106,https://reddit.com/r/cybersecurity/comments/1o2e8ht/82_of_breaches_start_as_an_email/,['phishing'],['retail'],medium
+cybersecurity,Oracle and Google warn of large-scale extortion emails hitting enterprise clients,Hackers linked to the Cl0p ransomware group claim responsibility for the campaign.,264,6,https://reddit.com/r/cybersecurity/comments/1nysb9t/oracle_and_google_warn_of_largescale_extortion/,['ransomware'],[],medium
+cybersecurity,Is a cyber attack responsible for the large scale outages due to AWS?,"A large chunk of the internet is down right now, Snapchat, Amazon, all supercell games, Fortnite, canvas. Is it genuinely an accident/server hosting issue, or are there massive cyber attacks happening right now? Can’t find any info on it.",261,165,https://reddit.com/r/cybersecurity/comments/1oberut/is_a_cyber_attack_responsible_for_the_large_scale/,[],[],medium
+cybersecurity,I built a honeypot to capture attackers exploiting the new WSUS CVE-2025-59287,"I spent the weekend setting up a honeypot to see who’s poking at the new WSUS vulnerability (CVE-2025-59287). 
+
+The idea is simple: emulate a vulnerable WSUS endpoint, log any interaction, and see how fast it gets targeted once it’s live.
+
+Within a few hours, I started seeing connections, some clearly automated scanners, others trying to deliver payloads through the reported exploit path. What’s interesting is how quickly the activity ramped up right after the CVE was published, even though no p",245,19,https://reddit.com/r/cybersecurity/comments/1ohekm8/i_built_a_honeypot_to_capture_attackers/,['vulnerabilities'],[],medium
+cybersecurity,Arctic Wolf Global Outage,"Anyone have any info? They're not saying anything publicly, which is disappointing.
+
+  
+UPDATE from AW finally, full 24 hrs later after business hours:
+
+**Executive Summary**
+
+After further investigation, we are providing details regarding the network sensors and scanners connectivity event that occurred on October 2, 2025. At 22:08 UTC, Arctic Wolf performed validation of a new server to improve the provisioning and security of new and existing sensors.
+
+This validation replaced a critical cert",245,145,https://reddit.com/r/cybersecurity/comments/1nwldxe/arctic_wolf_global_outage/,['vulnerabilities'],[],critical
+cybersecurity,CISO lowball,"Indeed just emailed me a notification of a major local university CISO position paying $161k. Look, I’m not going to look down my nose at anyone making >100k in today’s economy, but for a CISO? To be the person on the hook for any and every security threat, the fall guy for audits, civil, and maybe even criminal liability, and to be wholly responsible for the cybersecurity of an entire university? For $161k? I’d have to have 3 college-age kids and full tuition benefits for that to be enticing.",233,109,https://reddit.com/r/cybersecurity/comments/1od9rdg/ciso_lowball/,['compliance'],"['education', 'retail']",medium
+cybersecurity,Japan's largest brewer suspends operations due to cyberattack,,219,34,https://reddit.com/r/cybersecurity/comments/1nub4w6/japans_largest_brewer_suspends_operations_due_to/,[],[],medium
+cybersecurity,What do you see as the biggest cyber threat right now?,"The threat landscape never stands still. AI phishing, ransomware and supply-chain attacks are everywhere. It’s getting harder to tell which one deserves the most attention right now.  
+What do you think is the biggest cyber threat at the moment?",211,220,https://reddit.com/r/cybersecurity/comments/1odjmkj/what_do_you_see_as_the_biggest_cyber_threat_right/,"['ransomware', 'phishing']",[],medium
+cybersecurity,NIST and not forcing password expiration - are you following this guideline?,"What are thoughts on NIST password recommendations to no longer expire password (only if compromised or forgotten).  I used to expire passwords every 90 days on windows on prem domain controller + AD Sync to O365, then changed to 1 year.   The whole passwd mgt of on prem users, hybrid users, remote users, windows and apple users makes it very challenging.  Curious if users are going with NOT expiring passwords on a schedule.   I should mention that the company I'm at isn't financial, government,",205,188,https://reddit.com/r/cybersecurity/comments/1of61jg/nist_and_not_forcing_password_expiration_are_you/,['data_breaches'],"['finance', 'government']",medium
+cybersecurity,"Cybersecurity order warns of ""imminent risk"" to federal agencies following possible breach",,203,45,https://reddit.com/r/cybersecurity/comments/1o7vb29/cybersecurity_order_warns_of_imminent_risk_to/,[],"['government', 'retail']",medium
+cybersecurity,Burned Out Before Even Starting in Cybersecurity 😖,"Hi everyone,
+
+I’m 24 and from London, UK and I’ve been thinking about this for a while. I wanted to share my experience and see if anyone else relates.
+
+I graduated university in 2022 with a BSc in Cyber security and was super excited to start my career. I dived into labs, projects and even completed the SOC Level 1 pathway on TryHackMe, earning the certificate in December 2024. But before I even got a job in cyber, I completely burned out. There’s just *so much* to learn, and somewhere during 2",194,101,https://reddit.com/r/cybersecurity/comments/1o5lhu7/burned_out_before_even_starting_in_cybersecurity/,[],['education'],medium
+cybersecurity,The F5 breach by a nation-state TA resulted in the theft of BIG-IP source code and information about undisclosed vulnerabilities,,194,18,https://reddit.com/r/cybersecurity/comments/1o93h20/the_f5_breach_by_a_nationstate_ta_resulted_in_the/,[],['government'],medium
+cybersecurity,Recruiter sent me a “tech task” repo for a Node.js role; code hits multiple crypto exchange APIs. Scam or am I paranoid?,"Hi, I'd like to ask for a professional opinion regarding the encountered situation.
+
+Yesterday an HR messaged me on Linkedin proposing a job position with a high range (8-11k Euro) in an unknown startup (she did not specify it). I decided to check this opportunity, but realized that it requires Node.js knowledge (I'm .NET focused). Still I sent her my CV because I'm always open to learn smth new. 
+
+Surprisingly to me, she answered that 'our tech stacks align well' and I am a 'good fit' for them,",188,38,https://reddit.com/r/cybersecurity/comments/1o19ye7/recruiter_sent_me_a_tech_task_repo_for_a_nodejs/,[],['retail'],medium
+cybersecurity,Nation-state hackers deliver malware from “bulletproof” blockchains,,187,9,https://reddit.com/r/cybersecurity/comments/1o9ps7g/nationstate_hackers_deliver_malware_from/,['malware'],['government'],medium
+cybersecurity,Is SSO not a good security practices?,"Friend of mine said that SSO (Single Sign-On) is actually convenient but it is also security risks. the reason is because if your master account is compromised then all the apps connected to SSO will be also compromised. the second reason is malware attack such as cookier stealer or session hijacking, since the SSO allow permanet cookie usage so the attacker might use this security risks to easily gain access to your account (google, facebook, microsoft, etc) without require password or 2FA acce",183,142,https://reddit.com/r/cybersecurity/comments/1oa6nqb/is_sso_not_a_good_security_practices/,"['data_breaches', 'malware']",[],medium
+cybersecurity,Unity has found a security vulnerability that has sat dormant for almost a decade: 'Take immediate action to protect your games & apps',"“It was given a high severity score by Unity and a CVSS score of 8.4”
+
+“If you would prefer not to rebuild projects, Unity has published a tool that patches applications on Android, Windows, and macOS. However, this tool does not work on builds with tamper-proofing or anti-cheat measures, and it doesn't work with Linux either.”
+
+Official disclosure: https://unity.com/security/sept-2025-01
+",174,5,https://reddit.com/r/cybersecurity/comments/1nwz42w/unity_has_found_a_security_vulnerability_that_has/,['vulnerabilities'],[],medium
+netsec,How a fake AI recruiter delivers five staged malware disguised as a dream job,"Sophisticated multi-stage malware campaign delivered through LinkedIn by fake recruiters, disguised as a coding interview round.
+
+Read the research about how it was reverse-engineered to uncovered their C2 infrastructure, the tactics they used, and all the related IOCs.",257,36,https://reddit.com/r/netsec/comments/1obgnxd/how_a_fake_ai_recruiter_delivers_five_staged/,['malware'],['manufacturing'],medium
+netsec,"Bash a newline: Exploiting SSH via ProxyCommand, again (CVE-2025-61984)",,163,7,https://reddit.com/r/netsec/comments/1o170wz/bash_a_newline_exploiting_ssh_via_proxycommand/,['vulnerabilities'],[],medium
+netsec,"(DEF CON 33) How I hacked over 1,000 car dealerships across the US",,126,13,https://reddit.com/r/netsec/comments/1o5na8l/def_con_33_how_i_hacked_over_1000_car_dealerships/,['data_breaches'],[],medium
+netsec,BombShell: UEFI shell vulnerabilities allow attackers to bypass Secure Boot on Framework Devices,,123,22,https://reddit.com/r/netsec/comments/1o6ney8/bombshell_uefi_shell_vulnerabilities_allow/,[],[],medium
+netsec,Hacking the World Poker Tour: Inside ClubWPT Gold’s Back Office,,78,6,https://reddit.com/r/netsec/comments/1ogilto/hacking_the_world_poker_tour_inside_clubwpt_golds/,[],[],medium
+netsec,Blind Enumeration of gRPC Services,"We were testing a black-box service for a client with an interesting software platform. They'd provided an SDK with minimal documentation—just enough to show basic usage, but none of the underlying service definitions. The SDK binary was obfuscated, and the gRPC endpoints it connected to had reflection disabled.
+
+After spending too much time piecing together service names from SDK string dumps and network traces, we built [grpc-scan](https://github.com/Adversis/grpc-scan) to automate what we wer",52,4,https://reddit.com/r/netsec/comments/1o4eyuc/blind_enumeration_of_grpc_services/,['vulnerabilities'],['retail'],medium
+netsec,"LockBit is attempting a comeback as a new ransomware variant ""ChuongDong"" targeting Windows, Linux, and ESXi",,32,1,https://reddit.com/r/netsec/comments/1oen6a3/lockbit_is_attempting_a_comeback_as_a_new/,['ransomware'],[],medium
+netsec,Exploiting CVE-2025-37947 (Linux kernel's ksmbd),,26,3,https://reddit.com/r/netsec/comments/1o1f7v2/exploiting_cve202537947_linux_kernels_ksmbd/,['vulnerabilities'],[],medium
+netsec,GlobalCVE — OpenSource Unified CVE Data from Around the World,"Hey folks 👋
+
+If you track vulnerabilities across multiple CVE databases, check out GlobalCVE. It aggregates CVE data from NVD, MITRE, CNNVD, JVN, CERT-FR, and more — all in one searchable feed.
+
+It’s open-source (GitHub), API-friendly, and built to reduce duplication and blind spots across fragmented CVE listings.
+
+Not flashy — just a practical tool for researchers, analysts, and anyone who wants a clearer view of global vulnerability data.",24,2,https://reddit.com/r/netsec/comments/1oh4d5w/globalcve_opensource_unified_cve_data_from_around/,['vulnerabilities'],[],medium
+netsec,From CPU Spikes to Defense,"We just published a [case study](https://www.varonis.com/blog/varonis-prevents-ransomware-disaster) about an Australian law firm that noticed two employees accessing a bunch of sensitive files. The behavior was flagged using UEBA, which triggered alerts based on deviations from normal access patterns. The firm dug in and found signs of lateral movement and privilege escalation attempts.
+
+They were able to lock things down before any encryption or data exfiltration happened. No payload, no breach",25,0,https://reddit.com/r/netsec/comments/1o27kui/from_cpu_spikes_to_defense/,['ransomware'],"['government', 'manufacturing']",medium
+netsec,Account takeover exploit write-up for Magento SessionReaper,,22,0,https://reddit.com/r/netsec/comments/1ofm6og/account_takeover_exploit_writeup_for_magento/,['vulnerabilities'],[],medium
+netsec,Stealth BGP Hijacks with uRPF Filtering,"uRPF prevents IP spoofing used in volumetric DDoS attacks. However, it seems uRPF is vulnerable to route hijacking on its own",23,0,https://reddit.com/r/netsec/comments/1ocasqs/stealth_bgp_hijacks_with_urpf_filtering/,[],[],medium
+netsec,Exploiting browser cache smuggling with COM Hijacking and steganography,,21,1,https://reddit.com/r/netsec/comments/1o8hugc/exploiting_browser_cache_smuggling_with_com/,['vulnerabilities'],[],medium
+netsec,Upcoming Technical Security Talks & Workshops at BsidesNoVA – Oct 10–11 (Arlington VA),"BsidesNoVA (Oct 10–11 at GMU Mason Square, Arlington VA) is a **community-run, volunteer-organized security conference**.  
+Sharing here because several of this year’s **talks and workshops are deeply technical** and may be of interest to practitioners and researchers in the DMV area:
+
+🔹 **Detection / Blue-Team / DFIR**
+
+* ATT&CK-driven detection engineering with **Sigma & KQL**
+* **Network-forensics in hybrid environments**
+* **Memory-forensics at scale** on Linux/macOS
+* **Threat-intel-driven ",21,3,https://reddit.com/r/netsec/comments/1nys51j/upcoming_technical_security_talks_workshops_at/,"['phishing', 'privacy']","['retail', 'manufacturing']",medium
+netsec,How SOC Teams Operationalize Real-Time Defense Against Credential Replay Attacks,,18,4,https://reddit.com/r/netsec/comments/1oim8dn/how_soc_teams_operationalize_realtime_defense/,[],['government'],medium
+netsec,MCP Snitch - The MCP Security Tool You Probably Need,"With the recent GitHub MCP vulnerability demonstrating how prompt injection can leverage overprivileged tokens to exfiltrate private repository data, I wanted to share our approach to MCP security through proxying.
+
+**The Core Problem:** MCP tools often run with full access tokens (GitHub PATs with repo-wide access, AWS creds with AdminAccess, etc.) and no runtime boundaries. It's essentially pre-sandbox JavaScript with filesystem access. A single malicious prompt or compromised server can acces",19,2,https://reddit.com/r/netsec/comments/1o6qxcf/mcp_snitch_the_mcp_security_tool_you_probably_need/,"['data_breaches', 'vulnerabilities', 'supply_chain']","['government', 'retail']",medium
+netsec,Hack-cessibility: When DLL Hijacks Meet Windows Helpers,Some research surrounding a dll hijack for narrator.exe and ways to abuse it.,12,7,https://reddit.com/r/netsec/comments/1oibw4h/hackcessibility_when_dll_hijacks_meet_windows/,[],[],medium
+netsec,Living off Node.js Addons,"# Native Modules
+
+Compiled Node.js files (`.node` files) are compiled binary files that allow Node.js applications to interface with native code written in languages like C, C++, or Objective-C as native [addon](https://www.notion.so/Living-off-Node-js-Addons-1b5c897f3d068018a4e8dc526809dca0?pvs=21) modules.
+
+Unlike JavaScript files which are mostly readable, assuming they’re not obfuscated and minified, `.node` files are compiled binaries that can contain machine code and run with the same priv",15,0,https://reddit.com/r/netsec/comments/1o326ys/living_off_nodejs_addons/,[],[],medium
+netsec,"Look mom HR application, look mom no job - phishing using Zoom docs to harvest Gmail creds","Hey all, I found a phishing campaign that uses Zoom's document share flow as the initial trust vector. It forces victims through a fake ""bot protection"" gate, then shows a Gmail-like login. When someone types credentials, they are pushed out to the attacker over a WebSocket and the backend validates them.
+
+",14,0,https://reddit.com/r/netsec/comments/1o19wzg/look_mom_hr_application_look_mom_no_job_phishing/,['phishing'],[],medium
+netsec,Cryptographic Issues in Cloudflare's Circl FourQ Implementation (CVE-2025-8556),,12,0,https://reddit.com/r/netsec/comments/1od7afg/cryptographic_issues_in_cloudflares_circl_fourq/,[],[],medium
+netsec,Streamlining Vulnerability Research with the idalib Rust Bindings for IDA 9.2 - HN Security,,12,0,https://reddit.com/r/netsec/comments/1o69v5v/streamlining_vulnerability_research_with_the/,['vulnerabilities'],[],medium
+netsec,Hacking with AI SASTs: An overview of 'AI Security Engineers',,10,0,https://reddit.com/r/netsec/comments/1o2tait/hacking_with_ai_sasts_an_overview_of_ai_security/,['ai_security'],[],medium
+netsec,From Path Traversal to Supply Chain Compromise: Breaking MCP Server Hosting,,11,0,https://reddit.com/r/netsec/comments/1od926x/from_path_traversal_to_supply_chain_compromise/,['supply_chain'],[],medium
+netsec,Nuclei Templates for Detecting AMI MegaRAC BMC Vulnerabilities,AMI BMC vulns are on the CISA Known Exploited Vulnerabilities catalog now. I think this is the first BMC vuln to hit the KEV. Here are some Nuclei templates to detect this vuln in your BMCs. ,9,3,https://reddit.com/r/netsec/comments/1nvllz0/nuclei_templates_for_detecting_ami_megarac_bmc/,['vulnerabilities'],[],high
+netsec,ZeroDay Cloud: The first open-source cloud hacking competition,,10,0,https://reddit.com/r/netsec/comments/1nulurn/zeroday_cloud_the_first_opensource_cloud_hacking/,[],[],medium
+netsec,[Article] Kerberos Security: Attacks and Detection,This is research on detecting Kerberos attacks based on network traffic analysis and creating signatures for Suricata IDS.,11,0,https://reddit.com/r/netsec/comments/1oc7240/article_kerberos_security_attacks_and_detection/,[],[],medium
+asknetsec,What's the most clever social engineering attempt you've ever encountered or heard about?,"Beyond the basic phishing emails, what was a particularly sophisticated, creative, or audacious social engineering attack that actually made you pause and admire the craft?",119,63,https://reddit.com/r/AskNetsec/comments/1o25p9v/whats_the_most_clever_social_engineering_attempt/,['phishing'],[],medium
+asknetsec,Firewall comparisons: Check Point vs Fortinet vs Palo alto,"We’re currently in the middle of evaluating new perimeter firewalls and I wanted to hear from people who’ve actually lived with these systems day to day. The shortlist right now is Check Point, Fortinet and Palo Alto all the usual suspects I know, but once you get past the marketing claims, the real differences start to show. We like Check Points Identity Awareness and centralized management through SmartConsole. That said, the complexity can creep up fast once you start layering HTTPS inspectio",42,33,https://reddit.com/r/AskNetsec/comments/1o845xu/firewall_comparisons_check_point_vs_fortinet_vs/,[],[],medium
+asknetsec,i’m looking for a self-hosted enterprise password manager recommendation? (GDPR compliant pls),"Our password management is under the microscope for our next audit. We need to get a proper enterprise solution in place, as we’ve had a minor string of cloud provider breaches, and our risk appetite for third party hosting is now basically zero. We’re seriously considering self hosting as the most secure and controllable option for protecting our credentials.
+
+My top priority is ensuring compliance that can be demonstrated and verified. It’s not sufficient to merely be secure. I need to prove w",25,17,https://reddit.com/r/AskNetsec/comments/1o5kpdu/im_looking_for_a_selfhosted_enterprise_password/,['compliance'],[],high
+asknetsec,reliable way to track Shadow AI use without blocking it completely,"We’ve started noticing employees using GenAI tools that never went through review. Not just ChatGPT, stuff like browser-based AI assistants, plugins, and small code generators.
+
+ I get the appeal, but it’s becoming a visibility nightmare. I don’t want to shut everything down, just wanna understand what data’s leaving the environment and who’s using what.
+
+Is there a way to monitor Shadow AI use or at least flag risky behavior without affecting productivity?",18,22,https://reddit.com/r/AskNetsec/comments/1odwntf/reliable_way_to_track_shadow_ai_use_without/,[],[],medium
+asknetsec,How are you handling API vulnerabilities?,"We’ve seen a spike in security noise tied to APIs, especially as more of our apps rely on microservices and third-party integrations. Traditional scanners don’t always catch exposed endpoints, and we’ve had a couple of close calls. Do you treat API vulnerabilities as part of your appsec program or as a separate risk category altogether? How are you handling discovery and testing at scale.",18,13,https://reddit.com/r/AskNetsec/comments/1nvvwjs/how_are_you_handling_api_vulnerabilities/,[],['retail'],medium
+asknetsec,How do you deal with base image vulnerabilities when you have zero control over upstream fixes?,"Ubuntu/Alpine/RHEL drop patches whenever they feel like it, meanwhile I'm getting hammered by auditors over 3-month-old CVEs that may never get fixed upstream.
+
+My current approach: daily rebuilds with timestamped tags so we can at least prove we're pulling latest. Still doesn't solve the fundamental problem though.
+
+Anyone found better ways to handle this without rebuilding the world from scratch?
+
+",12,19,https://reddit.com/r/AskNetsec/comments/1o8b0oq/how_do_you_deal_with_base_image_vulnerabilities/,"['vulnerabilities', 'compliance']",[],medium
+asknetsec,Website tells me I am part of a botnet,"Hi!
+
+I have a question as someone who is unfortunately completely unfamiliar with the topic of botnets.
+
+A website that I commonly use for vocabulary - https://dict.cc - tells me when I try to access it the following:
+""Error 503 Service unavailable
+IP 88.[followed by IP address] blacklisted
+
+Your network address seems to be part of a botnet attacking dict.cc.
+Please scan your computer, phone and other internet-connected devices for viruses and malware!
+Unblock me [link to I assume an option to g",9,9,https://reddit.com/r/AskNetsec/comments/1ny25ql/website_tells_me_i_am_part_of_a_botnet/,['malware'],[],medium
+asknetsec,Red teamers/pentesters: What's actually the biggest time sink in your engagements?,"I keep hearing ""recon takes forever"" from people in offensive security, but I want to understand what that actually means in practice from people doing this work daily.
+
+For those of you running red team engagements or pentests:
+
+* What phase or task consistently eats up the most time?
+* Is it enumeration? Exploit dev? Lateral movement? Report writing? Something else?
+* What tools are you using, and where do they fall short?
+* If you could wave a magic wand and automate ONE repetitive task, what",11,14,https://reddit.com/r/AskNetsec/comments/1oca4ib/red_teamerspentesters_whats_actually_the_biggest/,['vulnerabilities'],[],medium
+asknetsec,VPN vs. jump box for vulnerability scanning — what the best setup for WFH?,"
+Hi
+
+I’ve got an eomployee WFH full time as vulnerability management specialist. 
+Responsible for asset discovery and running vulnerability scans across multiple internal & external networks and some sort of PT
+
+He got corporate managed laptop
+
+I’m trying to decide the safest and most practical access model for him
+
+	1.	Give him VPN access directly into the internal network so he can scan from his laptop using tools like Kali Linux, Nessus etc 
+
+or
+
+	2.	Have him VPN first, then jump into  bastio",8,14,https://reddit.com/r/AskNetsec/comments/1oe83yy/vpn_vs_jump_box_for_vulnerability_scanning_what/,['vulnerabilities'],[],medium
+asknetsec,"Legit EU SaaS website got blocked by some US ISPs' ""threat intelligence"". How to investigate / unblock?","This website was blocked at least by Virgin media (showing their ""Virus protection"" page instead), but also by some ISPs that larger enterprises use (e.g. one of MSFT's ISPs in US). I have absolutely no clue what made it blocked in the first place (it's a ""fresh"" domain). How to get it unblocked?
+
+**UPD.** Reaching out via ""False positive"" forms to companies from VirusTotal page helped - now all is clean and unblocked! Thank you!",7,18,https://reddit.com/r/AskNetsec/comments/1ntcsrv/legit_eu_saas_website_got_blocked_by_some_us_isps/,['malware'],['retail'],medium
+asknetsec,How do you decide when to automate vs. manually review compliance evidence?,"Automation can speed up evidence collection, but it can also increase the risk of missing context or human judgment. Some controls are easily validated with system logs, while others still require manual verification.
+What criteria are used to determine when automation is appropriate versus when manual review is still necessary?",6,10,https://reddit.com/r/AskNetsec/comments/1o1ctk0/how_do_you_decide_when_to_automate_vs_manually/,['compliance'],[],medium
+asknetsec,SOC 2 code documentation - manual or automatable?,"Going through compliance prep research and noticed something weird.
+
+Vanta/Drata automate a ton of the infrastructure monitoring and
+policy stuff. But they don't really help when auditors ask the
+code-level questions like:
+
+- ""Where is PII stored and how is it encrypted?""
+- ""Show me your authentication flow""
+- ""Document how data moves through your system""
+
+Right now it seems like companies either manually create all that
+documentation (40+ hour project) or pay consultants $20-30k to do it.
+
+Is t",6,10,https://reddit.com/r/AskNetsec/comments/1obp5ql/soc_2_code_documentation_manual_or_automatable/,"['privacy', 'compliance']",['retail'],medium
+asknetsec,What Security Reviews Do You Recommend for AI-Generated Pull Requests?,"I'm advising a team with aggressive use of Copilot and similar tools, but I'm not sure the old security checklists are enough.
+
+\- Are there specific threat vectors or vulnerabilities you flag for AI code in code review?
+
+\- Would you trust automated scanners specialized for ""AI code smells""?
+
+\- How do you check for compliance when the developer may not even realize what code was generated by an AI?
+
+Would appreciate advice, war stories, or tool recommendations!",6,3,https://reddit.com/r/AskNetsec/comments/1o4nekp/what_security_reviews_do_you_recommend_for/,['compliance'],[],medium
+asknetsec,What's a realistic testing frequency for technical controls?,"From a technical control perspective, what's a realistic and effective testing frequency? I'm talking about controls like firewall rule reviews, IDS signature tuning, privileged access reviews, and vuln scanning. Is a rigid quarterly schedule for everything the way to go, or have you implemented a more nuanced, risk-based approach? What's actually worked without burning out the security team?",5,4,https://reddit.com/r/AskNetsec/comments/1nu780i/whats_a_realistic_testing_frequency_for_technical/,[],[],medium
+asknetsec,How much time do you actually spend on security questionnaires?,"Compliance/GRC folks - genuine question:  
+When customers or vendors send you security questionnaires (CAIQ, VSA, custom Excel nightmares), how long does a typical one take you?  
+I keep hearing ""8-20 hours"" but that sounds insane. Is that real, or are people exaggerating?
+
+Bonus question: What's the worst part? Finding answers, formatting, or just the soul-crushing repetition?
+
+Not selling anything - just trying to understand if this is a real problem or internet noise.",5,6,https://reddit.com/r/AskNetsec/comments/1o7hz24/how_much_time_do_you_actually_spend_on_security/,['compliance'],[],medium
+asknetsec,"Security check on a new ""smart"" device for disability care running Android 7 (with root!) – Am I right to be concerned?","I could use a gut check from people who know what they're talking about.
+
+I work for a disability care organization, and management is looking to roll out this new ""care technology"" product. It's basically a smart clock with a screen, microphone, and selfie camera. Its main job is to show the time and date, but relatives can also use an app to send pictures and messages to the screen, and it supports video calling. It's meant for vulnerable people, so I decided to take a closer look.
+
+My concern",3,8,https://reddit.com/r/AskNetsec/comments/1nvzky1/security_check_on_a_new_smart_device_for/,"['vulnerabilities', 'compliance']","['government', 'retail']",medium
+asknetsec,Screening USB drives,"I have a USB I want to access but it came from someone I dont know well enough to trust. I am looking into using a platform like Rasberry or Orange Pi to screen it first, but I was curious if anyone here has used these platforms for a similar use case? My concern is that I dont know the strength of the potential attack, or how to reliably move the data from one device to another without cross contamination.
+
+If this is not the right sub, a recommendation in the right direction is appreciated. ",2,4,https://reddit.com/r/AskNetsec/comments/1ntl2nd/screening_usb_drives/,[],[],medium
+asknetsec,Conference paper proposal—what offensive security topics are worth exploring?,"Hi all,  
+I’m preparing a paper proposal for a cybersecurity conference and I’d appreciate your input. I’m aiming to focus on offensive security, and I want to make sure the topic is both relevant and valuable to the community.
+
+My background is in backend engineering, cloud workflows, automation, and vulnerability data normalization. I’m considering areas like:
+
+* Offensive automation in CI/CD pipelines
+* Vulnerability ingestion for exploit prioritization
+* Cloud misconfigurations as attack vec",0,10,https://reddit.com/r/AskNetsec/comments/1ny7xp5/conference_paper_proposalwhat_offensive_security/,['vulnerabilities'],"['retail', 'manufacturing']",medium
+asknetsec,Why would a home projector implement an erspan interface?,"When I recently bought a WiMiUS P62Pro projector ( [https://www.amazon.com/dp/B0FFGBL72C](https://www.amazon.com/dp/B0FFGBL72C) ) for home use, I decided not to connect it to my network, and to use a Fire TV stick for streaming media rather than the built-in apps.  Yesterday I must have pressed the wrong button on the remote because the projector tried (unsuccessfully of course) to access one of the built-in streaming services.  When it failed, the screen showed an error message which included a",0,4,https://reddit.com/r/AskNetsec/comments/1ntbyp7/why_would_a_home_projector_implement_an_erspan/,[],['retail'],medium
+asknetsec,Telegram channel harassing me for 3 years – looking for security guidance,"Hi all,
+I’m dealing with a long-term harassment case on Telegram. A channel has been posting my personal photos (from my social media) without consent for almost three years. The operator has also threatened to release private and nude photos.
+I’ve reported the channel multiple times through Telegram’s in-app system and emailed abuse@telegram.org with screenshots, but nothing has been done.
+I’m looking for guidance from security professionals:
+Are there technical ways to escalate or track the op",0,3,https://reddit.com/r/AskNetsec/comments/1o2w0ee/telegram_channel_harassing_me_for_3_years_looking/,['privacy'],['retail'],medium
+asknetsec,Rootkit Detection Idea - Is this feasable? how could it be defeated?,"Hello! I find myself sometimes lost in thought thinking about sort of ""cat and mouse"" scenarios, such as if ""x"" exists, could ""y"" mitigate it. A few months ago I decided to focus some time into learning as much as I can about Malware that targets Linux desktop users and related topics such as rootkits. 
+
+Learning about Linux rootkits and hearing the common advice that if you are infected with a rootkit, the only way you can be certain your hardware is clean is by throwing it out. (As anything yo",0,5,https://reddit.com/r/AskNetsec/comments/1obv2dj/rootkit_detection_idea_is_this_feasable_how_could/,['malware'],"['retail', 'manufacturing']",medium
+malware,Top FOUR Malwares in 2025: Full Analysis,"Just dropped, a practical breakdown of the top malware threats in 2025:  
+  
+Medusa, Phemedrone, Rhadamanthys, and RisePro , plus the exact one-liner commands attackers use (IEX, bcdedit, RegAsm, DllHost, schtasks). 
+
+I go over the top 4 malware samples in 2025 according to their spread, impact, danger and how easy it was for victims worldwide to get infected. I analyzed these samples using any run platform.
+
+Video analysis [from here](https://youtu.be/Ab726Jsvktw) and for those who love to read",45,5,https://reddit.com/r/Malware/comments/1o787m9/top_four_malwares_in_2025_full_analysis/,['malware'],[],medium
+malware,Sandbox evasion and more,"If you are interested in latest techniques used by malware actor to evade sandboxes, this threat report is really valuable. It also highlights latest trends and techniques.  
+[https://go.vmray.com/l/899721/2025-09-26/hwrj2/899721/1758893021FBdtSlol/VMRay\_Malware\_and\_Phishing\_Threat\_Landscape\_Report\_H1\_2025\_RGB\_2025091.pdf](https://go.vmray.com/l/899721/2025-09-26/hwrj2/899721/1758893021FBdtSlol/VMRay_Malware_and_Phishing_Threat_Landscape_Report_H1_2025_RGB_2025091.pdf)
+
+",18,9,https://reddit.com/r/Malware/comments/1nu5svq/sandbox_evasion_and_more/,"['phishing', 'malware']",[],medium
+malware,Heads up — SharkStealer using BSC Testnet as a C2 dead-drop (EtherHiding),"Quick rundown: **SharkStealer** (Golang infostealer) grabs encrypted C2 info from BNB Smart Chain Testnet via `eth_call`. The contract returns an IV + ciphertext; the binary decrypts it with a hardcoded key (AES-CFB) and uses the result as its C2.
+
+**IoCs (short):**
+
+* BSC Testnet RPC: `data-seed-prebsc-2-s1.binance[.]org:8545`
+* Contracts + fn: `0xc2c25784E78AeE4C2Cb16d40358632Ed27eeaF8E` / `0x3dd7a9c28cfedf1c462581eb7150212bcf3f9edf` — function `0x24c12bf6`
+* SHA256: `3d54cbbab911d09ecaec19acb",14,2,https://reddit.com/r/Malware/comments/1ocfg1n/heads_up_sharkstealer_using_bsc_testnet_as_a_c2/,['malware'],"['retail', 'manufacturing']",medium
+malware,i keep getting hacked across multiple emails,"its pretty much what the title says. my accounts are getting hacked across multiple email addresses. ive gone ahead and changed their password + added 2FA, im more concerned on Where this might be coming from?
+
+  
+i ran bitdefender along with windows defender and nothing was detected i even manually scrubbed my pc and found nothing. theres also no sign of my email being compromised at all, no warning emails ab sus logins or anything. i have no idea where this is coming from? i even looked at hav",11,34,https://reddit.com/r/Malware/comments/1ntodcp/i_keep_getting_hacked_across_multiple_emails/,['data_breaches'],[],medium
+malware,Go Malware meets IoT: DEF CON 33,,9,0,https://reddit.com/r/Malware/comments/1o7g4v7/go_malware_meets_iot_def_con_33/,['malware'],[],medium
+malware,Taking Notes During Analysis,"So obviously while examining malware you need to document what you find. A lot of this information can be tedious to type by hand such as hashes, urls, etc. What's the best method to get this information from you client to your host? Is copy-paste between machines good practice? I use KVM I doubt that matters too much.",9,3,https://reddit.com/r/Malware/comments/1ntiary/taking_notes_during_analysis/,['malware'],[],medium
+malware,Caminho Malware: LSB Steganography Technique to Hide .NET Payloads in Images,"Brazilian malware loader active since March 2025 uses Least Significant Bit (LSB) steganography to extract concealed .NET assemblies from image files. The loader operates as a service model enabling multiple customers to deploy different malware families.
+
+**Technical Highlights:**
+
+- **Steganography Method**: PowerShell script searches for BMP header signature within JPG/PNG files, iterates through pixels to extract RGB channel values encoding hidden binary data
+- **Delivery Chain**: Spear-phis",6,5,https://reddit.com/r/Malware/comments/1ofoz9y/caminho_malware_lsb_steganography_technique_to/,"['phishing', 'malware', 'vulnerabilities']",[],medium
+malware,Running an IPA with Malware,"Hey y’all, I seemed to have stumbled into an ipa that seems to maybe have malware. Just wondering if there’s any way to run it in a controlled environment so that there’s no risk of getting infected. 
+
+The detections seems to originate from the file doge.dylib. Here is the virus total summary if anyone wants to see.
+
+https://www.virustotal.com/gui/file/e92f2194a87d8d1571704f7cf9ec25c8af4a8ff0b8fa41812f4be93702b6876d/summary
+
+Edit: Yes, I know that all iOS apps are inherently sandboxed. However, ",7,1,https://reddit.com/r/Malware/comments/1nu8iks/running_an_ipa_with_malware/,['malware'],[],medium
+malware,Bypassing ASLR and hijacking control,"Bypassing ASLR and Hijacking Control
+
+Explained how to exploit buffer overflow and hijack RIP in a PIE/ASLR binary.  
+
+[https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/](https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/)",4,0,https://reddit.com/r/Malware/comments/1ogckp2/bypassing_aslr_and_hijacking_control/,['vulnerabilities'],[],medium
+malware,"Trying to build an air-gapped Linux malware sandbox (CAPEv2, eBPF, etc.) — need advice on improving data capture","
+Hey folks,
+
+I’ve been working on setting up a malware analysis sandbox for Linux that runs fully air-gapped.
+
+So far I’ve managed to get CAPEv2 running and implemented some anti-VM techniques. I’ve also explored [eBPF tracing](https://github.com/aquasecurity/tracee), [Drakvuf](https://github.com/CERT-Polska/drakvuf-sandbox), and read up on [Limon](https://www.blackhat.com/docs/eu-15/materials/eu-15-KA-Automating-Linux-Malware-Analysis-Using-Limon-Sandbox-wp.pdf) and [LiSa’s](https://www.blackha",5,6,https://reddit.com/r/Malware/comments/1ofitqt/trying_to_build_an_airgapped_linux_malware/,['malware'],['retail'],medium
+malware,FunkLocker Analysis: AI-powered Ransomware from FunkSec APT,,4,0,https://reddit.com/r/Malware/comments/1nw3je7/funklocker_analysis_aipowered_ransomware_from/,['ransomware'],[],medium
+malware,DEP bypass by creating VEH on Hardware Debug Registers,"I found this blog interesting [The Emulator's Gambit: Executing Code from Non-Executable Memory - RedOps - English](https://redops.at/en/blog/the-emulators-gambit-executing-code-from-non-executable-memory)
+
+  
+Though the issue is scalability. New to malware development, I'm wondering if the VEH emulation can be improved. The chaining of shellcode is the difficult part since it executes byte by byte. Probably will need unicorn over there. Would like to hear everyone's thoughts on this and how it ",4,0,https://reddit.com/r/Malware/comments/1oi3kdw/dep_bypass_by_creating_veh_on_hardware_debug/,['malware'],[],medium
+malware,Axios Abuse and Salty 2FA Kits Fuel Advanced Microsoft 365 Phishing Attacks,,3,1,https://reddit.com/r/Malware/comments/1oe5pxc/axios_abuse_and_salty_2fa_kits_fuel_advanced/,['phishing'],[],medium
+malware,3 advanced security threats across three devices across one day from same website,,3,2,https://reddit.com/r/Malware/comments/1ob4bon/3_advanced_security_threats_across_three_devices/,[],[],medium
+malware,Questions malwares,"Two malware with the same detection name but on different PCs and files, do they behave differently or the same? Example: Two detections of Trojan:Win32/Wacatac.C!ml
+
+1) It remains latent in standby mode, awaiting commands.
+
+2) It modifies, deletes, or corrupts files.
+
+  
+**Can a malware like Trojan:Win32/Wacatac.C!ml download other malware, let that perform actions, then delete itself—and would it evade future AV scans?**",0,4,https://reddit.com/r/Malware/comments/1ofz649/questions_malwares/,['malware'],[],medium
+malware,"Malwarebytes automates a payment without consent, knowledge or authorization.",,0,0,https://reddit.com/r/Malware/comments/1nvzi15/malwarebytes_automates_a_payment_without_consent/,['malware'],['finance'],medium
+reverseengineering,Free Reverse Engineering Academy Site,"""I built a free interactive Reverse Engineering Academy with 6 progressive lessons - from beginner to advanced” You have several educational malware samples and how to analyze a file from different approaches. You can learn how to understand an hexdump, create a Yara rule  or the basics of Ghidra!",56,6,https://reddit.com/r/ReverseEngineering/comments/1o3nvx9/free_reverse_engineering_academy_site/,['malware'],"['education', 'manufacturing']",medium
+reverseengineering,How a fake AI recruiter delivers five staged malware disguised as a dream job,,31,3,https://reddit.com/r/ReverseEngineering/comments/1obyhz2/how_a_fake_ai_recruiter_delivers_five_staged/,['malware'],[],medium
+reverseengineering,🚨 The Art of Catching Malware Hiding in Memory (Free YARA Training),"**Memory Analysis - YARA Masterclass 🚀**
+
+Stand out in cybersecurity job interviews! My new video breaks down advanced techniques SOC teams use:
+
+**🔍 You'll Learn:**
+
+* XOR-encrypted string detection
+* Memory process injection tracing
+* C2 protocol hunting
+* Multi-layered YARA rules
+* Real SOC scenarios
+
+**🎯 Perfect For:**
+
+* SOC Analyst aspirants
+* Cyber security professionals
+* Memory forensics enthusiasts
+
+Free practical tutorial with source code!
+
+  
+[https://youtu.be/Y4jy0rnQ43E?si=Eex1zNIw",28,2,https://reddit.com/r/ReverseEngineering/comments/1obt46e/the_art_of_catching_malware_hiding_in_memory_free/,['malware'],['manufacturing'],medium
+reverseengineering,[CTF] Google CTF 2025 - webz : Exploiting zlib's Huffman Code Table,,19,0,https://reddit.com/r/ReverseEngineering/comments/1nufi0l/ctf_google_ctf_2025_webz_exploiting_zlibs_huffman/,['vulnerabilities'],[],medium
+reverseengineering,CVE-2025-23297 NVIDIA FrameView SDK Local Privilege Escalation and DLL hijacking,"If you want to learn more about how this vulnerability really works, you can read my article and hopefully learn something new. ",18,0,https://reddit.com/r/ReverseEngineering/comments/1o4zx8i/cve202523297_nvidia_frameview_sdk_local_privilege/,['vulnerabilities'],[],medium
+reverseengineering,Go Malware meets IoT: DEF CON 33,"An approach to reversing IoT and OT malware written in Go using a hybrid toolkit that blends AI with traditional analysis methods using #Radare2 , #Ghidra, and #BinaryNinja. 
+By Asher Davila & Chris Navarrete",15,0,https://reddit.com/r/ReverseEngineering/comments/1o7g31a/go_malware_meets_iot_def_con_33/,['malware'],[],medium
+reverseengineering,"YARA Deep Dive: Hex Patterns, File Size & Hash Detection","I just published a new YARA tutorial focusing on advanced detection techniques! 🚀
+
+**What's covered:**  
+• Hex pattern writing (MZ header, magic numbers)  
+• File size analysis for suspicious files  
+• Hash-based detection methods  
+• Real-world combination rules  
+• Performance optimization tips
+
+**Perfect for:**
+
+* Malware analysts
+* Threat hunters
+* DFIR professionals
+* Security researchers
+
+**Video includes practical examples you can use immediately.**
+
+**https://youtu.be/4m818udv42g?si=NUHw",12,2,https://reddit.com/r/ReverseEngineering/comments/1o7cdtb/yara_deep_dive_hex_patterns_file_size_hash/,['malware'],[],medium
+reverseengineering,[Crxplorer.com] Created an API tool that allows to RE Browser Extensions and do threat check,"I created a tool with LLM in back-end that allows users and organisations (with API access) to scan Browser Extensions and assess their security and threat control and allows to download the code. 
+
+  
+Some of you might like it",12,4,https://reddit.com/r/ReverseEngineering/comments/1o2iwpl/crxplorercom_created_an_api_tool_that_allows_to/,[],[],medium
+reverseengineering,Streamlining Vulnerability Research with the idalib Rust Bindings for IDA 9.2 - HN Security,,7,0,https://reddit.com/r/ReverseEngineering/comments/1o69vn7/streamlining_vulnerability_research_with_the/,['vulnerabilities'],[],medium
+reverseengineering,"Lynx ransomware analysis from March predicted RAF contractor breach - 
+post-exploitation tool misidentified as phishing malware","Back in March I reversed Lynx ransomware (SHA256: 0315dbb...) after seeing multiple vendor reports claiming phishing distribution with built-in double extortion.
+
+  
+Binary analysis contradicted this: - Zero network imports - No exfiltration code - CLI operator flags (--kill, --stop-processes, --encrypt-network) - Verbose logging to stderr - Zero obfuscation (trivial to reverse, but also instant AV detection)
+
+  
+Conclusion: Post-exploitation tool, not phishing payload.   
+  
+Fast forward to las",7,2,https://reddit.com/r/ReverseEngineering/comments/1oaz90n/lynx_ransomware_analysis_from_march_predicted_raf/,"['ransomware', 'phishing', 'malware', 'vulnerabilities']","['retail', 'manufacturing']",medium
+reverseengineering,Software Secured | Hacking Furbo 2: Mobile App and P2P Exploits | USA,,7,1,https://reddit.com/r/ReverseEngineering/comments/1nuvkma/software_secured_hacking_furbo_2_mobile_app_and/,['vulnerabilities'],[],medium
+reverseengineering,[Educational] YARA Rule Writing Tutorial - From Zero to Hero,"Hi everyone,
+
+
+
+I've created a comprehensive YARA tutorial for beginners in Turkish. Even if you don't speak Turkish, the visual demonstrations and code examples might be helpful.
+
+
+
+📹 \*\*Video Content:\*\*
+
+\- YARA fundamentals (digital detective analogy)
+
+\- Writing your first YARA rule step-by-step
+
+\- Real-world examples: WannaCry detection
+
+\- Process Injection detection techniques
+
+\- Live coding and practical applications
+
+
+
+🎯 \*\*Key Topics Covered:\*\*
+
+\- Rule structure and logic
+
+\- ",5,1,https://reddit.com/r/ReverseEngineering/comments/1o2ic1k/educational_yara_rule_writing_tutorial_from_zero/,['malware'],"['education', 'manufacturing']",medium
+reverseengineering,CVE-2025-59287 WSUS Exploit Detection - Free YARA Rules I Developed,"I just finished developing comprehensive YARA rules for the critical WSUS vulnerability **CVE-2025-59287** (CVSS 9.8) that's being actively exploited in the wild.
+
+**What these YARA rules detect:**
+
+* WSUS API exploitation attempts (/ClientWebService, /SimpleAuthWebService)
+* BinaryFormatter deserialization attacks
+* Shellcode patterns & memory corruption attempts
+* Suspicious network activity on ports 8530/8531
+* Configuration tampering in WSUS services
+
+**Why I built this:**  
+As a security re",0,7,https://reddit.com/r/ReverseEngineering/comments/1og3pcp/cve202559287_wsus_exploit_detection_free_yara/,['vulnerabilities'],['retail'],critical
+reverseengineering,Unpacking Enigma 7.80 64 bit Protector,Is Enigma did progress since 4.x or 5.x release? The answer is yes but only for 64 bit support and other things still not patched yet! Unbelievable right? You can easily unpack it with very old anti anti dump program called Mega Dumper. And here is the proof: [ReversedMalwaresIn2025/EnigmaHelloWorldLatest at main · HydraDragonAntivirus/ReversedMalwaresIn2025](https://github.com/HydraDragonAntivirus/ReversedMalwaresIn2025/tree/main/EnigmaHelloWorldLatest) It shows what happens after dump. Yes dyn,0,15,https://reddit.com/r/ReverseEngineering/comments/1nwy86i/unpacking_enigma_780_64_bit_protector/,"['malware', 'vulnerabilities']",[],medium
+computerforensics,Has anyone actually seen a compromised modern iOS devices?,"I get cases in from time to time regarding suspicions of a hacked iPhone. Every single time, theres nothing on the device. Instead, its an iCloud issue where someone else has access to their data through another authenticated device. 
+
+I wanted to know, is it even feasible for a civilian to establish remote/secret access on a modern iOS device? Has anyone ever seen an iOS device that was actually compromised? Apple already locks down most access and remote functions. GoToAssist can't even allow ",102,63,https://reddit.com/r/computerforensics/comments/1nx3mty/has_anyone_actually_seen_a_compromised_modern_ios/,['data_breaches'],['retail'],medium
+computerforensics,AI Principles for DFIR,"I thought I'd share with this group to get thoughts. We drafted up principles for using AI in our software and none of them seem like they should be unique to any one vendor. Anything you think should be added or removed?
+
+I copied them here, but they are also in the link below. 
+
+1. **Human in Control:** The investigator will always have a chance to review results from automated scoring and generative AI. The software is designed to support, not replace, human expertise.
+2. **Traceability**: Re",21,5,https://reddit.com/r/computerforensics/comments/1nzqron/ai_principles_for_dfir/,[],"['retail', 'manufacturing']",medium
+computerforensics,How a fake AI recruiter delivers five staged malware disguised as a dream job,,13,0,https://reddit.com/r/computerforensics/comments/1obyc05/how_a_fake_ai_recruiter_delivers_five_staged/,['malware'],[],medium
+computerforensics,Issue with imaging,I just finished sha256 hashing and it’s weird because the images have the same content did a bit for bit identical copy but the hash are different. I think it’s because one ssd is bigger than the other. What do you guys think?,2,5,https://reddit.com/r/computerforensics/comments/1ofixw3/issue_with_imaging/,[],[],medium
+computerforensics,External IACIS CFCE Questions,"I would like to obtain my CFCE certification and haven't been able to find answers to the questions below. I cannot take the BCFE course, unfortunately. Hoping for some help and appreciate your time.
+
+  
+1. I saw in [this 6 year old post](https://www.reddit.com/r/computerforensics/comments/g46r7i/external_cfce_attempt/) training manuals were given to people that sign up for the certification program. Do they still give out training manuals?
+
+  
+2. Are there recommendations for free/easy-on-the-p",1,18,https://reddit.com/r/computerforensics/comments/1o7ylm1/external_iacis_cfce_questions/,[],"['retail', 'manufacturing']",medium
+computerforensics,Feedback on current project,"Hello friends, I just finished the imaging process - fixed the issue with hashes not matching and they both match now!! So, next step is to analyze this image. 
+
+I just wanted you guys to check out my current progress, I took photos and noted everything down. Just wanna get some feedback on anything I could learn.
+
+:)",0,6,https://reddit.com/r/computerforensics/comments/1og6j8y/feedback_on_current_project/,[],[],medium
+networking,"All SonicWall cloud backups compromised - not 5%, 100%.","Mid September SonicWall announced they leaked a ""subset"" of cloud backups; a 5% figure is commonly referenced by various articles.  
+[https://www.cisa.gov/news-events/alerts/2025/09/22/sonicwall-releases-advisory-customers-after-security-incident](https://www.cisa.gov/news-events/alerts/2025/09/22/sonicwall-releases-advisory-customers-after-security-incident)
+
+Turns out, ***all*** cloud backups are affected:  
+[https://www.darkreading.com/cyberattacks-data-breaches/sonicwall-100-firewall-backups",272,47,https://reddit.com/r/networking/comments/1o4bzcm/all_sonicwall_cloud_backups_compromised_not_5_100/,['data_breaches'],[],medium
+networking,Which firewall vendors are actually keeping up with modern network demands?,"I’m part of a mid-size enterprise that’s been slowly modernizing its network stack moving more workloads to the cloud, supporting hybrid teams and trying to unify security policies across data centers and remote users. We’ve used a mix of vendors over the years Fortinet, Check Point and a bit of Cisco ASA that just won’t die but lately we’ve been looking into newer, more integrated options that combine firewalling, zero trust and threat prevention under one roof. From what I’ve seen, every vendo",200,197,https://reddit.com/r/networking/comments/1o939ny/which_firewall_vendors_are_actually_keeping_up/,[],[],medium
+networking,F5 nation-state Security Incident,"From K000154696:
+
+We want to share information with you about steps we’ve taken to resolve a security incident at F5 and our ongoing efforts to protect our customers.
+
+In August 2025, we learned a highly sophisticated nation-state threat actor maintained long-term, persistent access to, and downloaded files from, certain F5 systems. These systems included our BIG-IP product development environment and engineering knowledge management platforms. We have taken extensive actions to contain the thre",194,31,https://reddit.com/r/networking/comments/1o7b140/f5_nationstate_security_incident/,['vulnerabilities'],"['government', 'retail']",medium
+networking,Follow-up: Management Expected to Train Non-Networking Staff — What Happened Next,"Hey everyone,
+This is a follow-up to my post from last year:
+Original post here:
+https://www.reddit.com/r/networking/s/ypyRWhUeUt
+
+Update:
+
+So things actually got worse after my original post. I really tried my best, delivered all the trainings, and spent a lot of time managing my team as a senior network engineer while also helping untrained personnel fix issues and keep things moving. But upper management just wasn’t interested in actually solving the root problems or improving the escalation ",101,12,https://reddit.com/r/networking/comments/1obi5ma/followup_management_expected_to_train/,['vulnerabilities'],['retail'],medium
+networking,8 years in Networking — struggling to move into Cybersecurity. Need direction and real advice.,"Hey everyone,
+
+I’ve been a Network Engineer for about 8 years now, mainly in enterprise and consulting environments. I’ve built and supported large-scale network infrastructures across almost every major industry like energy, healthcare, education, and government, etc. I’ve worked projects for dozens of F500s. I have soft skills as well from my personal business as a DJ for events.
+
+What I do / know:
+Designing, deploying, and managing Cisco (Catalyst, Nexus, Meraki), Aruba, Fortinet, and Palo Al",80,43,https://reddit.com/r/networking/comments/1oewg37/8_years_in_networking_struggling_to_move_into/,['cloud_security'],"['healthcare', 'government', 'education', 'energy']",medium
+networking,Am I ab abnormal Network Engineer?,"Hi all!
+
+It’s been about six months since I started working as a network engineer, and I’ve been wondering if the work I’m doing is typical for someone in this role. I’m concerned that my current experience might make me less competitive in the job market.
+
+Most of my responsibilities are kind of administrative tasks—like reserving static IPs for devices, bringing access points back online when they go down, and restoring connectivity between switches/routers when it drops (usually due to bad SF",63,72,https://reddit.com/r/networking/comments/1nzj062/am_i_ab_abnormal_network_engineer/,[],[],medium
+networking,F5 Cyber incident - did you receive any official notification from F5?,"Hi all, 
+
+We’re a bit curious about the impact of that notification. We haven’t been able to find any detailed information about the breach or any notice that seems to have been sent to clients. Does anyone have it and can share it?",60,20,https://reddit.com/r/networking/comments/1o87c3f/f5_cyber_incident_did_you_receive_any_official/,[],[],medium
+networking,Thoughts on firewall/network vendors beings held more accountable or is it just witch hunts,"Thoughts on firewall/network vendors beings held more accountable for vulnerabilities and breaches or is just politicians taking pop shots? Article below was jumping off point for the train of thought but not the first time this has happened although I feel this isnt a particular compelling, bad or impactful event so find it weird it’s being used when so many better times to act have come and gone
+
+https://www.theregister.com/2025/10/16/cisco_senate_scrutiny
+
+In this specific case it’s ASAs and ",52,37,https://reddit.com/r/networking/comments/1oarqc7/thoughts_on_firewallnetwork_vendors_beings_held/,['vulnerabilities'],['government'],medium
+networking,Anyone here actually happy with their SASE setup?,"We’re running an RFP for a new SASE platform and honestly, all the vendors are starting to sound the same.
+
+Everyone’s “cloud-native,” “unified,” and has a “single pane of glass”, but no one seems to agree on what that actually means once it’s deployed.
+
+If you’ve been living with any of the big ones (Palo, Fortinet, Cisco, Zscaler, Netskope, Cato, whatever), what’s the real story?
+
+* Did integration go smoothly or was it a nightmare of agents and connectors?
+* How’s the day-to-day management, i",48,79,https://reddit.com/r/networking/comments/1o408z4/anyone_here_actually_happy_with_their_sase_setup/,[],[],medium
+networking,IP Network engineer vs just Network Engineer,"Is there a difference between the two? I can assume that IP Network Engineers are dealing mostly if not strictly with Layer 3 and all things Internet traffic, but I would assume they also deal with other duties as well, amd assist other teams maybe not IP related. Maybe the Network Engineer also deals with wireless, amd other issues, maybe a generalist of network-related duties? 
+
+Does that make the IP Network Engineer more valuable or the Networ Engineer? I got asked this the other day by a you",43,79,https://reddit.com/r/networking/comments/1od5mt0/ip_network_engineer_vs_just_network_engineer/,[],[],medium
+networking,Apple laptops running OS26 generating gratuitous MAC addresses,"My team just deployed a temporary network (full Cisco) for a large training that was 95% Macs that had just updated to OS26.  Our default switchport config only allows 5 MAC addresses per port to cover anyone running VMWare or other virtualizations.
+
+The day before the training, one of the teachers got kicked off his port.  Checked the switch and port-security had kicked off and shut the port.  I have seen an issue before with a bad NIC so we swapped out their dongle and it happened again.  Afte",42,19,https://reddit.com/r/networking/comments/1oborvn/apple_laptops_running_os26_generating_gratuitous/,['vulnerabilities'],[],medium
+networking,Share your war stories!,I want to hear stories of things that work fine that shouldn't on paper. I'm a gray beard with a small team in a fairly large environment and I don't have time to measure the bend radius on every piece of fiber. I've got Cisco 3560cx's that have been freezing and baking in NEMA boxes for over 5 years in extreme conditions way outside of what's listed on their data sheet that operate perfectly. I forget that I put shit in my pockets and I've washed Cisco USB's and transceivers and they still work,32,32,https://reddit.com/r/networking/comments/1ofwltz/share_your_war_stories/,[],[],medium
+networking,UPS philosophy in enterprise networks,"
+As a 20+ year networking veteran, over the years i’ve gone back and forth on UPS and power resilience philosophy. Unless properly maintained I tend to look at a UPS as a (arguably) ~4 year time bomb. I’ve been in manufacturing environments where shoestring budgets prevented regular maintenance and i elected to let the switches go down during an outage in favor of less maintenance, and i’ve been in healthcare environments where bulletproof power was more necessary but regular maintenance was a c",30,55,https://reddit.com/r/networking/comments/1o91gcj/ups_philosophy_in_enterprise_networks/,[],"['healthcare', 'manufacturing']",critical
+networking,Verkada and VLANs,"I can't believe I'm asking this.  I feel like I'm in the Twilight Zone, or I'm being pranked, or maybe I'm just dumb.
+
+My enterprise has purchased a Verkada alarm system.  There are panic buttons that communicate wirelessly (not wifi) to their alarm hub, which is pretty much like a wireless access point you hang in a central location in the building so the panic buttons can talk to it.  This hub then communicates with an alarm panel over the LAN, which then communicates with the Verkada cloud to",28,49,https://reddit.com/r/networking/comments/1nwi5fr/verkada_and_vlans/,[],[],medium
+networking,Inherited a security risk?,"Hi there. 
+I've inherited a business who pays for ""monitoring"" from a company. 
+
+It turns out they directly ping our WAN interface on our Fortigate and access it either via the web gui or SSH both directly open on the internet via our IP.
+
+I've naturally closed off these ports.
+
+Presumably I'm right in thinking it's a bad idea to have these services open? 
+Naturally they have started emailing me telling me everything is down. 
+",29,43,https://reddit.com/r/networking/comments/1odwavl/inherited_a_security_risk/,[],[],medium
+networking,Intermittent network drops / all ports on trunk / spectrum says it should not be an issue.,"Hello everyone. 
+
+I will try my very best to explain the situation, I am still only entry level into IT and networking in general. We have 2 offices that have roughly 70 employees each, each office is on its on subnet with a VPN tunnel connecting to both. We have been fighting intermittent network drops since around may. We have a very small team, so we have a contract with Spectrum enterprise to be our main source of network help. to keep a long story short. Are there any benefits to having eve",25,68,https://reddit.com/r/networking/comments/1nx17w4/intermittent_network_drops_all_ports_on_trunk/,[],[],medium
+networking,Stretch vlans - what are people thoughts,"Hi
+
+I have heard different thins on this.
+
+My thinking
+
+2 DC's within 15-20Km of each other
+
+run dark fibre with lots of capacity
+
+stretch your vlans from 1 dc to the other
+
+make a virtual dc from the 2. duplicate all resource in 1 dc in the other.
+
+for example a cluster FW put 1 node in each DC
+
+Some guys don't like allow broadcast domains outside of racks let alone rooms / floors ...
+
+  
+EDIT : so a lot replies similar to what I have heard over the years a lot of it vague if something goes wro",26,74,https://reddit.com/r/networking/comments/1oh9l2d/stretch_vlans_what_are_people_thoughts/,[],[],medium
+networking,Growing Campus - Terminate ISPs to PaloAlto or Router/Switch?,"Quick rundown, we have a generally pretty standard Cisco network with some oddities.
+
+**2x Nexus 9504 as our core**, all gateways live here and VRFs. VPC downstream to building MDF switches.
+
+**2x PaloAlto 5410's as our firewall** for inter-VRF, IPSEC tunnels and VPN server.
+
+**2x ASR1001HX at our edge**, eBGP to ISPs (6\~ peers, 3 ISPs) and HSRP between them for the Palo to point to. (not my favorite. rather advertise defaults to the palos)
+
+The CIO & CISO would like to get rid of our routers, ",23,40,https://reddit.com/r/networking/comments/1o0vs9d/growing_campus_terminate_isps_to_paloalto_or/,[],"['education', 'retail']",medium
+networking,Cisco ACI COOP bug timebomb,"For those of us running ACI fabrics and currently working on replacing EoS hardware, there is a bug with the COOP that can lead to an outage. 
+
+It has a chance of triggering when you have more than two spines in a pod. The spines in each pod are not equal, one is a Pythia, which is the master, and the others have a different role. This role is decided by the TEP-IP, lowest wins. When the Pythia is decommissioned, it sends a signal to tell the other spines to find a new Pythia. With two spines th",20,9,https://reddit.com/r/networking/comments/1oeyzsn/cisco_aci_coop_bug_timebomb/,[],['manufacturing'],medium
+networking,Anyone else notices that IT/OT “convergence” ignores the people part?,"I have started to put together a guide/handbook (format tbd) on the organizational/human side of IT/OT convergence. Not the tech, but the stuff that actually makes or breaks these projects in my experience. I am looking for other people’s experiences and anecdotes of similar struggles and/or methods how to fix them. I’d really like to hear what worked or didn’t. 
+
+Background: People generally agree that the organizational challenges are the real bottleneck, but in the end, money and time still g",23,35,https://reddit.com/r/networking/comments/1o0betz/anyone_else_notices_that_itot_convergence_ignores/,[],['manufacturing'],medium
+privacy,"Chat Control is ""like a malware on your device"" – Signal slams the EU proposal to scan your private chats",,2314,69,https://reddit.com/r/privacy/comments/1nzw64j/chat_control_is_like_a_malware_on_your_device/,['malware'],['retail'],medium
+privacy,Discord customer service data breach leaks user info and scanned photo IDs,,2191,159,https://reddit.com/r/privacy/comments/1nxfnv0/discord_customer_service_data_breach_leaks_user/,['data_breaches'],[],medium
+privacy,"Discord says 70,000 users may have had their government IDs leaked in breach",,1962,130,https://reddit.com/r/privacy/comments/1o1zk5t/discord_says_70000_users_may_have_had_their/,[],['government'],medium
+privacy,Discord users suffer the first high-profile age-verification hack – and it's unlikely to be the last,This is why we must publically and vocal oppose age verification bills. We now have a confirmed case of these laws acting as a vulnerability for bad actors. Exactly as experts predicted. ,1115,45,https://reddit.com/r/privacy/comments/1o2cbh7/discord_users_suffer_the_first_highprofile/,['vulnerabilities'],['retail'],medium
+privacy,UK Government Issues New Order to Access iCloud User Data,,878,185,https://reddit.com/r/privacy/comments/1nvabm3/uk_government_issues_new_order_to_access_icloud/,[],['government'],medium
+privacy,ParkMobile pays... $1 each for 2021 data breach that hit 22 million,"A breach in your data is worth $1 according to ParkMobile
+
+>\[Data compromised\] contained customers' first and last names, initials, mobile numbers, email addresses, user names, bcrypt-hashed passwords, mailing addresses, license plate numbers, and vehicle information",743,25,https://reddit.com/r/privacy/comments/1nyn90t/parkmobile_pays_1_each_for_2021_data_breach_that/,['data_breaches'],[],medium
+privacy,This should be considered crime and that's why privacy matters,"As you can see from the picture and comments on the post, the person had been sober for seven months and then received an ad about alcohol. Also, many people with eating disorders and weight loss issues see ads for junk food and scales.",620,122,https://reddit.com/r/privacy/comments/1oaqz9b/this_should_be_considered_crime_and_thats_why/,['privacy'],['retail'],medium
+privacy,"Signal is down due to Amazon Web Services being down. So, Signal uses AWS. Does this mean anything in terms of privacy?","Is this a privacy issue that Signal uses AWS?
+
+It does seem to be a risk for keeping it running when we see now how an outage up the chain can do that.",571,101,https://reddit.com/r/privacy/comments/1obf0rd/signal_is_down_due_to_amazon_web_services_being/,['privacy'],[],medium
+privacy,Texas is the 3rd State to Require App Store Age Verification,"Texas has passed the “AppStore Accountability Act” effective January 1st, 2026, every user will be required to verify their age to download any app from the Apple App Store or Google Play Store. This law invades personal privacy, infringes on our constitutional rights for privacy and free speech, and exposes users’ personal information to data breaches. I am tired of this alarming trend of US states (Utah, Louisiana, Texas) following the footsteps of the UK. ",552,105,https://reddit.com/r/privacy/comments/1o800yq/texas_is_the_3rd_state_to_require_app_store_age/,"['data_breaches', 'privacy']","['government', 'retail']",medium
+privacy,"PSA: Even if you private your Reddit account, there is an easy way to search for ALL of your posts/comments.","If you are a person who frequently uses one singular Reddit profile to make posts/comments on things that you do not want people to judge you for (eg: NSFW subs, family/friends knowing about your acc, etc), you should consider creating an alternate account.
+
+The following text will show how to find all the posts/comments of a privated account. Please use this at your own risk. >!Find the username of the person you are looking up. Then, without the ""u/"" part, search all of Reddit for ""author:(put",415,70,https://reddit.com/r/privacy/comments/1oej4f4/psa_even_if_you_private_your_reddit_account_there/,[],['retail'],medium
+hacking,Does anyone find it strange that Hacktivism seems to be almost nonexistent considering the current political climate?,"I do think it makes sense why financial motivation is the primary driving force behind a lot of today’s young hackers and I think the emergence of cryptocurrencies is the main reason.  But even so, I guess I still would expect there to be non-state groups out there hacking for political reasons , especially in the United States.
+
+Maybe there is and I’m just not in the loop but I’m just curious on what other people think.  Am I wrong?  ",1456,188,https://reddit.com/r/hacking/comments/1o0vq9m/does_anyone_find_it_strange_that_hacktivism_seems/,[],"['finance', 'government']",medium
+hacking,I built a compiler that lets you write high-level code directly in assembly.,"hey everyone. i made a small side project. its a compiler that lets you write assembly code using c style syntax. you can use things like if else statements, for loops, while loops, functions, and variables just like in c, but still mix in raw assembly instructions wherever you want. the compiler then converts this hybrid code into normal c code and turns all your assembly parts into inline assembly. it also keeps your variables and data linked correctly, so you can easily call c libraries and u",1389,44,https://reddit.com/r/hacking/comments/1ny122m/i_built_a_compiler_that_lets_you_write_highlevel/,['malware'],"['government', 'retail']",medium
+hacking,Government hacked their own website,"Not sure the reasoning behind doing such a hack job on the government sites, but this just doesn’t cut it as a normal edit. Thinking the programmer had to do this against their own will and just threw it on there. So odd.",498,63,https://reddit.com/r/hacking/comments/1o1q5sz/government_hacked_their_own_website/,['data_breaches'],['government'],medium
+hacking,F5 systems hacked- they had over a year in the systems,https://www.bloomberg.com/news/articles/2025-10-16/potentially-catastrophic-breach-of-cyber-firm-blamed-on-china?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc2MDYyMTE2MCwiZXhwIjoxNzYxMjI1OTYwLCJhcnRpY2xlSWQiOiJUNDc3QU1HT1QwSlcwMCIsImJjb25uZWN0SWQiOiIyQjhBMUI2RTlCMkM0QTNBOEVCMkEzRkJGRTUxOTIyMyJ9.d8iswt2dR8D7A1fC9Ni3a3kbC6RHuSqgtR9dsn9jJXY,477,56,https://reddit.com/r/hacking/comments/1o86423/f5_systems_hacked_they_had_over_a_year_in_the/,['data_breaches'],[],medium
+hacking,soo my side project turned into its own malware dev language,"hey guys soo i wanted to share my progress, soo from the last post feedback, i have turn this project into its own language calling it casm (c assembly). There are now some change now the asm file that has mix of asm and c, directly turn into complete assembly no inline assembly in c, all the c code is converted into asm and combined with the existing asm code, while insuring all the var that are shared in c and asm are mapped correctly, now you can use the power of c with asm, in the picture th",323,7,https://reddit.com/r/hacking/comments/1o0pgps/soo_my_side_project_turned_into_its_own_malware/,['malware'],"['government', 'retail']",medium
+hacking,‘I lost 25 pounds in 20 days’: what it’s like to be on the frontline of a global cyber-attack,,298,17,https://reddit.com/r/hacking/comments/1oaiff2/i_lost_25_pounds_in_20_days_what_its_like_to_be/,[],[],medium
+hacking,Update on my supply chain tool called raider,"Quick update on Raider, my supply chain recon and risk analysis tool.
+
+Since my last post, I’ve been working on bringing Raider’s visuals and control closer to the CLI experience making it easier to spin up, visualize, and export results without needing a separate UI.
+
+Having a multi architure is great for resiliance but not for geting people up and running fast SO..
+
+Here’s what’s new:
+
+Interactive Graph in Vue.js – The graph is now has a fully draggable control panel so you can interact with t",247,15,https://reddit.com/r/hacking/comments/1o530my/update_on_my_supply_chain_tool_called_raider/,"['vulnerabilities', 'supply_chain']",['retail'],medium
+hacking,Making an all in one CLI hacking tool built on top of rust..,"I'm re-working the reporting format for Open directory right now, and will be adding more soon. got alot to work on and polish.
+
+my fellow pentesters told me using ascii banners looks to script kiddy...
+
+Does anyone have a suggestion for the banner?
+
+Edit:  
+thanks for the feedback.  
+Here's the repo. [https://github.com/VenTheZone/Project-WebHunter](https://github.com/VenTheZone/Project-WebHunter)  
+Feedbacks are much appreciated
+
+Don't be shy to check the source code",232,31,https://reddit.com/r/hacking/comments/1ohldsx/making_an_all_in_one_cli_hacking_tool_built_on/,[],[],medium
+hacking,​Is a zero-day exploit the only real remaining risk when using public Wi-Fi with fully patched devices and HTTPS?,"​I had a discussion about the risks of using public Wi-Fi. My point is that standard threats like basic Man-in-the-Middle (MITM) and sniffing unencrypted traffic are mostly neutralized by updated browsers, OS patches, and ubiquitous HTTPS usage.
+​My two main questions are:
+
+1)​If a user uses these security measures (updated everything, HTTPS), is the only unknown and potentially successful attack vector left a zero-day vulnerability in the OS or browser? Or are there still simpler, non-zero-day ",204,87,https://reddit.com/r/hacking/comments/1oegd5a/is_a_zeroday_exploit_the_only_real_remaining_risk/,['vulnerabilities'],['government'],medium
+hacking,"Just received this email from a website I have never used, wtf?","When I check the email details it says Mailed By ""frontgate.zendesk.com"" and Signed By ""zendesk.com"" so it looks legit, but I have no clue what this is about. There is a random 8-digit number after the word ""discord"" in the title, which doesn't seem to even be a valid discord ID, but I've hidden it just in case.
+
+  
+ps. Just got another very similar one from ""Lightspeed POS & Payments Platform"", again via zendesk etc. It's safe to assume zendesk are having some breach at this point and all of th",170,92,https://reddit.com/r/hacking/comments/1o7l1c0/just_received_this_email_from_a_website_i_have/,[],"['finance', 'retail']",medium
+hacking,New Mic-E-Mouse Attack Shows Computer Mice Can Capture Conversations,,149,10,https://reddit.com/r/hacking/comments/1o16xpq/new_micemouse_attack_shows_computer_mice_can/,[],[],medium
+hacking,Hacking in America 2025,With the way the government can track anyone these days is it possible to really be anonymous? Hacktivism seems all but dead and outside of work or theft why do you hack? ,145,121,https://reddit.com/r/hacking/comments/1o6s8u1/hacking_in_america_2025/,[],"['government', 'retail']",medium
+hacking,$50 Battering RAM Attack Breaks Intel and AMD Cloud Security Protections,,118,9,https://reddit.com/r/hacking/comments/1nv3yd7/50_battering_ram_attack_breaks_intel_and_amd/,['cloud_security'],[],medium
+hacking,Team up for CTF?,"Hey everyone! Two years have passed since I first created my CTF team [ResetSec](https://resetsec.github.io/) here on r/hacking, and we’ve grown a lot. After a while, only 4–6 people have remained active weekly, but even so, this summer we achieved some amazing results, like top *17 in UIUCTF 2025 and top 23 in DUCTF 2025*.  
+  
+again a **HUGE kudos** to the community for actually starting this project <3<3
+
+  
+Now we’re trying to recruit more people for our team and are looking for experienced ",66,19,https://reddit.com/r/hacking/comments/1o5q2of/team_up_for_ctf/,[],[],medium
+hacking,A Comprehensive and Educational Linux Priv. Escalation Tool,"Hey fellow cybersecurity enthusiasts,
+As a newcomer to pentesting, I noticed a gap in resources for privilege escalation. Many guides recommend tools like LinPeas, but often lack explanations for why certain vectors work. So I started to work on LearnPeas – providing not only enumeration but also educational context for each potential escalation vector.
+
+LearnPeas aims to bridge the gap between tool usage and understanding, helping learners grasp the underlying mechanics. 
+
+Check out the GitHub ",53,10,https://reddit.com/r/hacking/comments/1nvh3xi/a_comprehensive_and_educational_linux_priv/,[],"['education', 'retail', 'manufacturing']",medium
+hacking,Hackers release Qantas customers' data on dark web,,51,2,https://reddit.com/r/hacking/comments/1o3uf45/hackers_release_qantas_customers_data_on_dark_web/,[],[],medium
+hacking,Weak and Exposed: US Water Utilities a Chinese Hacker Target,"I wrote this follow up on the 60 Minutes interview with former NSA Director and Cyber Command Chief Gen Tim Haugh last week. 60 Minutes looked at chinese efforts to preposition hackers inside the systems of vital service providers like power and water utilities, so they could be sabotaged during or preceding a conflict with the US.  
+My story looks at a couple of volunteer efforts to secure water utilities, which are the critical infrastructure providers most likely to be below the cybersecurity",51,2,https://reddit.com/r/hacking/comments/1ocpzjp/weak_and_exposed_us_water_utilities_a_chinese/,[],['retail'],critical
+hacking,Future proof password length discussion,"If you must set a unique password (not dictionary) today for an important account and not update it for the next 20-30 years, assuming:
+
+- we still use passwords
+- you are a public figure
+- no 2FA but there are also no previous leaks, no phishing, no user error, no malware on device that force a password update 
+- computing power (including AI super intelligence and quantum computers) keeps improving
+- the password will be stored in a password manager 
+
+What password length (andomly generated us",47,49,https://reddit.com/r/hacking/comments/1o9dtkn/future_proof_password_length_discussion/,"['phishing', 'malware', 'vulnerabilities']",[],medium
+hacking,Not Just Spies and Saboteurs: Satellite Operators Say Cybercrime Is a Constant Threat,"Discussions about cyber threats against satellites and satellite operators tend to focus on threats from a nation state adversary designed to cut communications links and other space-based systems like GPS that the U.S. military—and the broader U.S. economy—rely upon.  
+But for cyber defenders in the commercial space sector the daily reality can be rather different.  
+My story for Air & Space Forces Magazine:",45,2,https://reddit.com/r/hacking/comments/1oh1vzr/not_just_spies_and_saboteurs_satellite_operators/,[],['government'],medium
+hacking,Feel stuck with learning,"So I’ve learned a lot of the basics the past few years I’ve been into hacking/cybersecurity. I feel like I’m stuck I want to learn so much about everything I can and end up stunting myself from actually learning anything. I’ve always loved WiFi/radio frequency hacking and all the cool lil gadgets like rubber duckies and m5sticks hackrf etc. basically anything portable that has a function. Always thought things with antennas looked pretty cool. I love networking as well like servers, routers, stu",39,13,https://reddit.com/r/hacking/comments/1o3m2mb/feel_stuck_with_learning/,"['malware', 'vulnerabilities']","['retail', 'manufacturing']",medium
+hacking,"DEF CON 33 - Kill List: Hacking an Assassination Site on the Dark Web - Carl Miller, Chris Monteiro",,40,2,https://reddit.com/r/hacking/comments/1o8ka05/def_con_33_kill_list_hacking_an_assassination/,[],[],medium
+hacking,reported 2 security issues to Ulanzi 3 days ago,,42,12,https://reddit.com/r/hacking/comments/1nyxb5b/reported_2_security_issues_to_ulanzi_3_days_ago/,[],[],medium
+hacking,Pi zero 2 w with fenvi ax1800 only shows 2.4ghz and no 5ghz.,Pi zero 2 w with fenvi ax1800 only shows 2.4ghz and no 5ghz. The device is using the new wifi adapter as when it's unplugged it shows nothing with iw dev. The problem is that it cannot see 5ghz and only shows 2.4ghz with iw dev. Is there something else I need to do to enable 5ghz?,37,9,https://reddit.com/r/hacking/comments/1oa5p5y/pi_zero_2_w_with_fenvi_ax1800_only_shows_24ghz/,[],[],medium
+hacking,YouTube HTB walkthroughs! Should be great if you're prepping for OSCP,"Hey everyone!
+
+TL;DR - Check out the link for some HTB walkthroughs; geared towards OSCP prep, but great for anyone curious about hacking in general!
+
+Background:
+I recently passed the OSCP exam on my first try with a full 100pts. In order to give back to the community, I wanted to start a YouTube series with quick ~10min hacking guide of OSCP machines. All of these machines should be good practice for the test (they're from LainKusanagi's guide).
+
+These are going to be quick, pre-hacked boxes t",29,3,https://reddit.com/r/hacking/comments/1obqmjr/youtube_htb_walkthroughs_should_be_great_if_youre/,['data_breaches'],[],medium
+hacking,It is possible to hack the password from this BIOS?,"Hi everybody. I have a laptop Acer Aspire E1-472 that I haven't used in the last 3 years becuase there is a password that lock the access to the BIOS, and I never remembered the password.
+
+There are some online tools to get passwords from BIOS like [https://bios-pw.org/](https://bios-pw.org/) and [https://www.biosbug.com/](https://www.biosbug.com/), but none of them works.
+
+However, every 3 failed attempts to enter a password, the system generate a ""hint"" number, which it is (very probably) to g",31,38,https://reddit.com/r/hacking/comments/1oejbx4/it_is_possible_to_hack_the_password_from_this_bios/,[],['retail'],medium
+hacking,Pegasus in 2025?,"Hello,
+
+Being such a large community I thought this might be a good place to see if there have been any new developments with the Pegasus Spyware by NSO Group. Have there been any legit leaks of binary’s?
+
+OTW mentioned a year (or more) ago that he had a copy of the “Android version” but not for iOS.
+
+Ever since its discovery by the community I have been very intrigued. I know there have been patches pushed and its original threat isn’t as severe but it still exists. You’d think there’d be a lea",21,14,https://reddit.com/r/hacking/comments/1o0tk1c/pegasus_in_2025/,['vulnerabilities'],[],medium
+hacking,Where to learn the fundamentals of computer network exploitation?,"Question in title. I’m not looking on how to be a master hacker or anything, but more so the fundamentals and how the process works.",21,17,https://reddit.com/r/hacking/comments/1nzhxev/where_to_learn_the_fundamentals_of_computer/,['vulnerabilities'],[],medium
+hacking,Websites like null byte?,"I originally got into hacking and cyber security by reading null byte write ups and stuff. After graduating college I’ve been wanting to get back into the hobby and of course have started watching the classics like defcon talks and hak5 stuff but written things seem to be quite rare these days. These are all good but I like having something written I can refer to. As well vulnhub seems to be practically dead nowadays. 
+
+What are some good alternatives to these kinda spaces?",15,4,https://reddit.com/r/hacking/comments/1o1bnqa/websites_like_null_byte/,[],['manufacturing'],medium
+hacking,Oracle patches EBS zero-day exploited in Clop data theft attacks,,16,1,https://reddit.com/r/hacking/comments/1nzc4cq/oracle_patches_ebs_zeroday_exploited_in_clop_data/,"['data_breaches', 'vulnerabilities']",[],high
+hacking,Hacking via CGNAT Wi-Fi,"Hello!
+
+I moderately understand technology, but I’m very curious and couldn’t help to question any types of vulnerabilities with having cellular based Wi-Fi (TMHI, VHI, etc.) Would it technically be considered more secure compared to, say, a standard ISP? 
+
+It’s not like the standard user could forward anything out of their network, so why wouldn’t tech-conscious people consider using it (besides the obvious reasons like speed/location/etc.)? What are some known vulnerabilities with it? It seems",13,10,https://reddit.com/r/hacking/comments/1oc47go/hacking_via_cgnat_wifi/,[],[],medium
+hacking,Bulk search queries or...?,"Hello,
+
+Hoping someone can help me, and I truly hope I'm not annoying anyone by asking:
+
+I volunteer at my local immigration rights non-profit and I have been tasked with finding people who have been detained by ICE. Most of what I do is search for people detained in a certain facility by using their online commissary site. Sometimes by using the official (locator dot ice) platform. The problem is the powers that be don't have a lot of concern for spelling folks names correctly or entering half ",11,5,https://reddit.com/r/hacking/comments/1ntzuua/bulk_search_queries_or/,[],['retail'],medium
+hacking,From Path Traversal to Supply Chain Compromise: Breaking MCP Server Hosting,,10,0,https://reddit.com/r/hacking/comments/1odxa2l/from_path_traversal_to_supply_chain_compromise/,['supply_chain'],[],medium
+hacking,Semaev's Naive Index Calculus Attack on Elliptic Curves,Semaev's 2004 paper showed one can replace expensive elliptic curve addition with a summation polynomial and attack elliptic curves.,10,0,https://reddit.com/r/hacking/comments/1oc92z9/semaevs_naive_index_calculus_attack_on_elliptic/,[],[],medium
+hacking,"What would be needed to use existing cell tower/network infrastructure to track drones (re: recent drone ""sightings"" in the EU)","Since it's already possible to [measure a humans heart beat / pulse via WiFi](https://hackaday.com/2025/09/23/heart-rate-measurement-via-wifi-the-diy-way/) ;-) and AFAIK existing cell towers
+
+1. have directional antennas
+2. have several cells per tower (I mean that there are several antennas for different segments of the whole circle)
+3. have beamforming capabilities
+4. do MiMo
+5. use [open RAN](https://en.wikipedia.org/wiki/Open_RAN?useskin=vector) / sd-RAN (software defined, basically SDR I th",9,12,https://reddit.com/r/hacking/comments/1o0s24b/what_would_be_needed_to_use_existing_cell/,['privacy'],"['government', 'retail']",medium
+hacking,Can't migrate to a process (metasploit eternalblue),"Hello eveyone. I am a beginner in the TryHackMe journey. I am trying the room ""Blue"", which uses the EternalBlue (ms17\_010) exploit and a reverce\_tcp payload. I can use the exploit and payload, get nt authority/SYSTEM access to the target and even upgrade the shell to meterpreter.
+
+However, when trying to migrate to another process, as instructed in the room, I can't do it.  I always get the same error: core\_migrate: Operation failed: 1300. I have tried different processes, restarted my VM, m",5,3,https://reddit.com/r/hacking/comments/1oe3s19/cant_migrate_to_a_process_metasploit_eternalblue/,['vulnerabilities'],[],medium
+hacking,Hacking Formula 1: Accessing Max Verstappen's passport and PII through FIA bugs,,3,1,https://reddit.com/r/hacking/comments/1odwgju/hacking_formula_1_accessing_max_verstappens/,[],[],medium
+hacking,Hackrf or evilcrow v4 dongle,"Looking for a dongle for rf activities, I’m looking for people who have experience with these tools. Heads up I’ll be using on hackberry pi. Which one has more capabilities and which one is easier to use. ",5,8,https://reddit.com/r/hacking/comments/1o600z3/hackrf_or_evilcrow_v4_dongle/,[],[],medium
+hacking,"Production Security, Not That Kind","Hi everyone, in our latest post we look under the hood of a professional-grade audio mixer to explore its security profile and consider how vulnerabilities could be leveraged by an attacker in a real world setting.",1,0,https://reddit.com/r/hacking/comments/1nx96c2/production_security_not_that_kind/,[],['retail'],medium
+hacking,What’s your rationality for using technologies that are maintained by people that support political agendas contrary to your own views?,"I’m having a hard time with it these days. I got into programming and game development from watching movies about hackers who used their skills to attack tyrants. Now it seems like almost all of the tech that we could use to do what we do is either made, maintained, or supported by companies that are cozying up with government entities.
+
+And you may be reasonably asking “well why don’t you just make everything from scratch if you feel that way?” I’d love to. I’d rather reinvent the wheel a thous",0,41,https://reddit.com/r/hacking/comments/1oe3w89/whats_your_rationality_for_using_technologies/,[],"['government', 'retail']",medium
+HowToHack,How to get started in hacking as a hobby,"Ive always been interested in hacking and cybersecurity but ive never know where to start. Everytime I google it, it always seems to revolve around getting a job and im not really intersted in that right now I just want to learn for my own enjoyment. I can program a bit in python and java and know how to use a linux terminal, albeit in a very limited way, but im totatly lost when it come to anything else does anyone have any pointers as to where to get started? Preferably resources that are free",145,44,https://reddit.com/r/HowToHack/comments/1o5wld9/how_to_get_started_in_hacking_as_a_hobby/,[],[],medium
+HowToHack,Is learning C worth it for hacking / low-level stuff ?,"From what I’ve seen, people mention C for things like buffer overflows, exploit dev, writing shellcode, kernel modules, firmware, and just understanding how memory/stack/heap really work. But at the same time a lot of tooling and scripts are in Python, and you can do a lot without ever touching C
+
+  
+If you had to pick one path first, is C a waste of time or is it kind of essential if you want to go deeper into real exploit development and reverse engineering? Would love to hear practical experi",110,44,https://reddit.com/r/HowToHack/comments/1nysamm/is_learning_c_worth_it_for_hacking_lowlevel_stuff/,['vulnerabilities'],[],medium
+HowToHack,Is web hacking still a good career path?,"I keep hearing that web hacking is saturated and bug bounty payouts are dropping.
+I wanted to focus on web app security this year, but now I’m second-guessing. Should I pivot to cloud security or something more future-proof?
+Would love to hear what people in the industry think.
+",60,25,https://reddit.com/r/HowToHack/comments/1ntbkn9/is_web_hacking_still_a_good_career_path/,['cloud_security'],[],medium
+HowToHack,Feeling overwhelmed what are ports exactly?,"Hey everyone,  
+I’ve been learning about networking and hacking lately, but I keep getting confused about **ports**.
+
+Like… does a port mean that a website or a server provides **multiple services**, and each of those services runs on a **specific port**?
+
+For example, if I visit a website, am I basically connecting to one of those ports?  
+And when people say something like “port 80 is open” — does that mean there’s some kind of service (like a web server) listening on that port, waiting for co",58,35,https://reddit.com/r/HowToHack/comments/1o4k5ek/feeling_overwhelmed_what_are_ports_exactly/,[],[],medium
+HowToHack,Where to learn the fundamentals of computer network exploitation?,"
+Question in title. I’m not looking on how to be a master hacker or anything, but more so the fundamentals and how the process works.
+
+I’m also interested in learning about threat analysis including assessments identifying and describing threat actors, activities, and platforms.",51,34,https://reddit.com/r/HowToHack/comments/1nzi3yw/where_to_learn_the_fundamentals_of_computer/,['vulnerabilities'],[],medium
+HowToHack,Inspecting source page and developer tools can actually end up hacking the site ?,"I was studying web hacking on tryhackme and I finished the ""walking an application"" room and what I concluded that sometimes you can hack a site or found an valuable info using developer tools and inspecting the pages how far is this useful in the real world ?",35,14,https://reddit.com/r/HowToHack/comments/1o3t5yq/inspecting_source_page_and_developer_tools_can/,[],[],medium
+HowToHack,Feeling overwhelmed trying to learn hacking even though I already know the basics anyone else?,"Hey everyone — throwing this out to the internet because I need to know I’m not the only one.
+
+I’ve been studying hacking/infosec for a while now and I’ve got the basics down (networks, Linux, some scripting, and a few TryHackMe boxes). On paper I *should* feel confident, but the truth is I’m constantly overwhelmed. There’s so much: tools, methodologies, CVEs, exploit dev, web, pwn, reversing, CTFs, defensive side, threat intel... every time I pick a path I end up staring at a giant list of thin",23,25,https://reddit.com/r/HowToHack/comments/1o39t6d/feeling_overwhelmed_trying_to_learn_hacking_even/,['vulnerabilities'],['manufacturing'],medium
+HowToHack,Hacking arlo cameras,I have a few arlo cameras around my house and I was wondering if there was a way I could stream the live feeds to my computer. Im running Kali linux and im pretty new to this stuff. I wanted a fun project to learn some things about networking. How realistic is this? I have already identified the cameras IP.,19,19,https://reddit.com/r/HowToHack/comments/1o26ees/hacking_arlo_cameras/,[],[],medium
+HowToHack,How IoT can actually be hacked?,"Although I'm a beginner at hacking, I'm intrigued to know how these devices can be hacked, so that they can be part of a botnet for DDOS attacks. I mean, you have to identify the IP, ports, and services; but then how do they get the firmware version or its code (for reversing perhaps)? How can they exploit it if, for example, the ports are in unknown?
+
+6884/tcp  closed unknown  
+6885/tcp  closed unknown  
+6886/tcp  closed unknown  
+6887/tcp  closed unknown  
+6888/tcp  closed muse  
+6889/tcp  clo",15,8,https://reddit.com/r/HowToHack/comments/1ofbehm/how_iot_can_actually_be_hacked/,"['data_breaches', 'vulnerabilities']",['retail'],medium
+HowToHack,Understaning reverse shells,"Im very confused on how this would be useful to a hacker. First of all, im a bit confused as to what netcat does when you connect to a port to listen. Will there be an output of whatever data is being sent to and from that port shown below? Additionally, lets say netcat is used to connect to some victim. What is actually entailed in this connection. Is the attacker basically connected to the victim but with no privileges so they cant do anything?",16,19,https://reddit.com/r/HowToHack/comments/1o56ect/understaning_reverse_shells/,[],[],medium
+HowToHack,"Looking for Jeopardy-style CTF sites, resources, and specific challenge recommendations (beginner → intermediate)","Hey everyone — I’m trying to build a focused practice list of **jeopardy-style CTF** challenges and learning resources. I’d appreciate links, specific challenges/rooms, collections, or guides that are good for solo practice (especially beginner → intermediate)
+
+I am looking for ctfs to practice in these topics :   
+\-Web exploitation 
+
+\-Cryptography 
+
+\-OSINT
+
+\-Reverse engineering 
+
+",14,6,https://reddit.com/r/HowToHack/comments/1odw7sp/looking_for_jeopardystyle_ctf_sites_resources_and/,['vulnerabilities'],['manufacturing'],medium
+HowToHack,"people in the subreddit For the experienced folks, what's your ""how I became a hacker"" story during your history like what happened to you all like tell me about your story??","Hey everyone,
+
+I've been lurking here for a while on the internet and I'm always fascinated by the different paths people take to get into this field. I'm at a point where I'm an IT student who is wanna be an ethical hacker like an red hat hacker or software engineer where I'm coming from the gaming community when I'm at tech school and hearing about your personal journeys would be incredibly motivating and insightful.
+
+I'm not just looking for a list of resources (though those are great too!). ",14,12,https://reddit.com/r/HowToHack/comments/1o8we58/people_in_the_subreddit_for_the_experienced_folks/,[],['education'],medium
+HowToHack,Best budget home lab setup for learning wireless network pentesting?,"I want to learn wireless network penetration testing and need advice on setting up a proper home lab. I'm starting from scratch and want to do this safely and legally on my own equipment.
+
+**My current plan:** I'm thinking of buying a cheap TP-Link TL-WR841N router (around £15-20) and an Alfa AWUS036NHA WiFi adapter (around £20-25). The idea is to keep the router completely isolated - no internet connection, just a standalone test network that I can practice on without any risk to other networks",11,7,https://reddit.com/r/HowToHack/comments/1nxzgya/best_budget_home_lab_setup_for_learning_wireless/,[],['government'],medium
+HowToHack,Blink cameras,"I am wanting to experiment with my own blink cameras to hack into them but the 554 is open. 
+What’s the best way to navigate and try to get through?",11,8,https://reddit.com/r/HowToHack/comments/1o2jkds/blink_cameras/,[],[],medium
+HowToHack,help with wireshark ubuntu,"im new to ubuntu and linux in general, i have installed wireshark through the terminal and got a basic idea of working it, as a step of my learning journey i tried using wireshark to view traffic logs on my home wifi network from other devices with the ssh dump installation, problem is it was only showing traffic going from my device (the host ip) and i couldnt figure out how to view other devices, i tried following chatgpt steps but it ended up telling me it won’t help with invading other peopl",10,6,https://reddit.com/r/HowToHack/comments/1oajt2k/help_with_wireshark_ubuntu/,['privacy'],[],medium
+HowToHack,"VLAN with dedicated VPN tunnel, DNS isolation, and kill switch — best practice?","Hey :)
+
+I’m working on a more advanced homelab setup and would really appreciate some insight from people who’ve built something similar.
+
+*My environment:*
+
+* pfSense CE 2.7.2 (with DNS Resolver + pfBlockerNG-devel)
+* Proxmox VE 9.0 as Homeserver
+* Several VLANs, all segmented through pfSense
+* One VLAN should be fully isolated: its own VPN tunnel, its own DNS resolver, and a complete kill switch (if VPN goes down → nothing at all)
+
+*Goal:*
+
+* Only this specific VLAN should go out through a Wir",6,3,https://reddit.com/r/HowToHack/comments/1od424l/vlan_with_dedicated_vpn_tunnel_dns_isolation_and/,[],"['government', 'retail']",medium
+HowToHack,python packages to learn?,"I've been learning networking and Nmap and I want to try using python for hacking and build malware, any recommendations for packages I should use? :)",6,3,https://reddit.com/r/HowToHack/comments/1nzsa7e/python_packages_to_learn/,['malware'],[],medium
+HowToHack,Help with ssl stripping,"Hello everyone, I hope you are doing well  
+So lately I got interested in stuff related to wifi hacking, and I am currently trying to learn how to downgrade an adress from HTTPS to HTTP (SSL-stripping). For the time being, I am using bettercap on kali linux, but however, no adress is downgraded, and stay in https. I am on my own personal wifi, the target is on the wifi and the attacker is on ethernet. I followed a dozen of tutorials and read the whole documentation, and I'm so upset itdoesn't wo",4,8,https://reddit.com/r/HowToHack/comments/1od85a7/help_with_ssl_stripping/,[],[],medium
+HowToHack,How to pull password hash from locked Windows 11,"Hello, I am a IT student who has gotten a special project by my teachers to ""hack"" into a windows 11 by using kali linux. I have everything ready, the last thing i need to to pull the hash from the locked PC. I can't login as a guest or any other account than the one currently ""logged on"".
+
+Note: the drive is BitLocked
+
+So i figured i would ask you guys!",6,13,https://reddit.com/r/HowToHack/comments/1od11w3/how_to_pull_password_hash_from_locked_windows_11/,[],['education'],medium
+HowToHack,I want to become a better ctf player but Idk how what do u recommend me to do ?,"Currently I am studying the web fundamentals path on tryhackme and I want at the same time to practice ctf even with different topics so how to start with it ?
+
+Besides where i can find challenges and labs related to ctf I can solve and if you have a experience in ctf let me know so I can take some advices too",5,7,https://reddit.com/r/HowToHack/comments/1o4q3ni/i_want_to_become_a_better_ctf_player_but_idk_how/,[],['manufacturing'],medium
+HowToHack,I know it is noob question but it always confuses me what is the difference between web app/ server / website ?,I mean at some point in terms of hacking and cybersecurity aren't all the same thing ? ,6,9,https://reddit.com/r/HowToHack/comments/1o4066f/i_know_it_is_noob_question_but_it_always_confuses/,[],[],medium
+HowToHack,Tails hacking,"Im new to cybersec and was wondering if there was a way to run similar tools on tails that may be found on other distributions (I.e. Kali). Would I have to enable persistent storage? 
+
+Original post was taken down. I’m posting here as I am unable to do so on r/tails without having posted somewhere else first. ",4,7,https://reddit.com/r/HowToHack/comments/1o9btem/tails_hacking/,[],['retail'],medium
+HowToHack,"New to IT — Want A+, Network+, Security+ (Have HackTheBox, 50% CompTIA coupon until Jan) — Where do I start? (Vancouver / willing to relocate)","Hey everyone — I’m new to IT but seriously committed. I have HackTheBox (premium) and a 50% off coupon for CompTIA exams that expires in January, so I need to book before then. I don’t have much real-world experience and don’t know the best path forward. I’d really appreciate concrete advice for study + getting a first job in the Vancouver area (I’m ready to move if a job shows up).
+
+Quick facts:
+	•	Goal certs: A+ → Network+ → Security+ (open to different order if you think that’s better)
+	•	Hav",4,2,https://reddit.com/r/HowToHack/comments/1nx2ie6/new_to_it_want_a_network_security_have_hackthebox/,[],[],high
+HowToHack,Seeking theory-focused books on network & web app security (no lab setups — new parent here!),"Hey everyone,
+
+Long story short: I’m a software developer with a strong interest in ethical hacking. I’ve done a lot of TryHackMe boxes and courses, but my partner and I just had a baby, so I’m not able to set up labs or spend time on hands-on practice right now.
+
+I’d love recommendations for books that dive deep into the **theory** of networking and web application security, things that explain *how* and *why* attacks and defenses work, protocol internals, threat models, secure design principle",4,0,https://reddit.com/r/HowToHack/comments/1nu4po6/seeking_theoryfocused_books_on_network_web_app/,[],"['government', 'manufacturing']",medium
+HowToHack,Wifi Pineapple MK5,"Hi all, have Pineapple MK5, and have tons of problems with it. \[BETA Release\] Firmware 3.0 . PineAP not loading, losing wlan0, web GUI has multiple errors, can not run Recon. Most of the things run from terminal OK. Just starting to learn, and thought maybe upgrade to MK7, as MK5 is not supported anymore, everyone is telling that Kali with Laptop is just about as good. It's hard to find any useful information, or troubleshooting - half of the time not sure if it's SSH wrong command, or somethi",3,1,https://reddit.com/r/HowToHack/comments/1of8xyu/wifi_pineapple_mk5/,[],[],medium
+HowToHack,Bypassing ASLR and Hijacking Control,"Explained how to exploit buffer overflow and hijack RIP in a PIE/ASLR binary.  
+[https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/](https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/)",3,1,https://reddit.com/r/HowToHack/comments/1oev7pp/bypassing_aslr_and_hijacking_control/,['vulnerabilities'],[],medium
+HowToHack,"Hands-On Hacking Workshops & $1K CTF at BsidesNoVA – Oct 10–11 (Arlington, VA)","Hey folks,
+
+If you’re in the DC/NOVA area and want a weekend of **hands-on hacking**, **BsidesNoVA** is happening **Oct 10–11 at GMU Mason Square (Arlington, VA).**  
+It’s a **community-run, volunteer-organized event** with no vendor pitches — just workshops, a CTF, and hallway-con with other hackers and defenders.
+
+🔥 **What’s on the hacking side:**
+
+* **Live Capture-the-Flag:** open to all skill levels, **$1,000 prize + Black Badge** 🏆
+* **Breach Village:** explore attack chains and IR scenario",3,5,https://reddit.com/r/HowToHack/comments/1nyufem/handson_hacking_workshops_1k_ctf_at_bsidesnova/,['malware'],['manufacturing'],medium
+HowToHack,Scapy MITM / ARP poisoning,"Hi everyone,  
+I am currently learning hacking on a CTF platform and there is a challenge where I need to perform a Man in the middle attack with two remote hosts communicating with each other (a client and a server).
+
+For that purpose I am using Scapy so that I can sniff the network packets, and I run a thread whose only purpose is to poison the ARP table of the remote hosts so they now send their packets to me. This part works and I can receive the packet.
+
+However, it seems like when I send t",3,0,https://reddit.com/r/HowToHack/comments/1ny5bwb/scapy_mitm_arp_poisoning/,[],['retail'],medium
+HowToHack,Replacing save files,"I have just finished **Metaphor: ReFantazio** on Game Pass. I have played over 120 hours, and I am only missing three trophies to obtain the platinum (100% completion).
+
+I tried downloading a Steam save file and copying it over, but the Game Pass file is encrypted (UWP). I then tried to replace the files using a PC application called **XGP Save Tools**. The file replacement was successful and the game recognized the save slot, however, when clicking on 'Load Game,' the load failed.
+
+I also attem",2,0,https://reddit.com/r/HowToHack/comments/1ohwt99/replacing_save_files/,[],[],medium
+HowToHack,recommendation,"What operating system do you recommend to tryhack me and at the same time learn commands and things like that, I'm new",2,13,https://reddit.com/r/HowToHack/comments/1ocr41x/recommendation/,[],[],medium
+HowToHack,Question Aruteforcing/Cracking Bestcrypt Containers,"Hey everybody,
+
+I have some bestcrypt containers (.jbc) left from my late father. I barely remember that bestcrypt had some security issues with its containers but I could not find any info about them. What is the best route to crack open these containers?
+I am aware that bruteforcing is not the efficient in any way and probably fail or so. I could not find any info about these bruteforce password list attacks on containers so I would be greatful if you could share any tips/tricks or guidence.
+
+",2,4,https://reddit.com/r/HowToHack/comments/1o3g24l/question_aruteforcingcracking_bestcrypt_containers/,[],[],medium
+HowToHack,"PySilon cannot implode, and possibly false detection","hi everyone, i'm learning about hacking and i'm using pysilon malware for educational purposes only and already given consent, but weirdly i cannot implode or delete the rat out of my friends pc, but i can implode or delete it on my other friends pc  
+\- the code : `[WinError 2] The system cannot find the file specified`
+
+and after the pc that couldn't implode, there is a weird detection detecting that there is another device that executing the compiled file, which i don't know who that is and t",2,0,https://reddit.com/r/HowToHack/comments/1o0dbm8/pysilon_cannot_implode_and_possibly_false/,['malware'],"['education', 'retail']",medium
+HowToHack,Bugs and cameras,For class we have to make a presentation on the dangers of computing (not hacking specific). I wanted to recreate a camera and microphone in a charger box or something then realized doing this is pretty hard. Can I just buy one anywhere or get wireless WiFi parts for both that fit in a charger box. ,2,3,https://reddit.com/r/HowToHack/comments/1nue0iv/bugs_and_cameras/,[],[],medium
+HowToHack,Where do I find resources for learning networking and recources for applying what I learned?,"Hi, so I have been wanting to start hacking for a long time and have finally actually begun learning with Linux. I have already fully done the overthewire bandit course (apart from the git tasks), done a few picoCTF tasks and am currently reading the Linux journey Grasshopper. While I have no illusions about my skills, I think they are decentish enough to relax on them a bit and put more pressure on other spheres. I realise that networking is also a big part of learning to penetration test and t",1,5,https://reddit.com/r/HowToHack/comments/1o3w9ik/where_do_i_find_resources_for_learning_networking/,[],[],medium
+HowToHack,Pen-testing handheld - New starter.,"Looking at specialising from IT to Cybersecurity. Just started hack the box, along with Networking+ before I move onto security+. But, I’ve been looking at flippers, Lilly-Go and Bruce firmware. Along with Kali OS - Basically I’ve drowned myself in information, I’m taking it slow, but hoping one of this small form factor devices will link the logical to the practical.
+
+Can anyone recommend a small form factor device for WiFi Pen testing? If not I’ll end up buying the T-Embed CC1101 and flash Bru",1,1,https://reddit.com/r/HowToHack/comments/1ntk20d/pentesting_handheld_new_starter/,[],[],medium
+HowToHack,How can i speedhack a denver SEL-10350 ODIN,Pls tell me how i could speedhack it so it can go over 30 cause rn it goes only 20 max i know it can do more but softwares like yours fa dont work and the official denver app doesn't work also,0,2,https://reddit.com/r/HowToHack/comments/1nzil4c/how_can_i_speedhack_a_denver_sel10350_odin/,[],[],medium
+HowToHack,Yo i have one doubt i dont know how to say...! Please try to understand,"From past 2 month i installed flare VM in my dual boot and i removed Main windows in that place im using arch  
+the thing is the my charging port light always blinking when i turn on the laptop i dont know that the reason   
+any one got same problem like me? Please tell whats the problem",0,7,https://reddit.com/r/HowToHack/comments/1ohopow/yo_i_have_one_doubt_i_dont_know_how_to_say_please/,[],[],medium
+blackhat,evilwaf most powerful firewall bypass tool v2.2 was released,"Now evilwaf supports more than 11 firewall bypass techniques includes:
+
+Critical risk: Direct Exploitation
+  • HTTP Request Smuggling
+  •JWT Algorithm Confusion
+  •HTTP/2 Stream Multiplexing
+  •WebAssembly Memory Corruption
+  •cache poisoning
+  •web cache poisoning
+
+  High risk: Potential Exploitation
+  •SSTI Polyglot Payloads
+  •gRPC/Protobuf Bypass
+  •GraphQL Query Batching
+  °ML WAF Evasion
+
+  Medium risk: Information Gathering
+  ° Subdomain Discovery
+  ° DNS History Bypass
+  ° Header Manipul",95,2,https://reddit.com/r/blackhat/comments/1o7fjib/evilwaf_most_powerful_firewall_bypass_tool_v22/,['vulnerabilities'],[],critical
+blackhat,How to exploit AI and LLM Vulnerabilities - PortSwigger Web Security Academy,"Filmed a tutorial on practical LLM security! Upgraded the mic this time, should be nice to listen to :P Let me know your thoughts. ;)",22,0,https://reddit.com/r/blackhat/comments/1nw1qcj/how_to_exploit_ai_and_llm_vulnerabilities/,['vulnerabilities'],[],medium
+blackhat,Intel has given up on securing SGX from physical attacks,"\> In response to the findings, Intel said the exploit is outside the scope of its threat model since it assumes a physical adversary that has direct access to the hardware with a memory bus interposer. In the absence of a ""patch,"" it's recommended that the servers be run in secure physical environments and use cloud providers that provide independent physical security.
+
+\> ""Such attacks are outside the scope of the boundary of protection offered by Advanced Encryption Standard-XEX-based Tweaked",9,0,https://reddit.com/r/blackhat/comments/1nvmdoc/intel_has_given_up_on_securing_sgx_from_physical/,['vulnerabilities'],['retail'],medium
+blackhat,Bypassing ASLR and Hijacking Control,"
+Published an article explaining how to exploit buffer overflow and hijack RIP in a PIE/ASLR binary.  
+
+[https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/](https://0x4b1t.github.io/articles/buffer-overflow-to-control-hijacking-in-aslr-enabled-binary/)",4,0,https://reddit.com/r/blackhat/comments/1ogclhi/bypassing_aslr_and_hijacking_control/,['vulnerabilities'],[],medium
+blackhat,Collins Aerospace Hit Twice: 2022 Infostealer Infection Enabled a Separate Breach,,2,0,https://reddit.com/r/blackhat/comments/1oe45qz/collins_aerospace_hit_twice_2022_infostealer/,[],[],medium
+blackhat,"Thoughts on latest DDoS for Steam, Hulu, Riot, etc.?","I ain't too code savvy myself, just wanted to see the reddit communities take on this. Sauce: https://windowsreport.com/massive-ddos-attack-knocks-out-steam-riot-and-other-services/",2,4,https://reddit.com/r/blackhat/comments/1o386gw/thoughts_on_latest_ddos_for_steam_hulu_riot_etc/,[],[],medium
+blackhat,What are some hacking forums 2025?,there seems to be almost no proper hacking forums online now days. Even the good OG ones have turned into ewhoring/scamming and porn platforms. Is there one thats not like this?,0,1,https://reddit.com/r/blackhat/comments/1ntgrjh/what_are_some_hacking_forums_2025/,[],[],medium
+blackhat,Where to find Data Breaches,I found hacking to be my new favorite hobby since I've started learning it a few months back. One thing I haven't figured out yet is where to find these data breaches. Tea App just recently had a data breach and I thought to practice with that. ,0,4,https://reddit.com/r/blackhat/comments/1nvjhee/where_to_find_data_breaches/,['data_breaches'],[],medium
+blackhat,Can a competitor do something to DNS to cause deindexing?,"The bandwidth on my network spiked then the site went off line. 
+
+I believe this was a targeted attack since i compete against a oligarchy.  Their goal would be to take site off line long enough so it loses ranking on search results. This person has 8 of the 10 results on page one and has to strong desire to have it all.
+
+The is related to google search results and a website going down for no reason except for the noticeable spike.",0,17,https://reddit.com/r/blackhat/comments/1nxz7gf/can_a_competitor_do_something_to_dns_to_cause/,[],[],medium
+blackhat,Is this true only 1% people in the world can find this kind of vulnerability,"
+ Just discovered something truly wild — a UI-only logic flaw in a major product that let a paid subscription activate without any payment, and no API calls or dev tools involved.
+
+Literally everything happened through the normal user interface — no backend tampering, no network interception, no code injection.
+
+The craziest part? It’s a once-in-a-lifetime kind of bug — something that probably no one could find by traditional testing or bug bounty scanning, because it happens purely from how the",0,8,https://reddit.com/r/blackhat/comments/1ognx0y/is_this_true_only_1_people_in_the_world_can_find/,['vulnerabilities'],['finance'],medium
+blackhat,How do you deal with IPTV payment issues?,"I’ve been running an IPTV service for a bit, and tbh, finding a good payment solution has been tough. PayPal + Stripe don’t work for IPTV, and most other processors aren’t much better.
+
+I finally found an [IPTV payment gateway](https://getblackpay.com/iptv-payment-gateway) that’s made things way easier. It helps with recurring payments, reduces chargebacks, and handles international transactions better.
+
+Anyone else here deal with payment issues for IPTV? What’s worked for you?",0,2,https://reddit.com/r/blackhat/comments/1oethv3/how_do_you_deal_with_iptv_payment_issues/,[],['finance'],medium
+blackhat,How can I set up Wireshark to someone else's home router?,"I've started to help my clients with setting up Wireshark. I've tried making a step-by-step guide and explained the installation process as simply as I could (with pictures,) but I still deal with clients (most are elderly) that find it too difficult to set up. They've given me permission to access their home network and even provide me their router information. I could do it for them remotely, sometimes just following my directions to allow me access is still too confusing for them.
+
+  
+I usual",0,4,https://reddit.com/r/blackhat/comments/1oh412c/how_can_i_set_up_wireshark_to_someone_elses_home/,[],['retail'],medium
+redteamsec,Phishing Workflow — Offensive Proof-of-Skill (Controlled Lab),"I recorded an attacker-side phishing workflow demo entirely in an isolated local lab (no external targets).  
+
+Lab topology: 2 SMTP servers (company.lab / attacker.lab), DNS server, two redirectors, victim = Windows + Thunderbird. Tools shown (attacker view): Gophish, Evilginx, in-memory loader. Defender was enabled in the lab but not shown on camera. 
+
+",21,0,https://reddit.com/r/redteamsec/comments/1nymi14/phishing_workflow_offensive_proofofskill/,['phishing'],[],medium
+redteamsec,Would love your feedback on Argus v2,"Hey everyone,
+
+I’ve been working on **Argus** for the past year — a modular OSINT & recon toolkit designed for serious information gathering.  
+The new **v2** just dropped, and it now includes **130+ modules** covering domains, APIs, SSL, DNS, and threat intelligence — all accessible from a single command-line interface.
+
+It’s open-source, fast, and built to simplify large-scale recon workflows.  
+Would love to hear your **feedback, suggestions, or ideas** for what to add next.
+
+🔗 [https://githu",11,0,https://reddit.com/r/redteamsec/comments/1o5ig56/would_love_your_feedback_on_argus_v2/,[],[],high
+redteamsec,Using red-teaming to break AI-Assisted Interview Cheating.,"We are a team of red-teamers who have been hacking into ML models for **almost** a decade. I say almost because my wife says 8 years is not a decade -\_-. Recently, we turned our attention to stopping AI cheating during interviews.
+
+Here’s how we did it:
+
+When interviewing for summer Interns, I had a weird feeling that the candidates were cheating. There was one candidate in particular who would constantly look at the corner of the screen every time I'd ask him a question. Maybe it was my parano",8,0,https://reddit.com/r/redteamsec/comments/1nzywgm/using_redteaming_to_break_aiassisted_interview/,['privacy'],"['retail', 'manufacturing']",medium
+redteamsec,Using AI to Generate and Execute Offensive Commands,"In the latest episode of **The Weekly Purple Team**, we explore how conversational AIs and automation tools like **Claude Sonnet** and **Cline** can generate and coordinate executable command sequences for offensive security tasks — and how defenders can turn that same capability toward analysis.
+
+🎥 Watch here: [https://youtu.be/11glHWGSwVA](https://youtu.be/11glHWGSwVA)
+
+**What’s covered:**
+
+* How AI can translate natural language prompts into system commands and offensive tool usage. • Example",7,1,https://reddit.com/r/redteamsec/comments/1o317m1/using_ai_to_generate_and_execute_offensive/,[],['government'],medium
+redteamsec,numbreaker - Red Team Operator Conversions Helper Script for Cobalt Strike,"Further sharing an aggressor script that helps Red Team Operators do soke common quick conversions without opening an extra terminal, website, or on airgapped networks.
+
+[http://www.github.com/savsanta/numbreaker](http://www.github.com/savsanta/numbreaker)
+
+On our last OP battletesting t seem worked as expected...however over this weekend added samaccount conversions, CIDR range calc, JWT decoding, and color theme switcher. I haven't thoroughly tested those?  I know a padding bug exists with the",6,2,https://reddit.com/r/redteamsec/comments/1nunnld/numbreaker_red_team_operator_conversions_helper/,['vulnerabilities'],[],medium
+redteamsec,Mem3nt0 mori – The Hacking Team is back!,,3,1,https://reddit.com/r/redteamsec/comments/1oh7mb7/mem3nt0_mori_the_hacking_team_is_back/,[],[],medium
+redteamsec,Trust Erosion via Ghosted domains,"some observations from crawling many a website, extracting the CSP, validating the domain's in the CSP are purchasable, speaking about the residual exploit space. ",1,0,https://reddit.com/r/redteamsec/comments/1ny2o9h/trust_erosion_via_ghosted_domains/,['vulnerabilities'],[],medium
+redteamsec,FunkLocker Analysis: AI-powered Ransomware from FunkSec APT,,1,0,https://reddit.com/r/redteamsec/comments/1nv5vy5/funklocker_analysis_aipowered_ransomware_from/,['ransomware'],[],medium
+blueteamsec,"Open Source SOC Lab Platform - Integrated Wazuh, MISP, Velociraptor, Shuffle & More","Built an integrated SOC training platform for blue teamers who want to practice without spending days on setup.
+
+**The stack:**
+- SIEM/XDR: Wazuh + OpenSearch
+- CTI: MISP with automated feed ingestion
+- DFIR: Velociraptor for endpoint collection
+- SOAR: Shuffle for automation workflows
+- NIDS: Suricata + EveBox for event management
+- PCAP: Arkime with sample captures
+- Fleet: osquery fleet management
+- Detection: 523 YARA rules + 3,047 Sigma rules pre-configured
+
+**Technical approach:**
+- Docker",60,23,https://reddit.com/r/blueteamsec/comments/1nzi61u/open_source_soc_lab_platform_integrated_wazuh/,[],['retail'],medium
+blueteamsec,Chinese Hackers Blamed for Severe Breach at US Cyber Firm F5,,24,4,https://reddit.com/r/blueteamsec/comments/1o8h846/chinese_hackers_blamed_for_severe_breach_at_us/,[],[],medium
+blueteamsec,Confirmed compromise of F5 network,,24,3,https://reddit.com/r/blueteamsec/comments/1o7dyjr/confirmed_compromise_of_f5_network/,[],[],medium
+blueteamsec,"Oracle Security Alerts CVE-2025-61882 - October 4th 2025 - ""This vulnerability is remotely exploitable without authentication, i.e., it may be exploited over a network .. this vulnerability may result in remote code execution.""",,14,1,https://reddit.com/r/blueteamsec/comments/1nymt3j/oracle_security_alerts_cve202561882_october_4th/,['vulnerabilities'],[],high
+blueteamsec,ENISA Threat Landscape 2025,,16,1,https://reddit.com/r/blueteamsec/comments/1nvoqxf/enisa_threat_landscape_2025/,[],[],medium
+blueteamsec,7-Zip ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability - Oct 7th - another one,,14,0,https://reddit.com/r/blueteamsec/comments/1o3su7q/7zip_zip_file_parsing_directory_traversal_remote/,['vulnerabilities'],[],medium
+blueteamsec,CamoLeak: Critical GitHub Copilot Vulnerability Leaks Private Source Code,,13,0,https://reddit.com/r/blueteamsec/comments/1o3sxey/camoleak_critical_github_copilot_vulnerability/,['vulnerabilities'],[],critical
+blueteamsec,How I Almost Got Hacked By A 'Job Interview',,11,1,https://reddit.com/r/blueteamsec/comments/1o9dhjj/how_i_almost_got_hacked_by_a_job_interview/,['data_breaches'],[],medium
+blueteamsec,Unknown Russian Cyber Attacks Since Sep 2025,,11,3,https://reddit.com/r/blueteamsec/comments/1o5ao1i/unknown_russian_cyber_attacks_since_sep_2025/,[],[],medium
+blueteamsec,"Widespread SonicWall SSLVPN Compromise - So far, over 100 SonicWall SSLVPN accounts across 16 customer accounts have been impacted. In the cases observed",,9,0,https://reddit.com/r/blueteamsec/comments/1o3s9u1/widespread_sonicwall_sslvpn_compromise_so_far/,[],[],medium
+blueteamsec,How a hacking gang held Italy’s political elites to ransom,,10,0,https://reddit.com/r/blueteamsec/comments/1oia4fu/how_a_hacking_gang_held_italys_political_elites/,[],[],medium
+blueteamsec,Is the SOC tech stack missing a management layer between the SIEM and SOAR?,"I’ve been thinking a lot about where the SOC tech stack is headed, especially with all the noise around “AI-powered SOCs.”
+
+Here’s my current hypothesis, and I’d love to hear others’ thoughts:
+
+Most SOCs today are fragmented.
+
+* Alerts live in the SIEM.
+* Automations live in the SOAR
+* Incidents live in Jira or ServiceNow.
+* Knowledge lives in wikis or docs.
+
+That fragmentation kills context and consistency, which are the exact ingredients AI and automation need to actually perform well.
+
+I beli",8,13,https://reddit.com/r/blueteamsec/comments/1oebxke/is_the_soc_tech_stack_missing_a_management_layer/,[],['manufacturing'],medium
+blueteamsec,DPRK Adopts EtherHiding: Nation-State Malware Hiding on Blockchains,,7,0,https://reddit.com/r/blueteamsec/comments/1o92yyd/dprk_adopts_etherhiding_nationstate_malware/,['malware'],['government'],medium
+blueteamsec,Operation Zero Disco: Attackers Exploit Cisco SNMP Vulnerability to Deploy Rootkits,,6,0,https://reddit.com/r/blueteamsec/comments/1o85ekg/operation_zero_disco_attackers_exploit_cisco_snmp/,['vulnerabilities'],[],medium
+blueteamsec,The UK's Information Commissioner’s Office has fined Capita plc and Capita Pension Solutions Ltd a combined £14m following a cyber attack in April 2023 which saw hackers gain access to over 6m people’s data.,,7,0,https://reddit.com/r/blueteamsec/comments/1o76lo6/the_uks_information_commissioners_office_has/,[],[],medium
+blueteamsec,How a fake AI recruiter delivers five staged malware disguised as a dream job,,6,0,https://reddit.com/r/blueteamsec/comments/1ogfh52/how_a_fake_ai_recruiter_delivers_five_staged/,['malware'],[],medium
+blueteamsec,"Extortion and ransomware drive over half of cyberattacks - ""Just 20 ASNs—only 0.04%—
+account for more than 80% of malicious password spray activity""",,6,0,https://reddit.com/r/blueteamsec/comments/1obb9d3/extortion_and_ransomware_drive_over_half_of/,['ransomware'],[],medium
+blueteamsec,ACSC Annual Cyber Threat Report 2024-2025,,5,0,https://reddit.com/r/blueteamsec/comments/1o6654w/acsc_annual_cyber_threat_report_20242025/,[],[],medium
+blueteamsec,Cavalry Werewolf raids Russia’s public sector with trusted relationship attacks,,6,0,https://reddit.com/r/blueteamsec/comments/1nwyasn/cavalry_werewolf_raids_russias_public_sector_with/,[],[],medium
+blueteamsec,Dissecting YouTube’s Malware Distribution Network,,4,0,https://reddit.com/r/blueteamsec/comments/1oe8pcx/dissecting_youtubes_malware_distribution_network/,['malware'],[],medium
+blueteamsec,Beyond the Aliases: Decoding Chinese Threat Group Attribution and the Human Factor,,5,0,https://reddit.com/r/blueteamsec/comments/1odcoaw/beyond_the_aliases_decoding_chinese_threat_group/,[],[],medium
+blueteamsec,ToolShell Used to Compromise Telecoms Company in Middle East,,4,0,https://reddit.com/r/blueteamsec/comments/1od7x8z/toolshell_used_to_compromise_telecoms_company_in/,[],[],medium
+blueteamsec,Beyond eval(): DPRK’s New Malware Strategy Hidden in Job Assignments,,5,0,https://reddit.com/r/blueteamsec/comments/1ockjhm/beyond_eval_dprks_new_malware_strategy_hidden_in/,['malware'],[],medium
+bugbounty,How discovering a basic XSS vulnerability lead to a $1000 bounty,"Just to be clear, I don't recommend people do it this way, as I got very lucky by acting a little stupid. 
+
+
+Some months ago, I was studying basic vulnerabilities and looking for them on OWASP Juice Shop on my phone. I had a basic alert() payload saved in my clipboard. Now, around this time I was on a website and went to use their search bar. For what I needed, I needed to input my zip code, which I also had saved in my clipboard. 
+
+Now, sometimes my hands move faster than my brain, so instead o",148,25,https://reddit.com/r/bugbounty/comments/1nyc0ar/how_discovering_a_basic_xss_vulnerability_lead_to/,"['ransomware', 'vulnerabilities']",[],medium
+bugbounty,HackerOne’s policies are so anti new hackers...,"Let’s see what I meant:
+
+1. If you don’t have 3,000 reputation points, you’re blocked from commenting on reports closed as “informative.” So, as a new hacker, you can’t even share your point of view or explain the impact to the triager.
+
+
+2. Duplicate but valid reports aren’t counted as findings. So, as a new hacker, you might keep discovering real, impactful bugs, yet your profile won’t reflect that. It will still show 0 signal even if you’ve found five valid issues that were simply reported ea",123,21,https://reddit.com/r/bugbounty/comments/1oenuq9/hackerones_policies_are_so_anti_new_hackers/,[],['retail'],medium
+bugbounty,Found a serious bug in a paid software. Company has no bug bounty program. How to proceed?,"A while ago, I accidentally found a potential bug in a paid software from a certain company. After studying it for a few weeks, I realized this vulnerability could allow a potential attacker to gain full access to the software, completely bypassing the subscription and authentication system.
+
+To be clear: I have not disclosed this information anywhere, nor have I sought or received any financial gain from it.
+
+I checked the company's website for an official bug bounty program, but I couldn't fin",86,41,https://reddit.com/r/bugbounty/comments/1oa4ybu/found_a_serious_bug_in_a_paid_software_company/,['vulnerabilities'],['finance'],high
+bugbounty,For anyone who thinks SQLi are prevented by programming frameworks - 1213 SQL Injection bugs are found on HackerOne in 2025,"https://preview.redd.it/i3nvcnqt13xf1.png?width=2082&format=png&auto=webp&s=bb06147984ee0ffd67f30c6ec3a2dfba444237af
+
+On average SQLi bug is rewarded $1074 per report.
+
+I am also surprised that there are 13197 XSS reports on 2025. At least CSRF bug is largely mitigated.",68,8,https://reddit.com/r/bugbounty/comments/1of1t8x/for_anyone_who_thinks_sqli_are_prevented_by/,[],[],medium
+bugbounty,Company fixes critical flaw (IDOR + ATO) but only offers $1000 and asks for NDA with no payment guarantee — what would you do in my place?,"Hello everyone,
+
+I recently discovered a critical flaw (IDOR + ATO) in a global certification platform.
+
+They don't have a public bug bounty program, but I decided to report it anyway.
+
+The company fixed the flaw that same night, which demonstrates the severity of the issue—it allowed me to access accounts and change data for any user on the platform.
+
+Afterward, they decided to offer me a $1,000 reward for discovering the flaw and asked me to sign a non-disclosure agreement (NDA).
+
+However, I d",48,34,https://reddit.com/r/bugbounty/comments/1o1rofg/company_fixes_critical_flaw_idor_ato_but_only/,['vulnerabilities'],"['finance', 'government']",critical
+bugbounty,Trying Justin Gardner 0-100k roadmap,"Hello all, i would like to read your opinion on this 0-100k roadmap by Justin, i personally think its an optimistic expectation but a good roadmap none the less. As someone who is still very in the beginning currently only have 1 submission and it was marked informative. Would following this help me cement my foundation and lead to better results. Im about 3-4 months part time and focused mostly on manual testing for IDORs and Logic Flaws. As i am now moving to studying/hacking full time has any",41,16,https://reddit.com/r/bugbounty/comments/1nzzv0o/trying_justin_gardner_0100k_roadmap/,[],['retail'],medium
+bugbounty,Doyensec is hiring AppSec researchers,"We’re growing our team at **Doyensec**, and looking for **Application Security Engineers / Researchers** to join us!
+
+What makes this role exciting:
+
+* **Team roots in bug bounty & CTFs** → Many of us started in bug bounty programs or CTF competitions, so if that’s your background, you’ll feel right at home.
+* **25% dedicated research time** → A full quarter of your work week is reserved for research. Tinker, innovate, publish. You can even do bug bounty during the research time!
+* **Challenging",39,13,https://reddit.com/r/bugbounty/comments/1nvha9o/doyensec_is_hiring_appsec_researchers/,[],[],critical
+bugbounty,Why do so many people hunt on the cURL program on HackerOne?,"I’ve been going through HackerOne’s Hacktivity page and noticed something interesting. Every now and then I see disclosed reports for the [cURL](https://hackerone.com/hacktivity/overview?queryString=team%3A%28%22curl%22%29+AND+disclosed%3Atrue&sortField=latest_disclosable_activity_at&sortDirection=DESC&pageIndex=0) program, but most of them either end up as **informative** or **N/A**. Very few seem to get any bounties at all.
+
+So I was wondering -- why do so many people still hunt on this progra",32,4,https://reddit.com/r/bugbounty/comments/1o3uv3y/why_do_so_many_people_hunt_on_the_curl_program_on/,[],[],medium
+bugbounty,Why are companies moving from places like HackerOne to Bugcrowd?,"I've noticed this with a few companies. Discord and Linktree being two examples.
+
+Just so I'm sounding a bit less silly asking, I haven't ever gone near Bugcrowd as a hacker.",33,16,https://reddit.com/r/bugbounty/comments/1ntxmhp/why_are_companies_moving_from_places_like/,[],[],medium
+bugbounty,LLM-powered bugbounty recon framework,"I recently built an LLM agent that automates Google dorking (DorkAgent [https://github.com/yee-yore/DorkAgent](https://github.com/yee-yore/DorkAgent)), and it turned out to be pretty useful. So I decided to automate more recon techniques commonly used in bug bounty hunting.
+
+This is still a very early version, and I'll be continuously updating it.
+
+ReconAgent ([https://github.com/yee-yore/ReconAgent](https://github.com/yee-yore/ReconAgent))
+
+Features:
+
+* URL Enumeration
+* Google Dorking
+* GitHub",30,6,https://reddit.com/r/bugbounty/comments/1nv7a7c/llmpowered_bugbounty_recon_framework/,[],[],medium
+bugbounty,"A major evolution of Apple Security Bounty, with the industry's top awards for the most advanced research","This update reflects the growing complexity and real-world impact of targeted exploits that can compromise high-value devices and data. We want to incentivize top-tier researchers to help us stay ahead of these threats and protect users worldwide.
+
+If your work can replicate or exceed the technical depth and stealth of modern mercenary-grade exploits, this is your chance to earn the largest bug bounty reward ever offered.
+
+Stay safe, stay sharp — and happy hunting. 🕵️‍♂️💻",29,17,https://reddit.com/r/bugbounty/comments/1o3rt5l/a_major_evolution_of_apple_security_bounty_with/,['vulnerabilities'],[],medium
+bugbounty,Burnout Crashout,"Hi everyone,
+
+I want to share what’s been going on with my bug bounty journey and see if anyone here has been through something similar.
+
+I’ve been a bug hunter for about two years now (one year learning, one year full-time). My first payout was in May 2024 and after that I really took off. Over the last year I managed to hit around **50 bounties** across platforms like HackerOne, Intigriti, Bugcrowd and even external programs.
+
+
+
+Up until August I was doing well — typical payouts ranged from ab",28,16,https://reddit.com/r/bugbounty/comments/1o7phys/burnout_crashout/,[],"['energy', 'manufacturing']",medium
+bugbounty,My experience with HackerOne’s trigger team and report mediation with H1 trigger Rio,"Hi everyone,
+
+I wanted to share my experience submitting a vulnerability report on HackerOne to see if others have encountered similar situations. I discovered a zero-click email-change issue that allowed an attacker to overwrite an account email without verification, which could lead to account deletion or takeover-like effects. I submitted a detailed PoC with videos, screenshots, and HTTP request logs he didn't know even the website in the program scope or not.
+
+However, the report was closed ",28,26,https://reddit.com/r/bugbounty/comments/1nueaa0/my_experience_with_hackerones_trigger_team_and/,['vulnerabilities'],['retail'],medium
+bugbounty,This Site is Vulnrable but SQLmap Fail to exploit it Why ?,,23,19,https://reddit.com/r/bugbounty/comments/1nwgb7k/this_site_is_vulnrable_but_sqlmap_fail_to_exploit/,['vulnerabilities'],[],medium
+bugbounty,Lost in Bug bounty,"How to actually do bug bounty hunting in platforms like yeswehack, hackerone and bug crowd, i mean i am very familiar with all the web exploitation and all types of injections and broken access control and all the web vulnerabilities, however idk where to start when I have a target, it's like I feel overwhelmed, do I check xss, do I check for idor or do I check the source code... Etc
+Anyone had the same issue? ",22,14,https://reddit.com/r/bugbounty/comments/1o0vani/lost_in_bug_bounty/,['vulnerabilities'],[],medium
+bugbounty,Best hackerone payout method?,"Whats the best payout method for receiving your bounties? I have been using paypal for a while, but it seems like paypal has the worst taxes among the other options. So, what method do you use?
+
+Quick tip for my fellow brazilian hackers: NEVER receive your bounties as a individual, always receive it as an company, otherwise you will get screwed by our country taxes.",20,5,https://reddit.com/r/bugbounty/comments/1ntfl4m/best_hackerone_payout_method/,[],[],medium
+bugbounty,Bug not valid but got patched?,"Hello everyone, I am new to bug hunting so I started with VDPs in hopes that they would be less mature with less hackers looking at them.
+I was doing one of the VDPs for securing the US government and noticed that the target was using a Single Page Application. I was able to gain unauthenticated access to the admin panel by using client side routing but the panel itself didn’t have much functionality. I immediately started intercepting web requests and was able to interact with the admin API. 
+
+",16,8,https://reddit.com/r/bugbounty/comments/1oh7h2z/bug_not_valid_but_got_patched/,['vulnerabilities'],['government'],medium
+bugbounty,"Portswigger is a lot of fun, did it actually help any of you find bugs? win bounties?","Its really fun, I sometimes use the burp suite and sometimes write Python code (burp suite is community edition) so some tasks are slow AF but damn this is really fun to do, I'm def learning a lot more using this and hackthebox.. than any other ""certification""
+
+  
+any techniques on it actually help any of you guys?? like what they have in the labs? anything? where did you hunt? hackerone, intigriti? etc? 
+
+https://preview.redd.it/hyfwhxomfqwf1.png?width=1845&format=png&auto=webp&s=ee59e3fbbd29b5",16,6,https://reddit.com/r/bugbounty/comments/1odldnt/portswigger_is_a_lot_of_fun_did_it_actually_help/,[],[],medium
+bugbounty,Back end before bug bounty,"Hi hackers some people said you should study backend and the basics of frontend before start bug hunting and make at least 5 website with different ideas and i start with html, css, js 
+, PHP, MySQL, Laravel and make blog website should i continue and make some projects or just stop this and start studying OWASP top 10 and start hunting ",18,11,https://reddit.com/r/bugbounty/comments/1o49i3f/back_end_before_bug_bounty/,[],['manufacturing'],medium
+bugbounty,Did AI ever help you exploit for bug bounty or do a penetration test?,"Did AI ever help you find any leads? if so  what AI do you use? ? [hacki.io](http://hacki.io) ? [chatgpt.com](http://chatgpt.com) ? [deepseek.com](http://deepseek.com) or something completely different? are terminal AI's any good? Did you actually get any pay outs from the help of AI?
+
+  
+OR did AI actually make it worse ? lol JW",15,8,https://reddit.com/r/bugbounty/comments/1o6ipca/did_ai_ever_help_you_exploit_for_bug_bounty_or_do/,['vulnerabilities'],[],medium
+bugbounty,Lost in the target,"
+Hi everyone, I’m looking for some advice on my bug bounty journey.
+
+I’ve been studying and practicing on PortSwigger labs, and I also went through the eWPT material. Last week, I managed to earn my eWPTX certification. Now, I want to start building my career in bug bounty hunting.
+
+I’ve already found a few bugs, but most of them ended up being marked as informational or duplicates. I strongly believe manual testing is the best way to achieve real results, and I prefer working that way.
+
+I’m pla",13,2,https://reddit.com/r/bugbounty/comments/1ntu6ud/lost_in_the_target/,[],[],medium
+bugbounty,Which one Hackerone or Yeswehack?,"Hello everyone, 
+
+  
+I'm confused which platform I trust so that I don't waste my time when I submit my report ",13,15,https://reddit.com/r/bugbounty/comments/1o5sfh7/which_one_hackerone_or_yeswehack/,[],[],medium
+bugbounty,I am new in Bug Bounty I found these on a wp-config.php file! Is it considered a vulnerability?,"this some DB user and password
+
+https://preview.redd.it/cts2o42a2wwf1.png?width=851&format=png&auto=webp&s=f313efa35e1d69a0a4a6f8ef921f8f76fd361c7b
+
+this is some key
+
+https://preview.redd.it/dzm50qh32wwf1.png?width=1125&format=png&auto=webp&s=d455976fe3946e42ebcf76f8b311a27dd4840d46
+
+",12,22,https://reddit.com/r/bugbounty/comments/1oe820h/i_am_new_in_bug_bounty_i_found_these_on_a/,['vulnerabilities'],[],medium
+bugbounty,HackerOne New Milestone Rewards (Swag),"HackerOne transitioned to a new swag reward program that started September 10th. 2025.  The first ""season"" will last 16 months, and following seasons will be annual.  It seems like H1 is ending their older swag program.
+
+New Program Details:
+
+# Point breakdown:
+
+* **Low Severity:** 3 points
+* **Medium Severity:** 15 points
+* **High Severity:** 25 points
+* **Critical Severity:** 50 points
+* **Duplicate:** 2 points
+
+
+
+|Level|Points Required|
+|:-|:-|
+|1|10|
+|2|20|
+|3|50|
+|4|100|
+|5|200|
+|6|300|
+|7|",12,8,https://reddit.com/r/bugbounty/comments/1oe3qkf/hackerone_new_milestone_rewards_swag/,[],[],critical
+bugbounty,General advice on looking for places to test,"I am a total beginner in Bug Bounty, with a few years of experience as a backend dev. I have a somewhat good grasp on web security and common web vulnerabilities but what is troubling me is that when I look at targets on platforms like Hackerone, I was unable to find a simple web application such as an E-commerce, ERP, social media app, etc. (the ones I find are from global Tech giants with massive scope which as a beginner impossible to find any bug in)
+
+Most of the assets leave me confused, th",11,2,https://reddit.com/r/bugbounty/comments/1nzh47j/general_advice_on_looking_for_places_to_test/,[],['retail'],medium
+bugbounty,How to become .NET web vulnerability research ?,"Hello everyone,
+
+  
+I’m a vulnerability researcher with a background in auditing Java Web applications (source-code audits) and have achieved some CVEs. I’m planning to shift my focus to researching vulnerabilities in **.NET applications** and would love advice from people who’ve done this before. 
+
+  
+Can anyone share with me any good learning resources, CVEs to reproduce to get more exposure on .NET web apps and targets if available?",13,3,https://reddit.com/r/bugbounty/comments/1nugx3h/how_to_become_net_web_vulnerability_research/,"['vulnerabilities', 'compliance']",['retail'],medium
+bugbounty,Is modifying the Origin header in authenticated requests via Burp enough to prove a real CORS vulnerability?,"Hi all,
+While testing an API, I used Burp Suite to spoof the Origin header to an attacker-controlled domain and sent authenticated requests. 
+
+The server responded with:
+1.Access-Control-Allow-Origin, reflecting the spoofed origin
+2.Access-Control-Allow-Credentials: true
+3.Sensitive user data included in the response
+
+Given this, my primary question is:
+Is demonstrating this behavior in Burp Suite sufficient to prove a real-world exploitable CORS vulnerability for bug bounty purposes, or do I ne",11,13,https://reddit.com/r/bugbounty/comments/1og9lpo/is_modifying_the_origin_header_in_authenticated/,['vulnerabilities'],['retail'],medium
+bugbounty,"Old report rejected for low impact, new exploit marked duplicate - advice needed","I'm new to HackerOne. I found an API key leaked on the frontend and reported it. They said it wasn't harmful and that if I could show more impact, they'd review it. 
+
+After 8 months, I found a way to significantly increase the impact. They didn't reply to my original report, so I thought it was a different case and submitted a new report with the new exploit method. It was marked as a duplicate of my previous report. 
+
+What should I do guys?  ;(",12,8,https://reddit.com/r/bugbounty/comments/1o2x595/old_report_rejected_for_low_impact_new_exploit/,['vulnerabilities'],[],medium
+bugbounty,What methods are used to chain self-xss ?,"Hi everyone, been researching on the website where WAFs was blocking most inputs but I managed to trigger a self-XSS in my own account by injecting a variable then later adding a payload that showed an alert which also shows the logged in users data. 
+
+I want to demonstrate the real impact to a program owner but showing how to create chaining that could make a victim hit the same behavior using any method other then csrf as i tried csrf blocked by same origin script if it can be bypassed and ide",11,8,https://reddit.com/r/bugbounty/comments/1ntceu3/what_methods_are_used_to_chain_selfxss/,[],[],medium
+bugbounty,CSRF PoC Blocked by Browser - Seeking Advice,"Hey everyone,
+
+I'm working on a bug bounty program and found a CSRF vulnerability on an endpoint that updates user profile data (using a `PATCH` request with `Content-Type: application/json`).
+
+I confirmed the server-side vulnerability using Burp Repeater: removing the `Origin` and `Referer` headers results in a `200 OK` and the data is successfully updated. So, the server itself isn't checking the origin.
+
+However, the triage team requires a browser-based PoC (HTML file). My standard `fetch` ba",9,8,https://reddit.com/r/bugbounty/comments/1obuhhp/csrf_poc_blocked_by_browser_seeking_advice/,['vulnerabilities'],[],medium
+bugbounty,Question about creating accounts on websites to be investigated.,"I'm new to this and I have a question about what to do when creating an account on the website you're going to investigate. I've seen the HackerOne email aliases, but there are websites that require you to enter your phone number and some even ask for your national ID number (banks and crypto stuff).
+
+I refuse to use my national ID number and I don't want to give my phone number. What do you do in these cases? Thank you! 
+",8,4,https://reddit.com/r/bugbounty/comments/1nu73qo/question_about_creating_accounts_on_websites_to/,[],['finance'],medium
+security,An open source access logs analytics script to block Bot attacks,"We built a small Python project for web server access logs analyzing to classify and dynamically block bad bots, such as L7 (application-level) DDoS bots, web scrappers and so on.
+
+We'll be happy to gather initial feedback on usability and features, especially from people having good or bad experience wit bots.
+
+The project is available at [Github](https://github.com/tempesta-tech/webshield/) and has a [wiki page](https://tempesta-tech.com/knowledge-base/Bot-Protection/)
+
+
+**Requirements**
+
+The ",10,0,https://reddit.com/r/security/comments/1o6rs04/an_open_source_access_logs_analytics_script_to/,[],['manufacturing'],medium
+security,"Cheap Chinese Computers, e.g. from Temu",Is there any research/investigation/experience with any security related issues from any of these cheap Chinese mini-pcs that seem to be everywhere now? Like the ones on Temo or even the more well known brands like Beelink? I'm tempted to get several for some dedicated uses but can't get over the feeling that it will do nothing but copy every key stroke and data packet and continually report home to the MSS.,8,27,https://reddit.com/r/security/comments/1nw536t/cheap_chinese_computers_eg_from_temu/,[],[],medium
+security,ZeroDay Cloud: The first open-source cloud hacking competition,,8,0,https://reddit.com/r/security/comments/1nulwlm/zeroday_cloud_the_first_opensource_cloud_hacking/,[],[],medium
+security,Vocal warning?,"Anyone know of a loudspeaker product (outdoor), that when triggered can play a recorded message? Need a way to do a warning message when someone breaches a secured area.",6,3,https://reddit.com/r/security/comments/1o8fvj1/vocal_warning/,[],[],medium
+security,Affordable deterrents for rental home,"Hi all, I moved into a rental home a few months ago and have had a constant issue with the woman down the street who seems to have mental health problems coming into my yard and creeping the perimeter at night. She has scared me multiple times and refuses to stop. Cops haven’t been helpful. Looking for recs on some low price options for motion detector deterrents … dog barking devices , motion lights,  camera … ideally something to document her behavior and deter her from creeping. I don’t feel ",7,4,https://reddit.com/r/security/comments/1o134s6/affordable_deterrents_for_rental_home/,[],[],medium
+security,Need help dealing with repetitive BOT DoS attacks from changing IPs,"I need help dealing with repetitive Bot page requests for invalid URLs and common WordPress folders and directories that happen at least 4 or 5 times a day.
+The bot seems to change their IP Address after 10 or so requests and makes about a 50 requests a second and basically overwhelms my ASP.NET application for a good 15-20 minutes each occurrence..
+
+Like I said i can’t block that IP because it changes every second and 99% of requests are for invalid or abnormal URLs including a Linear-Gradient ",4,19,https://reddit.com/r/security/comments/1o7k68t/need_help_dealing_with_repetitive_bot_dos_attacks/,[],[],medium
+security,Mac OS26 M1: Enable the required system extension. Reduced Security?,"I want to back up my Mac to my Synology NAS, so this is not the correct place to post this question. I have been looking to replace Time Machine with something else, because I have a Synology. I was thinking of using Synology's Active Backup for Business, or because I have a subscription to PCloud drive. The issue with both PCloud Drive and Synology's ABB is that I need to "" Enable the system extension required for mounting volumes."" "" To do this, shut down your system. Then press and hold the T",5,2,https://reddit.com/r/security/comments/1o0om6x/mac_os26_m1_enable_the_required_system_extension/,[],"['retail', 'energy']",medium
+security,GED/HS diploma questions,"So i’ve been working at allied for about 4 months everything is good. My guard card is still pending I do NOT have a diploma or ged if the state finds out will they deny my guard card ?
+
+i’m in alabama 
+
+i had to drop out do to medical issues just fyi",1,1,https://reddit.com/r/security/comments/1nu1pqi/gedhs_diploma_questions/,[],"['healthcare', 'government']",medium
+security,Vodafone SecureNet blocked “ricewaterhou . xyz” - can anyone shed some light on this please?,"I just got this text and after a quick google it seems like this ricewaterhou is either a dodgy online store of some sort or malware, it isn’t clear.
+
+I’m not very knowledgeable when it comes to cyber security. It would appear like the threat has been contained but I don’t understand where it came from as I’m using a hotspot between my Mac and my iPhone. No other devices bar my PS5 are connected to the network and I have a very secure password for the hotspot.
+
+I’d be grateful for any advice, ev",0,3,https://reddit.com/r/security/comments/1ofd70t/vodafone_securenet_blocked_ricewaterhou_xyz_can/,['malware'],[],medium
+security,Prompt engineering risks - what are people doing?,I've seen a lot of content on Linkedin talking about prompt engineering risks. What are people doing about it? Any advice?,0,1,https://reddit.com/r/security/comments/1nu59o0/prompt_engineering_risks_what_are_people_doing/,[],[],medium
+security,Alarming discovery in WiFi app,"Was checking my recent security threats in my internet provider app and found it super alarming that three separate devices all got advanced security warnings in the app from the same website.
+
+Never seen that before and I find it extremely alarming.
+
+The three devices are a MacBook, a Mac desktop, and an iPhone. All three have different sign ins, iCloud logins, and none of the three visit the same sites.
+
+The breakdown shows: 10/13 at 9:44pm 10/14 at 12:20am 10/14 at 7:25PM
+
+All are coming from",0,4,https://reddit.com/r/security/comments/1oal3zx/alarming_discovery_in_wifi_app/,['malware'],[],medium
+security,Facial recognition issues,Hey guys any idea why facial recognition won’t work on certain people? Having this issue with the folks for some reason the system always has a hard time time with them. ,0,1,https://reddit.com/r/security/comments/1ntq5ik/facial_recognition_issues/,[],[],medium
+security,Facial Recognition issues,Hey guys I do security work and there is two specific people that I have to constantly make sure if they clocked in and out because facial recognition always fails on them. Any  idea what it might be ? I work with over 50-60 people of whom which only two people the system has issues with. ,0,3,https://reddit.com/r/security/comments/1ntq3qg/facial_recognition_issues/,[],[],medium
+crypto,CVE-2025-8556 - Cryptographic Issues in Cloudflare's CIRCL FourQ Implementation,,27,2,https://reddit.com/r/crypto/comments/1ogilbq/cve20258556_cryptographic_issues_in_cloudflares/,[],[],medium
+crypto,Length-extension attacks are still a thing,,20,11,https://reddit.com/r/crypto/comments/1ofka1w/lengthextension_attacks_are_still_a_thing/,[],[],medium
+crypto,WireTap: Breaking Server SGX via DRAM Bus Interposition,"Intel SGX seems completely dead against local attackers.  FAQ highlights:
+
+*""We have successfully extracted attestation keys, which are the primary mechanism used to determine whether code is running under SGX. This allows any hacker to masquerade as genuine SGX hardware, while in fact running code in an exposed manner and peeking into your data. We demonstrate concrete security breaks on real-world software utilizing SGX, such as* [*Secret Network*](https://scrt.network/)*,* [*Phala*](https://d",15,2,https://reddit.com/r/crypto/comments/1nwm4y0/wiretap_breaking_server_sgx_via_dram_bus/,[],['retail'],medium
+crypto,Attacking Deterministic Signature Schemes Using Fault Attacks,"[This paper](https://eprint.iacr.org/2017/1014.pdf) explains the RowHammer Attack is a feasible fault injection attack that can be performed remotely. ECDSA and EdDSA are both vulnerable. The paper recommends using XEdDSA--which is resistant to RowHammer and is secure even when one uses a faulty RNG to generate the nonce.
+
+I thought this paper was worth sharing because it is hard to find a digital signature algorithm that can be resistant to timing attacks and the RowHammer Attack at once.
+
+What",10,7,https://reddit.com/r/crypto/comments/1nwlzo9/attacking_deterministic_signature_schemes_using/,[],[],medium
+crypto,Multi-Protocol Cascading Round-Robin Cipher,"I've been exploring a cryptographic concept I can't find an existing name for, and I'd appreciate the community's insight. While I suspect it's overly redundant or computationally heavy, initial testing suggests performance isn't immediately crippling. I'm keen to know if I'm missing a fundamental security or design principle.
+
+# The Core Concept
+
+Imagine nesting established, audited cryptographic protocols (like Signal Protocol and MLS) inside one another, not just for transport, but for **recu",8,10,https://reddit.com/r/crypto/comments/1oi4xqt/multiprotocol_cascading_roundrobin_cipher/,"['data_breaches', 'compliance']",[],medium
+crypto,Should EU ID require designated verifier credentials?,"I've linked the discussion section for the EU ID repository, but seemingly designated verifier credentials appear [only once in passing](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/issues/200).  Should all online proofs of PII be designated verifier?  Aka nobody but the ""relaying-party"" can actualy validate anything about the credential.  Or would this be too constraining? ",2,6,https://reddit.com/r/crypto/comments/1nvpy1n/should_eu_id_require_designated_verifier/,[],['retail'],medium
+VPN,Does a VPN actually stop my data from being collected online?,"I understand that VPNs hide your IP and encrypt your traffic, but I’m confused about how much that really helps with data collection.
+
+Like, if I sign up for a website with my real email or phone number, that data is still out there even if I’m behind a VPN, right? Same with companies selling info to data brokers or my details showing up in breaches. So does a VPN just protect what I’m doing in the moment, or does it actually reduce the amount of data tied back to me long term? ",58,53,https://reddit.com/r/VPN/comments/1nthubm/does_a_vpn_actually_stop_my_data_from_being/,['privacy'],[],medium
+VPN,Is a VPN enough for online security,"I use VPN mainly to stay safe on public WiFi, and it’s been great so far. Still, I know a VPN doesn’t protect against everything like phishing, malware, or weak passwords. I’m thinking of adding a password manager or antivirus for extra security. What do you guys use besides a VPN to stay protected online",17,56,https://reddit.com/r/VPN/comments/1o2wttr/is_a_vpn_enough_for_online_security/,"['phishing', 'malware']",[],medium
+VPN,Tried the VPN trick + cashback stacking. Saved $80 in flights,"I usually just stick to cashback sites when I travel. ShopBack’s been my go-to lately since they’ve been running 11 to 13% travel promos this week on big names like Expedia, [Hotels.com](http://Hotels.com), and [Trip.com](http://Trip.com)
+
+But I got curious after seeing VPN flight hacks threads floating around here. Tried it myself for a NY to Seoul trip. 1. Switched my VPN to Singapore and saw the fare drop by about $60 compared to the U.S. site. 2. then booked through Expedia via ShopBack (11%",17,4,https://reddit.com/r/VPN/comments/1o8fbk1/tried_the_vpn_trick_cashback_stacking_saved_80_in/,[],['finance'],medium
+VPN,Paramount+ US blocking football content while traveling with VPN,"Hey everyone,
+
+I have a Paramount+ US account and I’m currently traveling. I use VPN to access my account, and everything works fine — movies, series, etc.
+
+But recently, Paramount+ started blocking *only football content* (Champions League, etc.), while everything else still streams without issues. This never used to happen before.
+
+Has anyone else experienced this? Is there a workaround, or is Paramount+ now blocking football specifically when using a VPN?
+
+Thanks in advance!",9,14,https://reddit.com/r/VPN/comments/1nuna53/paramount_us_blocking_football_content_while/,[],[],medium
+VPN,Cancel random VPN Subscription,"For a few months now, my mother has been receiving a charge of 10,99 from something that appears as Toggle VPN. The problem is, she doesn't remember subscribing to anything like that and now we don't know how to cancel it since we don't know where it came from. 
+
+I'll be grateful for any advice on the matter.",9,7,https://reddit.com/r/VPN/comments/1o90ju0/cancel_random_vpn_subscription/,[],[],medium
+VPN,"If Netflix really gets the Champions League rights, what happens to users trying to stream matches?","There’s talk that Netflix might bid for the UEFA Champions League streaming rights, which would be a huge move. But it raises an important question for people who use VPNs to watch content from different regions.
+
+If Netflix gets the rights and starts cracking down even harder on VPN traffic, what happens next? It’s already tough to access certain streaming platforms with a VPN, and this could make things even harder. Would VPNs still manage to get around geo-blocks for sports, or would streamin",6,8,https://reddit.com/r/VPN/comments/1o5l1wa/if_netflix_really_gets_the_champions_league/,[],[],medium
+VPN,"VPN slow to disconnect on my AMD build, fine on my Intel build. Connect also sometimes slow."," Support recommended reinstalling. Done that and no change. Not sure if specs matter but they are 12900k and 7900x3d builds. Has anybody ran into this and was able to resolve it? It takes a solid minute to disconnect sometimes, 30 seconds others. There's no internet while it's attempting to. It is quicker to connect (not as fast as it should be imo) but still not as fast as my phone or Intel rig. Definitely a weird issue.
+",5,8,https://reddit.com/r/VPN/comments/1ohc02p/vpn_slow_to_disconnect_on_my_amd_build_fine_on_my/,[],[],medium
+VPN,Hello 4 / VPN issues,I work on hello 4 server for work and use a VPN I'm in Bali working for an Irish company even though the Internet is fast it lags. Is there a way I can fix this? Or advise the tech team to do to improve it even a little bit. Many thanks. ,4,2,https://reddit.com/r/VPN/comments/1nys2tv/hello_4_vpn_issues/,[],[],medium
+VPN,Using a VPN Client with Unifi,"Hi all, last year I did an overhaul of my network to use unifi gateways and access points. I had configured a VPN client in my unifi network and I assigned a couple of my home lab devices to route through that VPN. I did a few tests on those devices to make sure the IP addresses are not my IPs and it looked fine. I ran dnsleaktest which said ""DNS may be leaking"" but the IP and DNS IPs are all correct for the VPN I'm using.
+
+My question is, could my DNS still leak somehow? I'm using a trusted no-",3,1,https://reddit.com/r/VPN/comments/1oi0n6d/using_a_vpn_client_with_unifi/,[],['retail'],medium
+VPN,Weird proxy login popup with RedShield VPN – is this normal or a hijack?,"Hey everyone,
+
+I’ve been using RedShield VPN on my Chromebook without issues, but today something strange happened.
+
+While browsing, a popup appeared saying:
+
+> “The proxy https://lon.34298r2894ru8934r984328u.online requires a username and password.”
+
+
+
+It looked completely random and suspicious. I didn’t enter anything.
+When I checked my Chromebook network settings, I saw that RedShield VPN was listed under the proxy configuration.
+
+I’m concerned that:
+
+The VPN setup might be compromised or spo",3,0,https://reddit.com/r/VPN/comments/1oawl06/weird_proxy_login_popup_with_redshield_vpn_is/,"['data_breaches', 'malware', 'privacy']",[],medium
+VPN,Wifi calling fails when VPN is enabled on Android. How to fix?,"On my Android 15 phone, if I turn on VPN through a VPN app, the WIFI calling feature will be disabled within 30 minutes (usually it will not immediately be disabled). If I turn off the VPN and disable and enable the SIM card, the WIFI calling will work without problem.
+
+The VPN app I use is v2rayNG, which has features to adjust routing by domain name, IP and app. I guess the problem is that some wifi calling traffic goes through VPN but it should not, but I don't know how to find these IPs, doma",1,8,https://reddit.com/r/VPN/comments/1o8vis0/wifi_calling_fails_when_vpn_is_enabled_on_android/,[],[],medium
+VPN,Provider locked my entire account after a partial refund request — no response from support,"I wanted to share my recent experience as a long-time customer, in case others run into something similar.
+
+• I had a one-year  Unlimited subscription purchased in February 2025.
+
+• The VPN service started showing major packet-loss and speed problems around June 2025.
+
+• I opened tickets and provided traceroutes; They said there was “no issue on their end.”
+
+• In October 2025 I asked for a partial refund for the unused period (June – Feb) under Swiss consumer law.
+
+• Instead of offering a downgr",4,4,https://reddit.com/r/VPN/comments/1o63t9t/provider_locked_my_entire_account_after_a_partial/,[],"['finance', 'retail']",medium
+VPN,Connected to UK Location but showing NL?,"hello,
+
+I'm using a VPN and when I select a UK location it's showing as NL (Netherlands) in Youtube and some other places? Also some sites your location needs to be in the UK to access them but they won't let me in because they believe I am from the Netherlands. Has anyone else had this issue and can explain why this happens? is it the VPN and a leak is happening? I know it uses NL as some DNS servers. Anything I can do about it?
+
+thanks.",3,2,https://reddit.com/r/VPN/comments/1nynpum/connected_to_uk_location_but_showing_nl/,[],[],medium
+VPN,"VLESS/Reality works on Wi-Fi, stalls on Russian mobile (MTS/Megafon)","Everything worked on VLESS/Reality (TCP, xtls-rprx-vision) on ports 443/8443. Then issues started on mobile networks (MTS/Megafon): the client shows “connected,” but no traffic passes. I had to change the SNI/Target ((tried st\[dot\]ozone\[dot\]ru and nspk\[dot\]ru) — it helped briefly, but now it’s broken again. I manage everything via the x3ui panel. This appears to be DPI/censorship blocking in Russia, not a server malfunction.
+
+
+
+Please advise what to do and which setup/config is currently r",2,2,https://reddit.com/r/VPN/comments/1ogn5cs/vlessreality_works_on_wifi_stalls_on_russian/,[],[],medium
+VPN,"""No direct connections: this may indicate network configuration problems"" - qbittorrent error icon w","i use qbittorrent.
+
+when i download - i activate  vpn with nordlynx interface. i download with half of my normal speed but i get this error icon in bottom bar saying ""No direct connections: this may indicate network configuration problems"" .. but i can still download.
+
+if i turn off vpn and select 'any interface' at network interface in qbittorrent.. then the error icon dissapears -i get the normal ""connection status Online"" .. and i download at my full speed
+
+is that normal behavior when using ",2,3,https://reddit.com/r/VPN/comments/1o7hoz7/no_direct_connections_this_may_indicate_network/,[],[],medium
+VPN,Whatsapp Media Not Loading,"I will start by saying im not an expert at all in using VPN.
+
+Discord got banned in my country so i started using ClashVerge to route my Discord.exe (and only discord nothing else is affected by the vpn) .  
+  
+But im faceing an issue where i cant download or send Media on my whatsapp desktop app , How can i fix this?
+
+https://preview.redd.it/ag20cb2dgguf1.png?width=996&format=png&auto=webp&s=99218d9a72b561cac1fbe48b0176c7ffc3e9fc3b
+
+",2,0,https://reddit.com/r/VPN/comments/1o3rmx6/whatsapp_media_not_loading/,[],[],medium
+VPN,The right VPN setup for watching my team,"Hello all:)
+I just moved from Texas to North Carolina. Most of it has been improvements, but I have one major issue. I am a die hard Dallas Stars fan and game availability over here is next to none. 90% of the Stars games are broadcasted exclusively on a Texas based streaming service called Victory+. Which was great because it’s free, but now the huge down side is that it’s locally locked. Meaning if you don’t live in Texas or some of its neighboring states, you don’t get the feed even if you ha",2,0,https://reddit.com/r/VPN/comments/1o2ddxu/the_right_vpn_setup_for_watching_my_team/,[],['government'],medium
+tor,Message to those who want to browse Tor on mobile devices,"I'm seeing more and more people asking how to browse Tor on both iOS and Android, but you should be aware that you are exposing yourself to some risks. 
+
+Tor traffic is recognizable by certain networks and may be subject to blocking, challenges, or increased surveillance, making activity more ""noticeable"" even if the content is encrypted.
+
+Mobile users often combine Tor with personal apps or accounts in parallel, creating temporal and contextual correlations that reduce effective anonymity.
+
+Mob",388,48,https://reddit.com/r/TOR/comments/1o4fyge/message_to_those_who_want_to_browse_tor_on_mobile/,['privacy'],['retail'],medium
+tor,Why has the FBI not used 0day exploits publicly for 10 years?,"I saw another post here by a user concerned about JavaScript vulnerabilities to unmask people and after another user pointed out the FBI deploying such a tactic back in 2015 against a site called Playpen, I searched to see if they had continued to use these exploits to record IP addresses.
+
+To my surprise, I couldn’t find a single instance of Network Investigative Techniques (NITs) being used after the French copied it for one of their own busts in 2016.  It seems that they tried it once or twic",358,83,https://reddit.com/r/TOR/comments/1nxbh9t/why_has_the_fbi_not_used_0day_exploits_publicly/,"['phishing', 'malware', 'vulnerabilities', 'privacy']",['retail'],medium
+tor,I was stupid…,"I got on Tor to watch porn (I live in a red state that passed that stupid age verification law and I ain’t doing that just to watch porn) and when I tried to access one of the sites, it redirected me and just said “download complete” and then showed me the details of the download. It was a 0 KB file (so no actual storage space taken up?) but when I checked my device’s downloads, it wasn’t there for me to delete. Am I screwed? Did I just accidentally download malware or something?😭
+
+Please help m",218,91,https://reddit.com/r/TOR/comments/1o2gwjb/i_was_stupid/,"['data_breaches', 'malware']",['government'],medium
+tor,Can someone easily explain what it takes to be anonymous online?,"So I’m interested in ethical hacking and online privacy but I feel like alot of videos are complicated and hard to understand, can someone please explain what is actually required for the average person to be anonymous, vs what advanced things you COULD use but don’t need unless you’re trying to hide from the fbi or something? Please explain this easily. Also, is tor safe? I’ve heard the government/people start thinking you’re suspicious when you’re on tor, is that just rumors? I’m from Europe s",169,78,https://reddit.com/r/TOR/comments/1nuhxzi/can_someone_easily_explain_what_it_takes_to_be/,['privacy'],['government'],medium
+tor,How did they catch the Harvard bombing threat?,I know they found him because he was the only one on tor at the time but how did that prove it was him?  What I’m asking is what told the FBI that the threat came from someone using tor on the university wifi instead of anywhere in the world. ,168,26,https://reddit.com/r/TOR/comments/1o95rvj/how_did_they_catch_the_harvard_bombing_threat/,[],['education'],medium
+tor,Has anyone ever been de-anonymized on Tor via malicious javascript or css?,"Surely the warnings and nonstop disclaimers regarding having JS enabled and using Tor have some basis in historical exploitation, right?  ",144,44,https://reddit.com/r/TOR/comments/1nwuhcc/has_anyone_ever_been_deanonymized_on_tor_via/,['vulnerabilities'],[],medium
+tor,Why would a forensic analysis show tor exit nodes if I’ve never used it?,"Long story, but I recently underwent a forensic examination of my devices and accounts. The analysis showed ‘tor exit nodes.’ I’ve never used tor or anything dark web. How could that be? My guess is it came from malware, by accessing sketchy websites, like sports streaming sites.
+
+Back when I used sports streaming sites, I had to run a gauntlet of pop up ads that would download shit to my laptop and iPhone.
+
+Appreciate any help!",120,21,https://reddit.com/r/TOR/comments/1ocwxqp/why_would_a_forensic_analysis_show_tor_exit_nodes/,['malware'],[],medium
+tor,How am I getting served ads based on my searches made on Tor?,"Regardless if I use Tails or not, whenever I make searches on tor; I get served ads related to it
+
+Note: I am not logging in any sites and I'm using the modded firefox browser Tor is shipped with. I've recently tried clearing my cache from other browsers before using Tor and the issue is still persistent.",59,58,https://reddit.com/r/TOR/comments/1oaa8hp/how_am_i_getting_served_ads_based_on_my_searches/,[],[],medium
+tor,"I genuinely love tor,","There is so much stuff you can do, learn things and  read books, learning security and ethical hacking, I also support tor by operating a Gaurd Node, for anyone first time browsing tor, NOT EVERY SITES ARE BAD. ",63,30,https://reddit.com/r/TOR/comments/1o8p1t1/i_genuinely_love_tor/,[],[],medium
+tor,Was Orbot ever compromised at some stage?,"I heard some obscure referenc on a seemingly legit youtube channel that orbot was comprimised, or rather, that there was a compromised version of orbot floating around at some stage. I cant find the video now, but googleing the same gives me a suspicious amount of ""no orbot was never hacked, so stop asking"".",26,11,https://reddit.com/r/TOR/comments/1ochwzl/was_orbot_ever_compromised_at_some_stage/,['data_breaches'],[],medium
+tor,"Arti 1.6.0 released: Circuit padding, side-channel attack mitigations, OpenTelemetry, and more.",,17,1,https://reddit.com/r/TOR/comments/1o07bq2/arti_160_released_circuit_padding_sidechannel/,[],[],medium
+tor,is there a way for my school to do this?,"So I'm new to the whole tor thing and stuff like firewalls and proxys and stuff, but I tried using tor browser at school and the original connection failed and all bridges failed as well, I'm not sure what happened but I'm curious about this. It could be something made by the education department in my state/country though I don't know how they would do that. I've been researching it for quite a bit, and I've seen things about MITM attacks, maybe the ISP could be tampering with the network but i",11,6,https://reddit.com/r/TOR/comments/1o80e6r/is_there_a_way_for_my_school_to_do_this/,['vulnerabilities'],"['government', 'education']",medium
+tor,How can I start using Tor browser as safe as possible?,I’m new to Tor and cybersecurity. I haven’t used Tor yet and know there are risks. Could someone help me learn how to protect myself and safely browse onion sites?,9,13,https://reddit.com/r/TOR/comments/1og8w9e/how_can_i_start_using_tor_browser_as_safe_as/,[],['retail'],medium
+tor,Disable IPv6 for SocksPort in torrc?,"Hello guys,
+
+im going crazy because of this problem. I get IPv6 Exit Nodes and DNS-Servers with the SocksPort.  
+IPv6 is fully blocked on my system and also in the torrc with   
+ClientUseIPv6 0  
+ClientPreferIPv6ORPort 0
+
+But nothing works. I dont get an IPv6 over TransPort, only over SocksPort. It drives me crazy.
+
+I know its still anonym and doesnt leak anything since it still IPv6 over Tor. But if there is an option to deactive IPv6 for SocksPort, please tell me.",6,7,https://reddit.com/r/TOR/comments/1nysgmf/disable_ipv6_for_socksport_in_torrc/,[],[],medium
+tor,Help a beginner.,I want to start using tor. So what are the basic things I should know? And what can I do to protect myself from viruses and malware?,5,13,https://reddit.com/r/TOR/comments/1oi59wy/help_a_beginner/,['malware'],[],medium
+tor,Suitable budget router for TOR,"Hi all!
+
+I recently made an unused laptop into a TOR relay, wanting to contribute, but my router can't take it.
+
+I have a Huawei modem-router-switch-WAP combo, provided by the ISP, but it restarts multiple times a day under load.
+
+The ISP said they can switch it to bridge(/modem) mode, no problem, but I'd need a beefier router. However, I'm having trouble finding a good one.
+
+My budget it fairly limited (preferably under $40). I only want a standalone router (no switch or WAP, I have those separ",6,1,https://reddit.com/r/TOR/comments/1ogmrwu/suitable_budget_router_for_tor/,[],[],medium
+tor,Error connecting to tor,"I redid the entire 'tails' proces, and tjere is still an issue with connecting, it is always at the 'wrong clock'  timezone stage.
+
+Is it a daylight saving issue?",4,2,https://reddit.com/r/TOR/comments/1ogm29l/error_connecting_to_tor/,[],[],medium
+tor,Does anyone know if Virgin Media in the UK is blocking Tor?,"I've been using Tor now for almost 20 years and never had any major issues with it, Until yesterday at least. As of yesterday I have been unable to connect to the Tor Project at all. 
+
+I have attempted to use a bridge but every request for a bridge in logs returns the following: 
+
+`[WARN] Proxy Client: unable to connect OR connection (handshaking (proxy)) [insert bridge here] RSA_ID=86AC7B8D430DAC4117E9F42C9EAED18133863AAF (""general SOCKS server failure"")`
+
+  
+or something to that effect. I'm no",5,5,https://reddit.com/r/TOR/comments/1ogisxk/does_anyone_know_if_virgin_media_in_the_uk_is/,['vulnerabilities'],[],medium
+tor,Tor Browser keeps freezing during connection — anyone else having this issue lately?,"Hey all,
+
+My Tor Browser has been hanging on “Connecting to the Tor network…” — it doesn’t fail outright, it just sits there frozen indefinitely.
+
+I’ve already tried:
+
+★Restarting the browser and computer
+
+★Testing on both Wi-Fi and mobile hotspot
+
+★Checking that my system clock and date are correct
+
+★Making sure I’m on the latest Tor Browser version
+
+
+Still the same behavior. It was working fine a week ago.
+Is anyone else seeing this?
+Considering the fact that I am totally a novice on tor, what",3,20,https://reddit.com/r/TOR/comments/1odzk3l/tor_browser_keeps_freezing_during_connection/,[],[],medium
+opsec,I got a burner phone… now what?,"I got it for nonviolent activism reasons, so obviously my threat model is govt surveillance.
+
+I paid for a Moto G Play in cash, set it up with a burner email, have a high quality faraday bag, and have downloaded Signal on it… but I have more questions, lol
+
+What apps would you keep on there or for sure NOT keep on there?
+
+Is there a way to use it from my house without it being associated with me? 
+
+Is there a way to put a VPN on it without connecting my other info to the VPN account?
+
+What other",210,87,https://reddit.com/r/opsec/comments/1ofcfqi/i_got_a_burner_phone_now_what/,['privacy'],[],medium
+opsec,Beginner here — how can I monitor my Android phone’s network traffic for spyware using my laptop?,"Hi,
+
+I’m **not an IT expert**, but I’m a **human rights defender in Bangladesh** — so I’m at very high risk of surveillance. I run the MindfulRights project - you can Google it, Reddit is not letting me paste the links.  I’ve had private photos stolen before, and I want to check if my Android phone might be infected with spyware. 
+
+I recently found [Civilsphere’s *Emergency VPN*](https://www.civilsphereproject.org/emergency-vpn), which routes a phone’s traffic through a secure VPN for three days",52,9,https://reddit.com/r/opsec/comments/1ofl5er/beginner_here_how_can_i_monitor_my_android_phones/,"['malware', 'privacy']",[],critical
+opsec,iPhone Passcode,"I am using an iPhone and I normally just have a 4 digit passcode. I have always been curious if hackers, thieves or law enforcement can use some brute force tool to crack the 4 digit passcode on the iPhone or this is not possible? If this is possible how long would it usually take for a 4 digit passcode to be cracked? Would it be easily done?
+
+If it takes a long time to crack then I can still continue to use the 4 digit passcode right or would you recommend me use a 6 digit passcode instead? I h",26,33,https://reddit.com/r/opsec/comments/1o2rw4j/iphone_passcode/,[],['retail'],medium
+opsec,Activism Question(s) I have,"I have read the rules . I am a begineer opsec enthuiaist, frankly i have never done activism in my life I have seen the questions in the rules section so I wanted to answer these and also the threat model too, I want to get some people who think like me in a activist group by putting posters in public spaces to get people to join my community:  
+1. **Identify** the information you need to protect  
+I need to hide my IP address and information of my computer I use to get the QR printed out to be ",18,1,https://reddit.com/r/opsec/comments/1o9amgy/activism_questions_i_have/,[],"['government', 'retail']",medium
+opsec,Design question: Does a centralized VPN with an onion buffer meaningfully improve OPSEC over conventional VPNs?,"Threat model:
+
+Assume an adversary capable of ISP level traffic observation and limited legal compulsion (e.g., subpoenas to centralized exit operators), but not a global passive adversary. The user’s goal is to reduce correlation risk between client and exit without sacrificing throughput or usability.
+
+Context:
+
+I’m exploring ways to bridge the gap between a traditional VPN and a Tor like network. Tor arguably provides the best anonymity available, but it’s not suitable as a daily driver. I al",17,9,https://reddit.com/r/opsec/comments/1nyy0rf/design_question_does_a_centralized_vpn_with_an/,[],['retail'],medium
+opsec,How to store crypto?,"I am getting into opsec and currently using tails OS booted from usb. Working on getting rid of persistent storage and using a 2nd encrypted usb (with backups) that I will only access offline in freshly booted tails to hold passwords, pgp keys, crypto, etc, and I would copy the keepassxc file and pgp keys then unplug usb before connecting to internet. I’m wondering if this is a good way to store crypto and what usb to use? I am looking at a 3 pack of sandisk 3.0 32GB. Is that sufficient, or shou",7,7,https://reddit.com/r/opsec/comments/1ohwwch/how_to_store_crypto/,[],[],medium
+opsec,Seeking Long-Term Volunteer Collaborator for Secure Human Rights Evidence Backup and OPSEC,"Hello everyone,
+
+I’m a human rights activist based in Bangladesh, running a personal initiative called **MindfulRights** — a project focused on defending some of the country’s most neglected human rights issues. (You can Google *MindfulRights* for background; Reddit’s auto-mod doesn’t allow external links.)
+
+I’m looking for a reliable, long-term volunteer collaborator with strong cybersecurity and operational security (OPSEC) awareness. This is not a paid role — it’s a partnership built on share",7,4,https://reddit.com/r/opsec/comments/1ohjhw0/seeking_longterm_volunteer_collaborator_for/,"['data_breaches', 'privacy']","['government', 'retail']",critical
+opsec,How to Cover a Smartphone Front Camera Without Blocking Notifications or Affecting Selfies?,"Hi all,
+
+I use a Realme C55 smartphone and already have a case with a sliding cover for the rear camera.
+
+On Daraz.com.bd (Bangladesh), you can find sliding webcam covers for the front camera, but they tend to occupy too much of the notification area, which blocks notifications. They also might damage the glass of the mobile.
+
+I’m looking for a solution to cover the front camera that:
+
+- Doesn’t damage or smudge the lens, glass, or phone
+
+- Can be used easily and repeatedly
+
+- Allows me to take ",7,4,https://reddit.com/r/opsec/comments/1o03q5f/how_to_cover_a_smartphone_front_camera_without/,['privacy'],[],medium
+opsec,Android: Gboard hardening by isolation from internet access,"I'm trying to find a balance between privacy and convenience. The more convenient something is, the less private it becomes, and that's my current issue with typing on Android.
+FUTO keyboard works good enough, but Gboard *just works* and I have a hard time letting it go despite being a keylogger and a snitch. Thus I wonder:
+- Will isolating the app from the internet access and detaching the app from playstore to prevent future updates systemlessly aka. with root provide a solution that this subr",6,7,https://reddit.com/r/opsec/comments/1nzdv0a/android_gboard_hardening_by_isolation_from/,"['vulnerabilities', 'privacy']",[],medium
+opsec,User Friendly (But Still Robust) Options for Whole-Disk and Individual File Encryption,"\*I have read the rules \*
+
+
+
+Hey people, I'm on the lookout for some solid whole-disk encryption software as well as possibly something to encrypt individual files before I either email them mor upload them to cloud storage. 
+
+As for my threat model, I suppose you could say it's higher than my activity warrants. What I mean by that is that I'm not into anything nefarious, but I have unfortunately been the victim of really nasty malware twice in the last year. Both times it was hell getting it a",1,6,https://reddit.com/r/opsec/comments/1ohwbcr/user_friendly_but_still_robust_options_for/,"['malware', 'privacy']",['retail'],medium

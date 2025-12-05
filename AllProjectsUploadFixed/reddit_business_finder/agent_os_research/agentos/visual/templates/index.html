@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentOS - Operating System for AI Agents</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .agent-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid;
+        }
+        .agent-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .pulse-safe {
+            animation: pulse-safe 2s infinite;
+        }
+        @keyframes pulse-safe {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .pulse-warning {
+            animation: pulse-warning 1s infinite;
+        }
+        @keyframes pulse-warning {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-robot text-3xl"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">AgentOS</h1>
+                        <p class="text-blue-200 text-sm">Operating System for Autonomous AI Agents</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-green-500 text-white px-3 py-1 rounded-full text-sm">
+                        <i class="fas fa-shield-alt mr-1"></i>System Secure
+                    </div>
+                    <div class="text-right">
+                        <div class="text-sm">Kernel v0.1.0</div>
+                        <div class="text-xs text-blue-200">Enterprise Ready</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Stats Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Running Agents</p>
+                        <p class="text-2xl font-bold text-green-600" id="running-agents">8</p>
+                    </div>
+                    <i class="fas fa-play-circle text-green-500 text-2xl"></i>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Resources Used</p>
+                        <p class="text-2xl font-bold text-blue-600" id="resources-used">42%</p>
+                    </div>
+                    <i class="fas fa-microchip text-blue-500 text-2xl"></i>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Security Events</p>
+                        <p class="text-2xl font-bold text-red-600" id="security-events">3</p>
+                    </div>
+                    <i class="fas fa-shield-alt text-red-500 text-2xl"></i>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-600 text-sm">Uptime</p>
+                        <p class="text-2xl font-bold text-purple-600" id="system-uptime">99.8%</p>
+                    </div>
+                    <i class="fas fa-clock text-purple-500 text-2xl"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Column: Active Agents -->
+            <div class="lg:col-span-2">
+                <div class="bg-white rounded-lg shadow mb-6">
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h2 class="text-lg font-semibold flex items-center">
+                            <i class="fas fa-list mr-2 text-blue-500"></i>
+                            Active Agents
+                            <span class="ml-2 bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">8 Running</span>
+                        </h2>
+                    </div>
+                    <div class="p-6" id="agents-list">
+                        <!-- Agents will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- System Metrics -->
+                <div class="bg-white rounded-lg shadow">
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h2 class="text-lg font-semibold flex items-center">
+                            <i class="fas fa-chart-line mr-2 text-green-500"></i>
+                            System Performance
+                        </h2>
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <canvas id="resourceChart" height="200"></canvas>
+                            <canvas id="securityChart" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Safety Controls -->
+            <div class="space-y-6">
+                <!-- Kill Switch -->
+                <div class="bg-white rounded-lg shadow">
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h2 class="text-lg font-semibold flex items-center text-red-600">
+                            <i class="fas fa-power-off mr-2"></i>
+                            Emergency Kill Switch
+                        </h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm mb-4">Immediately terminate all agents in case of emergency</p>
+                        <button id="kill-all-btn" class="w-full bg-red-600 hover:bg-red-700 text-white py-3 px-4 rounded-lg font-semibold transition duration-200 flex items-center justify-center">
+                            <i class="fas fa-skull-crossbones mr-2"></i>
+                            ACTIVATE KILL SWITCH
+                        </button>
+                        <div class="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                            <p class="text-yellow-800 text-sm flex items-center">
+                                <i class="fas fa-exclamation-triangle mr-2"></i>
+                                This will terminate all running agents immediately
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Safety Features -->
+                <div class="bg-white rounded-lg shadow">
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h2 class="text-lg font-semibold flex items-center text-green-600">
+                            <i class="fas fa-shield-alt mr-2"></i>
+                            Safety Features
+                        </h2>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>ACL Permissions</span>
+                            </div>
+                            <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Active</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Resource Quotas</span>
+                            </div>
+                            <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Active</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg">
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Audit Logging</span>
+                            </div>
+                            <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Active</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
+                            <div class="flex items-center">
+                                <i class="fas fa-sync-alt text-blue-500 mr-3"></i>
+                                <span>Snapshot System</span>
+                            </div>
+                            <span class="bg-blue-500 text-white px-2 py-1 rounded text-xs">Beta</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Events -->
+                <div class="bg-white rounded-lg shadow">
+                    <div class="border-b border-gray-200 px-6 py-4">
+                        <h2 class="text-lg font-semibold flex items-center">
+                            <i class="fas fa-history mr-2 text-purple-500"></i>
+                            Recent Events
+                        </h2>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3" id="recent-events">
+                            <!-- Events will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">AgentOS Platform</h3>
+                    <p class="text-gray-400 text-sm">
+                        The operating system for autonomous AI agents. Enterprise-grade security and reliability.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Core Features</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li><i class="fas fa-check mr-2 text-green-500"></i>Kill Switch Safety</li>
+                        <li><i class="fas fa-check mr-2 text-green-500"></i>Resource Quotas</li>
+                        <li><i class="fas fa-check mr-2 text-green-500"></i>ACL Permissions</li>
+                        <li><i class="fas fa-check mr-2 text-green-500"></i>Audit Logging</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Get Started</h3>
+                    <div class="space-y-2">
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded text-sm transition duration-200">
+                            <i class="fas fa-download mr-2"></i>Download Kernel
+                        </button>
+                        <button class="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded text-sm transition duration-200">
+                            <i class="fas fa-book mr-2"></i>View Documentation
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 AgentOS. The Operating System for AI Agents.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>
