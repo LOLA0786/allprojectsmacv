@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uaal-prototype"
+version = "0.1.0"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uaal_prototype*"]
