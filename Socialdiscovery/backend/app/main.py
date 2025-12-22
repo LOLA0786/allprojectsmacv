@@ -5,7 +5,11 @@ from app.api.cocreation import router as cocreation_router
 from app.api.appeals import router as appeal_router
 from app.api.appeal_resolution import router as appeal_resolution_router
 
-app = FastAPI()
+from app.api.twins import router as twins_router
+from app.api.mindmap import router as mindmap_router
+from app.api.streaks import router as streaks_router
+
+app = FastAPI(title="Social Discovery Engine")
 
 @app.get("/health")
 def health():
@@ -15,3 +19,7 @@ app.include_router(intent_router)
 app.include_router(cocreation_router)
 app.include_router(appeal_router)
 app.include_router(appeal_resolution_router)
+
+app.include_router(twins_router)
+app.include_router(mindmap_router)
+app.include_router(streaks_router)
